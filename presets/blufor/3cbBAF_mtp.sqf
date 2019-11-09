@@ -97,32 +97,18 @@ heavy_vehicles = [
 ];
 
 air_vehicles = [
-    ["UK3CB_BAF_Wildcat_AH1_TRN_8A_MTP",225,0,125],                         // Wildcat AH1 8 Transport (Unarmed)
-    ["UK3CB_BAF_Wildcat_HMA2_TRN_8A_MTP",250,0,125],                        // Wildcat HMA2 8 Transport (Unarmed)
-    ["UK3CB_BAF_Wildcat_AH1_CAS_6C_MTP",275,200,150],                       // Wildcat AH1 6 (CAS/AT)
-    ["UK3CB_BAF_Wildcat_AH1_CAS_8C_MTP",275,200,150],                       // Wildcat AH1 8 (CAS/AT)
-    ["UK3CB_BAF_Apache_AH1_MTP",500,500,200],                               // Apache AH 1 (Multi-Role)
-    ["RHS_AH64D_wd",750,750,250],                                           // AH-64D (Multi-Role)
-    ["RHS_UH60M2",250,0,150],                                               // UH-60M (Unarmed)
-    ["RHS_UH60M",250,80,150],                                               // UH-60M
-    ["RHS_UH60M_MEV2",300,0,150],                                           // UH-60M MEV2
-    ["RHS_CH_47F_10",275,80,175],                                           // CH-47 Chinook (Armed)
-    ["UK3CB_BAF_Merlin_HC3_32_MTP",300,0,175],                              // Merlin HC3 32
-    ["UK3CB_BAF_Merlin_HC3_CSAR_MTP",300,80,175],                           // Merlin HC3 CSAR (Armed)
-    ["B_UAV_02_dynamicLoadout_F",400,300,200],                              // MQ-4A Greyhawk
-    ["B_T_UAV_03_dynamicLoadout_F",450,500,250],                            // MQ-12 Falcon
-    ["B_UAV_05_F",500,500,200],                                             // UCAV Sentinel
-    ["RHS_A10",1000,1000,400],                                              // A-10A (CAS)
-    ["FIR_F15C",1250,1250,450],                                             // F-15C Eagle
-    ["FIR_F15D",1250,1250,450],                                             // F-15D Eagle
-    ["FIR_F15E",1250,1500,450],                                             // F-15E Strike Eagle
-    ["JS_JC_FA18E",1500,1750,450],                                          // F/A-18 E Super Hornet
-    ["JS_JC_FA18F",1500,1750,450],                                          // F/A-18 F Super Hornet
-    ["B_Plane_Fighter_01_F",1500,1750,450],                                 // F/A-181 Black Wasp II
-    ["B_Plane_Fighter_01_Stealth_F",1500,1750,450],                         // F/A-181 Black Wasp II (Stealth)
-    ["B_T_VTOL_01_armed_F",750,1500,500],                                   // V-44 X Blackfish (Armed)
-    ["B_T_VTOL_01_infantry_F",750,0,500],                                   // V-44 X Blackfish (Infantry)
-    ["B_T_VTOL_01_vehicle_F",750,0,500]                                     // V-44 X Blackfish (Vehicle)
+    ["UK3CB_BAF_Wildcat_AH1_TRN_8A_Tropical",225,0,125],                         // Wildcat AH1 8 Transport (Unarmed)
+    ["UK3CB_BAF_Wildcat_HMA2_TRN_8A_Tropical",250,0,125],                        // Wildcat HMA2 8 Transport (Unarmed)
+    ["UK3CB_BAF_Wildcat_AH1_CAS_6C_Tropical",275,200,150],                       // Wildcat AH1 6 (CAS/AT)
+    ["UK3CB_BAF_Wildcat_AH1_CAS_8C_Tropical",275,200,150],                       // Wildcat AH1 8 (CAS/AT)
+    ["UK3CB_BAF_Apache_AH1_Tropical",500,500,200],                               // Apache AH 1 (Multi-Role)
+    ["UK3CB_BAF_Merlin_HC3_32_Tropical",300,0,175],                              // Merlin HC3 32
+    ["UK3CB_BAF_Merlin_HC3_CSAR_Tropical",300,80,175],                           // Merlin HC3 CSAR (Armed)
+    ["MELB_H6M",175,0,75],                                                       // Little Bird transport
+    ["MELB_MH6M",200,0,75],                                                      // Little Bird transport
+    ["MELB_AH6M",225,100,75],                                                      // Little Bird attack
+    ["RHS_A10",1000,1000,400],                                                   // A-10A (CAS)
+    ["FIR_AV8B_GR9A",1250,1250,450]                                              // RAF Harrier
 ];
 
 static_vehicles = [
