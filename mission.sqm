@@ -8,18 +8,18 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=4494;
+		nextID=4497;
 	};
 	class LayerIndexProvider
 	{
-		nextID=1061;
+		nextID=1082;
 	};
 	class Camera
 	{
-		pos[]={57.217255,98.430679,1495.948};
-		dir[]={0.37834427,-0.45686054,0.80507594};
-		up[]={0.19431438,0.88953447,0.41347936};
-		aside[]={0.90504819,-1.0809163e-007,-0.42532697};
+		pos[]={2353.0598,17.617489,3613.458};
+		dir[]={0.44751191,-0.24964513,-0.85873461};
+		up[]={0.11537225,0.96833724,-0.22138852};
+		aside[]={-0.88681436,1.3702083e-007,-0.462145};
 	};
 };
 binarizationWanted=0;
@@ -29,15 +29,21 @@ addons[]=
 	"A3_Modules_F_Curator_Curator",
 	"A3_Modules_F",
 	"A3_Characters_F",
+	"ace_explosives",
 	"A3_Structures_F_Exp_Military_Fortifications",
 	"A3_Structures_F_Exp_Military_Camonets",
 	"A3_Structures_F_Exp_Industrial_SurfaceMine_01",
 	"A3_Structures_F_Exp_Military_ContainerBases",
 	"A3_Structures_F_EPA_Civ_Constructions",
+	"ace_interaction",
+	"ace_cargo",
+	"ace_dragging",
 	"A3_Structures_F_Civ_Lamps",
 	"A3_Structures_F_Ind_Cargo",
 	"A3_Structures_F_Mil_Radar",
 	"A3_Structures_F_Mil_Fortification",
+	"ace_logistics_wirecutter",
+	"ace_concertina_wire",
 	"A3_Signs_F",
 	"A3_Structures_F_Mil_Helipads",
 	"A3_Structures_F_Walls",
@@ -59,7 +65,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=16;
+		items=22;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -90,82 +96,124 @@ class AddonsMetaData
 		};
 		class Item4
 		{
+			className="ace_explosives";
+			name="ACE3 - Explosives";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
+		class Item5
+		{
 			className="A3_Structures_F_Exp";
 			name="Arma 3 Apex - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item5
+		class Item6
 		{
 			className="A3_Structures_F_Exp_Industrial";
 			name="Arma 3 Apex - Industrial Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item6
+		class Item7
 		{
 			className="A3_Structures_F_EPA";
 			name="Arma 3 Survive Episode - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item7
+		class Item8
+		{
+			className="ace_interaction";
+			name="ACE3 - Interaction";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
+		class Item9
+		{
+			className="ace_cargo";
+			name="ACE3 - Cargo";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
+		class Item10
+		{
+			className="ace_dragging";
+			name="ACE3 - Dragging";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
+		class Item11
 		{
 			className="A3_Structures_F";
 			name="Arma 3 - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item8
+		class Item12
 		{
 			className="A3_Structures_F_Ind";
 			name="Arma 3 - Industrial Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item9
+		class Item13
 		{
 			className="A3_Structures_F_Mil";
 			name="Arma 3 - Military Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item10
+		class Item14
+		{
+			className="ace_logistics_wirecutter";
+			name="ACE3 - Logistics Wire Cutter";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
+		class Item15
+		{
+			className="ace_concertina_wire";
+			name="ACE3 - Concertina Wire";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
+		class Item16
 		{
 			className="A3_Signs_F";
 			name="Arma 3 - Signs";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item11
+		class Item17
 		{
 			className="A3_Props_F_Exp";
 			name="Arma 3 Apex - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item12
+		class Item18
 		{
 			className="A3_Structures_F_Exp_Infrastructure";
 			name="Arma 3 Apex - Infrastructure Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item13
+		class Item19
 		{
 			className="A3_Structures_F_Heli";
 			name="Arma 3 Helicopters - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item14
+		class Item20
 		{
 			className="A3_Structures_F_EPC";
 			name="Arma 3 Win Episode - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item15
+		class Item21
 		{
 			className="A3_Boat_F_Jets";
 			name="Arma 3 Jets - Boats and Submersibles";
@@ -4288,7 +4336,7 @@ class Mission
 					};
 					id=520;
 					type="CamoNet_ghex_open_F";
-					atlOffset=0.021999359;
+					atlOffset=-0.023168564;
 				};
 				class Item2
 				{
@@ -4577,7 +4625,7 @@ class Mission
 					};
 					id=542;
 					type="CamoNet_ghex_open_F";
-					atlOffset=0.0069999695;
+					atlOffset=-0.038167953;
 				};
 				class Item18
 				{
@@ -5209,11 +5257,11 @@ class Mission
 					};
 					id=588;
 					type="CamoNet_ghex_open_F";
-					atlOffset=0.18600082;
+					atlOffset=0.14083099;
 				};
 			};
 			id=589;
-			atlOffset=0.1391983;
+			atlOffset=0.1166153;
 		};
 		class Item169
 		{
@@ -5773,6 +5821,7 @@ class Mission
 					};
 					id=923;
 					type="CamoNet_ghex_open_F";
+					atlOffset=-0.045167923;
 				};
 				class Item30
 				{
@@ -7595,7 +7644,7 @@ class Mission
 					};
 					id=1519;
 					type="CamoNet_ghex_open_F";
-					atlOffset=0.021011353;
+					atlOffset=-0.024154663;
 				};
 				class Item2
 				{
@@ -7931,6 +7980,7 @@ class Mission
 					};
 					id=1564;
 					type="CamoNet_ghex_open_F";
+					atlOffset=-0.045166016;
 				};
 				class Item2
 				{

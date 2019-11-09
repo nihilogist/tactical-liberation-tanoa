@@ -5,40 +5,14 @@
 
 // Vehicle classnames which also function as ACE medical vehicles.
 KP_liberation_medical_vehicles = [
-    "B_T_Truck_01_medical_F",
-    "B_Truck_01_medical_F",
-    "C_Van_02_medevac_F",
-    "CUP_B_BMP2_AMB_CDF",
-    "CUP_B_HMMWV_Ambulance_USA",
-    "CUP_B_HMMWV_Ambulance_USMC",
-    "CUP_B_LR_Ambulance_CZ_D",
-    "CUP_B_LR_Ambulance_CZ_W",
-    "CUP_B_LR_Ambulance_GB_D",
-    "CUP_B_LR_Ambulance_GB_W",
-    "gm_gc_army_ural375d_medic_win",
-    "gm_gc_army_ural375d_medic",
-    "gm_ge_army_u1300l_medic_win_rc",
-    "gm_ge_army_u1300l_medic",
     "I_E_Truck_02_Medical_F",
     "I_E_Van_02_medevac_F",
-    "O_T_Truck_03_medical_ghex_F",
-    "O_Truck_03_medical_F",
-    "RHS_UH60M_MEV_d",
     "RHS_UH60M_MEV",
-    "RHS_UH60M_MEV2_d",
     "RHS_UH60M_MEV2",
-    "rhsusf_M1085A1P2_B_D_Medical_fmtv_usarmy",
     "rhsusf_M1085A1P2_B_WD_Medical_fmtv_usarmy",
     "rhsusf_m113_usarmy_medical",
-    "rhsusf_m113d_usarmy_medical",
-    "rhsusf_M1230a1_usarmy_d",
     "rhsusf_M1230a1_usarmy_wd",
-    "UK3CB_BAF_LandRover_Amb_FFR_Green_A_MTP",
-    "UK3CB_BAF_LandRover_Amb_FFR_Sand_A_DDPM",
-    "uns_ch47a_medevac",
-    "uns_H13_medevac_CAV",
-    "uns_M577_amb",
-    "uns_uh1D_med"
+    "UK3CB_BAF_LandRover_Amb_FFR_Green_A_Tropical"
 ];
 
 // Building classnames which also function as ACE medical facilities.
@@ -177,7 +151,7 @@ GRLIB_color_enemy = "ColorOPFOR";                                       // Enemy
 GRLIB_color_enemy_bright = "ColorRED";                                  // Enemy sector marker color (activated).
 
 GRLIB_fob_range = 125;                                                  // Build range around the main FOB building.
-GRLIB_halo_altitude = 2500;                                             // Altitude in metres for the HALO jump.
+GRLIB_halo_altitude = 3500;                                             // Altitude in metres for the HALO jump.
 GRLIB_secondary_missions_costs = [15, 10, 8];                           // Intel price for the secondary missions [FOB hunting, Convoy ambush, SAR].
 GRLIB_secondary_objective_impact = 0.6;                                 // The percentage impact against enemy combat readiness for a successful FOB hunt.
 GRLIB_recycling_percentage = 0.5;                                       // Percentage of resources you get back from recycling.
