@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={2525.5842,16.050648,3648.5825};
-		dir[]={-0.2911745,-0.36164209,-0.88581634};
-		up[]={-0.11294211,0.93230009,-0.34359673};
-		aside[]={-0.95008582,-6.9134694e-007,0.31230491};
+		pos[]={1461.0457,7.9661651,756.74371};
+		dir[]={0.19277109,-0.48178893,-0.85483021};
+		up[]={0.10598649,0.8762821,-0.46999058};
+		aside[]={-0.97551328,-1.2425517e-008,-0.21998557};
 	};
 };
 binarizationWanted=0;
@@ -29,6 +29,12 @@ addons[]=
 	"A3_Modules_F_Curator_Curator",
 	"A3_Modules_F",
 	"A3_Characters_F",
+	"A3_Weapons_F",
+	"UK3CB_BAF_Equipment_Berets",
+	"UK3CB_BAF_Equipment_Uniforms",
+	"ace_realisticnames",
+	"A3_Weapons_F_Items",
+	"ace_medical",
 	"ace_explosives",
 	"A3_Structures_F_Exp_Military_Fortifications",
 	"A3_Structures_F_Exp_Military_Camonets",
@@ -65,7 +71,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=22;
+		items=26;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -96,124 +102,152 @@ class AddonsMetaData
 		};
 		class Item4
 		{
+			className="A3_Weapons_F";
+			name="Arma 3 Alpha - Weapons and Accessories";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item5
+		{
+			className="UK3CB_BAF_Equipment_Berets";
+			name="3CB BAF Equipment - Berets";
+			author="3 Commando Brigade";
+			url="www.3commandobrigade.com";
+		};
+		class Item6
+		{
+			className="UK3CB_BAF_Equipment_Uniforms";
+			name="3CB BAF Equipment - Uniforms";
+			author="3 Commando Brigade";
+			url="www.3commandobrigade.com";
+		};
+		class Item7
+		{
+			className="ace_medical";
+			name="ACE3 - Medical";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
+		class Item8
+		{
 			className="ace_explosives";
 			name="ACE3 - Explosives";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item5
+		class Item9
 		{
 			className="A3_Structures_F_Exp";
 			name="Arma 3 Apex - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item6
+		class Item10
 		{
 			className="A3_Structures_F_Exp_Industrial";
 			name="Arma 3 Apex - Industrial Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item7
+		class Item11
 		{
 			className="A3_Structures_F_EPA";
 			name="Arma 3 Survive Episode - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item8
+		class Item12
 		{
 			className="ace_interaction";
 			name="ACE3 - Interaction";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item9
+		class Item13
 		{
 			className="ace_cargo";
 			name="ACE3 - Cargo";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item10
+		class Item14
 		{
 			className="ace_dragging";
 			name="ACE3 - Dragging";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item11
+		class Item15
 		{
 			className="A3_Structures_F";
 			name="Arma 3 - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item12
+		class Item16
 		{
 			className="A3_Structures_F_Ind";
 			name="Arma 3 - Industrial Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item13
+		class Item17
 		{
 			className="A3_Structures_F_Mil";
 			name="Arma 3 - Military Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item14
+		class Item18
 		{
 			className="ace_logistics_wirecutter";
 			name="ACE3 - Logistics Wire Cutter";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item15
+		class Item19
 		{
 			className="ace_concertina_wire";
 			name="ACE3 - Concertina Wire";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item16
+		class Item20
 		{
 			className="A3_Signs_F";
 			name="Arma 3 - Signs";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item17
+		class Item21
 		{
 			className="A3_Props_F_Exp";
 			name="Arma 3 Apex - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item18
+		class Item22
 		{
 			className="A3_Structures_F_Exp_Infrastructure";
 			name="Arma 3 Apex - Infrastructure Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item19
+		class Item23
 		{
 			className="A3_Structures_F_Heli";
 			name="Arma 3 Helicopters - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item20
+		class Item24
 		{
 			className="A3_Structures_F_EPC";
 			name="Arma 3 Win Episode - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item21
+		class Item25
 		{
 			className="A3_Boat_F_Jets";
 			name="Arma 3 Jets - Boats and Submersibles";
@@ -239,7 +273,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category0
+	class Category1
 	{
 		name="Scenario";
 		class Attribute0
@@ -2894,6 +2928,37 @@ class Mission
 						description="Platoon Leader (Commander)";
 						isPlayer=1;
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="UK3CB_BAF_U_JumperUniform_DPMW";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="HandGrenade";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="UK3CB_BAF_H_Beret_Rifles";
+						};
 					};
 					id=120;
 					type="B_officer_F";
@@ -2938,6 +3003,37 @@ class Mission
 						init="removeallWeapons this; removebackpack this;";
 						description="Platoon Sergeant";
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="UK3CB_BAF_U_JumperUniform_DPMW";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="HandGrenade";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="UK3CB_BAF_H_Beret_Rifles";
+						};
 					};
 					id=121;
 					type="B_Soldier_SL_F";
@@ -2994,6 +3090,37 @@ class Mission
 						rank="SERGEANT";
 						description="Squad 1 Leader";
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="UK3CB_BAF_U_JumperUniform_DPMW";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="HandGrenade";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="UK3CB_BAF_H_Beret_Rifles";
+						};
 					};
 					id=123;
 					type="B_Soldier_SL_F";
@@ -3036,6 +3163,37 @@ class Mission
 						rank="CORPORAL";
 						description="Squad 1 Medic";
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="UK3CB_BAF_U_JumperUniform_DPMW";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="HandGrenade";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="UK3CB_BAF_H_Beret_Rifles";
+						};
 					};
 					id=124;
 					type="B_medic_F";
@@ -3077,6 +3235,37 @@ class Mission
 					{
 						description="Squad 1 Engineer";
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="UK3CB_BAF_U_JumperUniform_DPMW";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="HandGrenade";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="UK3CB_BAF_H_Beret_Rifles";
+						};
 					};
 					id=125;
 					type="B_engineer_F";
@@ -3119,6 +3308,37 @@ class Mission
 						rank="CORPORAL";
 						description="Squad 1 Team 1 Leader";
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="UK3CB_BAF_U_JumperUniform_DPMW";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="HandGrenade";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="UK3CB_BAF_H_Beret_Rifles";
+						};
 					};
 					id=126;
 					type="B_Soldier_TL_F";
@@ -3160,6 +3380,37 @@ class Mission
 					{
 						description="Squad 1 Team 1 Rifleman";
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="UK3CB_BAF_U_JumperUniform_DPMW";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="HandGrenade";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="UK3CB_BAF_H_Beret_Rifles";
+						};
 					};
 					id=127;
 					type="B_Soldier_F";
@@ -3201,6 +3452,37 @@ class Mission
 					{
 						description="Squad 1 Team 1 Rifleman";
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="UK3CB_BAF_U_JumperUniform_DPMW";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="HandGrenade";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="UK3CB_BAF_H_Beret_Rifles";
+						};
 					};
 					id=128;
 					type="B_Soldier_F";
@@ -3242,6 +3524,37 @@ class Mission
 					{
 						description="Squad 1 Team 1 Rifleman";
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="UK3CB_BAF_U_JumperUniform_DPMW";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="HandGrenade";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="UK3CB_BAF_H_Beret_Rifles";
+						};
 					};
 					id=129;
 					type="B_Soldier_F";
@@ -3284,6 +3597,37 @@ class Mission
 						rank="CORPORAL";
 						description="Squad 1 Team 2 Leader";
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="UK3CB_BAF_U_JumperUniform_DPMW";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="HandGrenade";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="UK3CB_BAF_H_Beret_Rifles";
+						};
 					};
 					id=130;
 					type="B_Soldier_TL_F";
@@ -3325,6 +3669,37 @@ class Mission
 					{
 						description="Squad 1 Team 2 Rifleman";
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="UK3CB_BAF_U_JumperUniform_DPMW";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="HandGrenade";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="UK3CB_BAF_H_Beret_Rifles";
+						};
 					};
 					id=131;
 					type="B_Soldier_F";
@@ -3366,6 +3741,37 @@ class Mission
 					{
 						description="Squad 1 Team 2 Rifleman";
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="UK3CB_BAF_U_JumperUniform_DPMW";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="HandGrenade";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="UK3CB_BAF_H_Beret_Rifles";
+						};
 					};
 					id=132;
 					type="B_Soldier_F";
@@ -3407,6 +3813,37 @@ class Mission
 					{
 						description="Squad 1 Team 2 Rifleman";
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="UK3CB_BAF_U_JumperUniform_DPMW";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="HandGrenade";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="UK3CB_BAF_H_Beret_Rifles";
+						};
 					};
 					id=133;
 					type="B_Soldier_F";
@@ -3463,6 +3900,37 @@ class Mission
 						rank="SERGEANT";
 						description="Squad 2 Leader";
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="UK3CB_BAF_U_JumperUniform_DPMW";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="HandGrenade";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="UK3CB_BAF_H_Beret_Rifles";
+						};
 					};
 					id=135;
 					type="B_Soldier_SL_F";
@@ -3505,6 +3973,37 @@ class Mission
 						rank="CORPORAL";
 						description="Squad 2 Medic";
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="UK3CB_BAF_U_JumperUniform_DPMW";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="HandGrenade";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="UK3CB_BAF_H_Beret_Rifles";
+						};
 					};
 					id=136;
 					type="B_medic_F";
@@ -3546,6 +4045,37 @@ class Mission
 					{
 						description="Squad 2 Engineer";
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="UK3CB_BAF_U_JumperUniform_DPMW";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="HandGrenade";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="UK3CB_BAF_H_Beret_Rifles";
+						};
 					};
 					id=137;
 					type="B_engineer_F";
@@ -3588,6 +4118,37 @@ class Mission
 						rank="CORPORAL";
 						description="Squad 2 Team 1 Leader";
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="UK3CB_BAF_U_JumperUniform_DPMW";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="HandGrenade";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="UK3CB_BAF_H_Beret_Rifles";
+						};
 					};
 					id=138;
 					type="B_Soldier_TL_F";
@@ -3629,6 +4190,37 @@ class Mission
 					{
 						description="Squad 2 Team 1 Rifleman";
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="UK3CB_BAF_U_JumperUniform_DPMW";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="HandGrenade";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="UK3CB_BAF_H_Beret_Rifles";
+						};
 					};
 					id=139;
 					type="B_Soldier_F";
@@ -3670,6 +4262,37 @@ class Mission
 					{
 						description="Squad 2 Team 1 Rifleman";
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="UK3CB_BAF_U_JumperUniform_DPMW";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="HandGrenade";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="UK3CB_BAF_H_Beret_Rifles";
+						};
 					};
 					id=140;
 					type="B_Soldier_F";
@@ -3711,6 +4334,37 @@ class Mission
 					{
 						description="Squad 2 Team 1 Rifleman";
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="UK3CB_BAF_U_JumperUniform_DPMW";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="HandGrenade";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="UK3CB_BAF_H_Beret_Rifles";
+						};
 					};
 					id=141;
 					type="B_Soldier_F";
@@ -3753,6 +4407,37 @@ class Mission
 						rank="CORPORAL";
 						description="Squad 2 Team 2 Leader";
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="UK3CB_BAF_U_JumperUniform_DPMW";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="HandGrenade";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="UK3CB_BAF_H_Beret_Rifles";
+						};
 					};
 					id=142;
 					type="B_Soldier_TL_F";
@@ -3794,6 +4479,37 @@ class Mission
 					{
 						description="Squad 2 Team 2 Rifleman";
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="UK3CB_BAF_U_JumperUniform_DPMW";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="HandGrenade";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="UK3CB_BAF_H_Beret_Rifles";
+						};
 					};
 					id=143;
 					type="B_Soldier_F";
@@ -3835,6 +4551,37 @@ class Mission
 					{
 						description="Squad 2 Team 2 Rifleman";
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="UK3CB_BAF_U_JumperUniform_DPMW";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="HandGrenade";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="UK3CB_BAF_H_Beret_Rifles";
+						};
 					};
 					id=144;
 					type="B_Soldier_F";
@@ -3876,6 +4623,37 @@ class Mission
 					{
 						description="Squad 2 Team 2 Rifleman";
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="UK3CB_BAF_U_JumperUniform_DPMW";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="HandGrenade";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="UK3CB_BAF_H_Beret_Rifles";
+						};
 					};
 					id=145;
 					type="B_Soldier_F";
@@ -3971,6 +4749,37 @@ class Mission
 						rank="LIEUTENANT";
 						description="MedEvac Pilot";
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="UK3CB_BAF_U_JumperUniform_DPMW";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="HandGrenade";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="UK3CB_BAF_H_Beret_Rifles";
+						};
 					};
 					id=160;
 					type="B_Helipilot_F";
@@ -4013,6 +4822,37 @@ class Mission
 						rank="SERGEANT";
 						description="MedEvac Co-Pilot";
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="UK3CB_BAF_U_JumperUniform_DPMW";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="HandGrenade";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="UK3CB_BAF_H_Beret_Rifles";
+						};
 					};
 					id=161;
 					type="B_Helipilot_F";
@@ -4055,6 +4895,37 @@ class Mission
 						rank="CORPORAL";
 						description="MedEvac Medic";
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="UK3CB_BAF_U_JumperUniform_DPMW";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="HandGrenade";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="UK3CB_BAF_H_Beret_Rifles";
+						};
 					};
 					id=162;
 					type="B_medic_F";
@@ -4097,6 +4968,37 @@ class Mission
 						rank="CORPORAL";
 						description="MedEvac Medic";
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="UK3CB_BAF_U_JumperUniform_DPMW";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="HandGrenade";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="UK3CB_BAF_H_Beret_Rifles";
+						};
 					};
 					id=163;
 					type="B_medic_F";
@@ -4153,6 +5055,37 @@ class Mission
 						rank="LIEUTENANT";
 						description="Logistics Pilot";
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="UK3CB_BAF_U_JumperUniform_DPMW";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="HandGrenade";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="UK3CB_BAF_H_Beret_Rifles";
+						};
 					};
 					id=165;
 					type="B_Helipilot_F";
@@ -4195,6 +5128,37 @@ class Mission
 						rank="CORPORAL";
 						description="Logistics Engineer";
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="UK3CB_BAF_U_JumperUniform_DPMW";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="HandGrenade";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="UK3CB_BAF_H_Beret_Rifles";
+						};
 					};
 					id=166;
 					type="B_engineer_F";
@@ -4237,6 +5201,37 @@ class Mission
 						rank="CORPORAL";
 						description="Logistics Demolition Expert";
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="UK3CB_BAF_U_JumperUniform_DPMW";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="HandGrenade";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="UK3CB_BAF_H_Beret_Rifles";
+						};
 					};
 					id=167;
 					type="B_soldier_exp_F";
@@ -4293,6 +5288,37 @@ class Mission
 						rank="LIEUTENANT";
 						description="CAS Pilot";
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="UK3CB_BAF_U_JumperUniform_DPMW";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="HandGrenade";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="UK3CB_BAF_H_Beret_Rifles";
+						};
 					};
 					id=169;
 					type="B_Helipilot_F";
@@ -4335,6 +5361,37 @@ class Mission
 						rank="LIEUTENANT";
 						description="CAS Pilot";
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="UK3CB_BAF_U_JumperUniform_DPMW";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="HandGrenade";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="UK3CB_BAF_H_Beret_Rifles";
+						};
 					};
 					id=170;
 					type="B_Helipilot_F";
@@ -4390,6 +5447,37 @@ class Mission
 						rank="SERGEANT";
 						description="UAV and Intelligence";
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="UK3CB_BAF_U_JumperUniform_DPMW";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="HandGrenade";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="UK3CB_BAF_H_Beret_Rifles";
+						};
 					};
 					id=172;
 					type="B_soldier_UAV_F";
