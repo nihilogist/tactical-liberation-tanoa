@@ -10,6 +10,10 @@ if ( _side == GRLIB_side_enemy ) then {
 	_sectors_to_search = blufor_sectors select {_x in sectors_tower};
 };
 
+// Add a random 'radio interference' component to the search
+_interferenceAmount = random [0.75, 1, 1.5];
+_limit = _limit * _interferenceAmount;
+
 _sectors_to_search = _sectors_to_search select {(markerPos _x) distance _postosearch < _limit};
 
 _sectors_to_search_sorted = [ _sectors_to_search , [_postosearch] , { (markerPos _x) distance _input0 } , 'ASCEND' ] call BIS_fnc_sortBy;
