@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=4497;
+		nextID=4503;
 	};
 	class LayerIndexProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={2353.0598,17.617489,3613.458};
-		dir[]={0.44751191,-0.24964513,-0.85873461};
-		up[]={0.11537225,0.96833724,-0.22138852};
-		aside[]={-0.88681436,1.3702083e-007,-0.462145};
+		pos[]={2370.0146,14.705884,3598.4307};
+		dir[]={-0.83858889,-0.40427932,-0.36526743};
+		up[]={-0.37064981,0.91463053,-0.1614456};
+		aside[]={-0.39935026,4.7142385e-007,0.91684121};
 	};
 };
 binarizationWanted=0;
@@ -59,13 +59,14 @@ addons[]=
 	"A3_Boat_F_Jets_Carrier_01",
 	"A3_Structures_F_System",
 	"A3_Structures_F_Mil_Cargo",
-	"A3_Structures_F_Mil_Flags"
+	"A3_Structures_F_Mil_Flags",
+	"UK3CB_BAF_Units_Tropical"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=22;
+		items=23;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -220,6 +221,13 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
+		class Item22
+		{
+			className="UK3CB_BAF_Units_Tropical";
+			name="3CB BAF Units - Tropical";
+			author="3 Commando Brigade";
+			url="www.3commandobrigade.com";
+		};
 	};
 };
 randomSeed=9780715;
@@ -239,7 +247,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category0
+	class Category1
 	{
 		name="Scenario";
 		class Attribute0
@@ -290,7 +298,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=317;
+		items=318;
 		class Item0
 		{
 			dataType="Marker";
@@ -19793,6 +19801,34 @@ class Mission
 			id=4493;
 			type="Land_ClutterCutter_small_F";
 			atlOffset=64.225212;
+		};
+		class Item317
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2368.0198,12.951439,3597.321};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+					};
+					id=4502;
+					type="UK3CB_BAF_Rifleman_Tropical";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=4501;
 		};
 	};
 	class Connections
