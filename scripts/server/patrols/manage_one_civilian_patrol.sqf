@@ -42,6 +42,7 @@ while { GRLIB_endgame == 0 } do {
 			(selectRandom civilians) createUnit [_spawnpos, _grp, "this addMPEventHandler [""MPKilled"", {_this spawn kill_manager}]", 0.5, "private"];
 			_civveh = (selectRandom civilian_vehicles) createVehicle _spawnpos;
 			_civveh setpos _spawnpos;
+			_civveh limitSpeed 60;
 			_civveh addMPEventHandler ['MPKilled', {_this spawn kill_manager}];
 			_civveh addEventHandler ["HandleDamage", { private [ "_damage" ]; if (( side (_this select 3) != GRLIB_side_friendly ) && ( side (_this select 3) != GRLIB_side_enemy )) then { _damage = 0 } else { _damage = _this select 2 }; _damage } ];
 			((units _grp) select 0) moveInDriver _civveh;
