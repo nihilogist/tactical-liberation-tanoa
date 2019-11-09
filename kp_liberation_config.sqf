@@ -67,7 +67,7 @@ If you want to change a preset, it's recommended to set all four presets to 0 an
 25 = SFP (Woodland)
 26 = SFP (Desert)
 27 = LDF (Contact DLC) */
-KP_liberation_preset_blufor = 1;
+KP_liberation_preset_blufor = 2;
 
 /* OPFOR preset:
 0  = Custom (default vanilla CSAT)
@@ -126,7 +126,7 @@ KP_liberation_preset_civilians = 1;
 9  = CSAT arsenal preset
 10 = Unsung US arsenal preset
 11 = SFP arsenal preset */
-KP_liberation_arsenal = 0;
+KP_liberation_arsenal = 6;
 
 /* - Fuel consumption settings.
 Time in minutes till a full tank depletes whilst the vehicle is standing still with a running engine. */
@@ -173,13 +173,13 @@ GRLIB_sector_cap = 180;                                                 // Cap f
 GRLIB_battlegroup_cap = 150;                                            // Cap for enemy battlegroups.
 GRLIB_patrol_cap = 150;                                                 // Cap for enemy patrols.
 
-KP_liberation_cr_kill_penalty = 5;                                      // Civil Reputation penalty for killing a civilian.
-KP_liberation_cr_building_penalty = 3;                                  // Civil Reputation penalty for destroying/damaging a building.
+KP_liberation_cr_kill_penalty = 10;                                      // Civil Reputation penalty for killing a civilian.
+KP_liberation_cr_building_penalty = 1;                                  // Civil Reputation penalty for destroying/damaging a building.
 KP_liberation_cr_vehicle_penalty = 2;                                   // Civil Reputation penalty for stealing a civilian vehicle.
 KP_liberation_cr_resistance_penalty = 3;                                // Civil Reputation penalty for killing a friendly resistance soldier.
 KP_liberation_cr_sector_gain = 5;                                       // Civil Reputation gain for liberate a sector.
 KP_liberation_cr_wounded_chance = 35;                                   // Chance (0-100) that there are wounded civilians right after capturing a sector.
-KP_liberation_cr_wounded_gain = 2;                                      // Civil Reputation gain for providing medical assistance for wounded civilians.
+KP_liberation_cr_wounded_gain = 3;                                      // Civil Reputation gain for providing medical assistance for wounded civilians.
 
 KP_liberation_civinfo_min = 5400;                                       // Civil Informant minimum spawn time. (seconds)
 KP_liberation_civinfo_max = 10800;                                      // Civil Informant maximum spawn time. (seconds)
@@ -189,7 +189,7 @@ KP_liberation_civinfo_duration = 1200;                                  // Civil
 KP_liberation_civinfo_task_chance = 40;                                 // Chance (0-100) that the delivered informant will spawn a time critical task.
 KP_liberation_civinfo_task_duration = 900;                              // Duration until the task will despawn if no player is near. (seconds)
 
-KP_liberation_convoy_ambush_chance = 2;                                 // Chance that a logistic convoy will be ambushed, when civil reputation is low.
+KP_liberation_convoy_ambush_chance = 15;                                 // Chance that a logistic convoy will be ambushed, when civil reputation is low.
 KP_liberation_convoy_ambush_duration = 1200;                            // Duration of the convoy ambush event. (seconds)
 
 KP_liberation_resistance_tier2 = 30;                                    // At which strength (0-100) the guerilla forces will be at tier 2?
