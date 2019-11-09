@@ -144,10 +144,10 @@ switch (GRLIB_resources_multiplier) do {
 switch (KP_liberation_victoryCondition) do {
     case 1: {
         KP_liberation_victoryCheck = {
-            (count (blufor_sectors select {_x in sectors_bigtown})) == (count sectors_bigtown)
+            (count (blufor_sectors select {_x in sectors_bigtown})) > ((count sectors_bigtown) / 2)
             &&
             {
-                (count (blufor_sectors select {_x in sectors_military})) == (count sectors_military)
+                (count (blufor_sectors select {_x in sectors_military})) > ((count sectors_military) / 2)
             }
         };
     };
