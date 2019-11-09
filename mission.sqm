@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=4503;
+		nextID=4507;
 	};
 	class LayerIndexProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={2370.0146,14.705884,3598.4307};
-		dir[]={-0.83858889,-0.40427932,-0.36526743};
-		up[]={-0.37064981,0.91463053,-0.1614456};
-		aside[]={-0.39935026,4.7142385e-007,0.91684121};
+		pos[]={2380.02,15.75309,3603.1389};
+		dir[]={-0.94345689,-0.29313019,-0.15517926};
+		up[]={-0.28926045,0.95606619,-0.047577806};
+		aside[]={-0.16230544,3.5303492e-007,0.98679072};
 	};
 };
 binarizationWanted=0;
@@ -59,13 +59,14 @@ addons[]=
 	"A3_Boat_F_Jets_Carrier_01",
 	"A3_Structures_F_System",
 	"A3_Structures_F_Mil_Cargo",
-	"A3_Structures_F_Mil_Flags"
+	"A3_Structures_F_Mil_Flags",
+	"A3_Structures_F_Tank_Military_RepairDepot"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=22;
+		items=23;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -220,6 +221,13 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
+		class Item22
+		{
+			className="A3_Structures_F_Tank";
+			name="Arma 3 Tank - Buildings and Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
 	};
 };
 randomSeed=9780715;
@@ -290,7 +298,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=317;
+		items=318;
 		class Item0
 		{
 			dataType="Marker";
@@ -19793,6 +19801,21 @@ class Mission
 			id=4493;
 			type="Land_ClutterCutter_small_F";
 			atlOffset=64.225212;
+		};
+		class Item317
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2378.2483,15.367998,3572.7354};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=4503;
+			type="Land_RepairDepot_01_green_F";
 		};
 	};
 	class Connections

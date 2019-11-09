@@ -17,20 +17,20 @@
     The same classnames for different purposes may cause various unpredictable issues with player actions.
     Or not, just don't try!
 */
-FOB_typename = "Land_Cargo_HQ_V1_F";                                        // This is the main FOB HQ building.
+FOB_typename = "Land_Cargo_HQ_V4_F";                                        // This is the main FOB HQ building.
 FOB_box_typename = "B_Slingload_01_Cargo_F";                                // This is the FOB as a container.
 FOB_truck_typename = "B_Truck_01_box_F";                                    // This is the FOB as a vehicle.
 Arsenal_typename = "B_supplyCrate_F";                                       // This is the virtual arsenal as portable supply crates.
-Respawn_truck_typename = "UK3CB_BAF_LandRover_Amb_FFR_Green_A_MTP";         // This is the mobile respawn (and medical) truck.
-huron_typename = "UK3CB_BAF_Merlin_HC3_18_MTP";                             // This is Spartan 01, a multipurpose mobile respawn as a helicopter.
-crewman_classname = "UK3CB_BAF_Crewman_MTP";                                // This defines the crew for vehicles.
-pilot_classname = "UK3CB_BAF_HeliPilot_Army_MTP";                           // This defines the pilot for helicopters.
-KP_liberation_little_bird_classname = "UK3CB_BAF_Wildcat_AH1_TRN_8A_MTP";   // These are the little birds which spawn on the Freedom or at Chimera base.
+Respawn_truck_typename = "UK3CB_BAF_LandRover_Amb_FFR_Green_A_Tropical";    // This is the mobile respawn (and medical) truck.
+huron_typename = "UK3CB_BAF_Merlin_HC3_18_Tropical";                             // This is Spartan 01, a multipurpose mobile respawn as a helicopter.
+crewman_classname = "UK3CB_BAF_Crewman_Tropical";                                // This defines the crew for vehicles.
+pilot_classname = "UK3CB_BAF_HeliPilot_Army_Tropical";                           // This defines the pilot for helicopters.
+KP_liberation_little_bird_classname = "UK3CB_BAF_Wildcat_AH1_TRN_8A_Tropical";   // These are the little birds which spawn on the Freedom or at Chimera base.
 KP_liberation_boat_classname = "B_Boat_Transport_01_F";                     // These are the boats which spawn at the stern of the Freedom.
 KP_liberation_truck_classname = "rhsusf_M977A4_BKIT_usarmy_wd";             // These are the trucks which are used in the logistic convoy system.
 KP_liberation_small_storage_building = "ContainmentArea_02_sand_F";         // A small storage area for resources.
 KP_liberation_large_storage_building = "ContainmentArea_01_sand_F";         // A large storage area for resources.
-KP_liberation_recycle_building = "Land_RepairDepot_01_tan_F";               // The building defined to unlock FOB recycling functionality.
+KP_liberation_recycle_building = "Land_RepairDepot_01_green_F";               // The building defined to unlock FOB recycling functionality.
 KP_liberation_air_vehicle_building = "B_Radar_System_01_F";                 // The building defined to unlock FOB air vehicle functionality.
 KP_liberation_heli_slot_building = "Land_HelipadSquare_F";                  // The helipad used to increase the GLOBAL rotary-wing cap.
 KP_liberation_plane_slot_building = "Land_TentHangar_V1_F";                 // The hangar used to increase the GLOBAL fixed-wing cap.
@@ -47,33 +47,25 @@ KP_liberation_fuel_crate = "CargoNet_01_barrels_F";                         // T
     IMPORTANT: The last element inside each array must have no comma at the end!
 */
 infantry_units = [
-    ["UK3CB_BAF_Pointman_MTP",15,0,0],                                      // Rifleman (Light)
-    ["UK3CB_BAF_Rifleman_MTP",20,0,0],                                      // Rifleman
-    ["UK3CB_BAF_LAT_ILAW_MTP",30,0,0],                                      // Rifleman (AT)
-    ["UK3CB_BAF_Grenadier_MTP",25,0,0],                                     // Grenadier
-    ["UK3CB_BAF_LSW_MTP",25,0,0],                                           // Autorifleman
-    ["UK3CB_BAF_MGLMG_MTP",35,0,0],                                         // Heavygunner
-    ["UK3CB_BAF_Marksman_MTP",30,0,0],                                      // Marksman
-    ["UK3CB_BAF_MAT_MTP",50,10,0],                                          // AT Specialist
-    ["B_soldier_AA_F",50,10,0],                                             // AA Specialist (None in BAF mod.)
-    ["UK3CB_BAF_Medic_MTP",30,0,0],                                         // Combat Life Saver
-    ["UK3CB_BAF_Engineer_MTP",30,0,0],                                      // Engineer
-    ["UK3CB_BAF_Explosive_MTP",30,0,0],                                     // Explosives Specialist
-    ["UK3CB_BAF_Pointman_MTP_REC",20,0,0],                                  // Recon Rifleman
-    ["UK3CB_BAF_FAC_MTP_REC",30,0,0],                                       // Recon Rifleman (Grenadier)
-    ["UK3CB_BAF_MGLMG_MTP_REC",35,0,0],                                     // Recon Machine Gunner
-    ["UK3CB_BAF_Marksman_MTP_REC",30,0,0],                                  // Recon Marksman
-    ["UK3CB_BAF_Medic_MTP_REC",30,0,0],                                     // Recon Combat Life Saver
-    ["UK3CB_BAF_Explosive_MTP_REC",30,0,0],                                 // Recon Explosives Specialist
-    ["UK3CB_BAF_Sniper_MTP_Ghillie_L115",70,5,0],                           // Sniper (L115)
-    ["UK3CB_BAF_Sniper_MTP_Ghillie_L135",70,5,0],                           // Sniper (L135)
-    ["UK3CB_BAF_Spotter_MTP_Ghillie_L129",70,5,0],                          // Sniper (L129)
-    ["UK3CB_BAF_Spotter_MTP_Ghillie_L85",20,0,0],                           // Spotter (L85)
-    ["UK3CB_BAF_Crewman_MTP",10,0,0],                                       // Crewman
-    ["UK3CB_BAF_HeliCrew_MTP",10,0,0],                                      // Helicopter Crew
+    ["UK3CB_BAF_Pointman_Tropical",15,0,0],                                      // Rifleman (Light)
+    ["UK3CB_BAF_Rifleman_Tropical",20,0,0],                                      // Rifleman
+    ["UK3CB_BAF_LAT_ILAW_Tropical",30,0,0],                                      // Rifleman (AT)
+    ["UK3CB_BAF_Grenadier_Tropical",25,0,0],                                     // Grenadier
+    ["UK3CB_BAF_LSW_Tropical",25,0,0],                                           // Autorifleman
+    ["UK3CB_BAF_MGLMG_Tropical",35,0,0],                                         // Heavygunner
+    ["UK3CB_BAF_Marksman_Tropical",30,0,0],                                      // Marksman
+    ["UK3CB_BAF_Medic_Tropical",30,0,0],                                         // Combat Life Saver
+    ["UK3CB_BAF_Engineer_Tropical",30,0,0],                                      // Engineer
+    ["UK3CB_BAF_Pointman_Tropical_REC",20,0,0],                                  // Recon Rifleman
+    ["UK3CB_BAF_FAC_Tropical_REC",30,0,0],                                       // Recon Rifleman (Grenadier)
+    ["UK3CB_BAF_MGLMG_Tropical_REC",35,0,0],                                     // Recon Machine Gunner
+    ["UK3CB_BAF_Marksman_Tropical_REC",30,0,0],                                  // Recon Marksman
+    ["UK3CB_BAF_Medic_Tropical_REC",30,0,0],                                     // Recon Combat Life Saver
+    ["UK3CB_BAF_Crewman_Tropical",10,0,0],                                       // Crewman
+    ["UK3CB_BAF_HeliCrew_Tropical",10,0,0],                                      // Helicopter Crew
     ["UK3CB_BAF_HeliMedic_MTP",20,0,0],                                     // Helicopter Crew
-    ["UK3CB_BAF_HeliPilot_Army_MTP",10,0,0],                                // Helicopter Pilot
-    ["UK3CB_BAF_Pilot_Army",10,0,0]                                         // Pilot
+    ["UK3CB_BAF_HeliPilot_Army_Tropical",10,0,0],                                // Helicopter Pilot
+    ["UK3CB_BAF_Pilot_Tropical",10,0,0]                                         // Pilot
 ];
 
 light_vehicles = [
