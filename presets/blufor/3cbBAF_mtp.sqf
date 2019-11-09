@@ -123,7 +123,7 @@ static_vehicles = [
     ["UK3CB_BAF_Static_L134A1_Deployed_High_Tropical",25,60,0],                  // L134A1 GMG (High)
     ["RHS_TOW_TriPod_WD",50,100,0],                                         // TOW (AT)
     ["RHS_Stinger_AA_pod_WD",50,100,0],                                     // Stinger (AA)
-    ["UK3CB_BAF_Static_L16_Deployed_Tropical",80,150,0],                         // Mk6 Mortar
+    ["UK3CB_BAF_Static_L16_Deployed_Tropical",80,150,0]                         // Mk6 Mortar
 ];
 
 buildings = [
