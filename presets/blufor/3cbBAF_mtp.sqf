@@ -69,46 +69,34 @@ infantry_units = [
 ];
 
 light_vehicles = [
-    ["B_Quadbike_01_F",50,0,25],                                            // Quad Bike
-    ["B_LSV_01_unarmed_F",75,0,50],                                         // Prowler
-    ["B_LSV_01_armed_F",75,40,50],                                          // Prowler (HMG)
-    ["UK3CB_BAF_LandRover_Soft_FFR_Green_A_MTP",75,0,50],                   // Land Rover SoftTop
-    ["UK3CB_BAF_LandRover_Hard_FFR_Green_A_MTP",75,0,50],                   // Land Rover HardTop
-    ["UK3CB_BAF_LandRover_WMIK_HMG_FFR_Green_A_MTP",100,40,50],             // Land Rover WMIK (HMG)
-    ["UK3CB_BAF_LandRover_WMIK_GMG_FFR_Green_A_MTP",100,60,50],             // Land Rover WMIK (GMG)
-    ["UK3CB_BAF_LandRover_WMIK_Milan_FFR_Green_A_MTP",100,100,50],          // Land Rover WMIK (Milan)
-    ["UK3CB_BAF_Jackal2_L2A1_W_MTP",100,80,50],                             // Jackal 2 (HMG)
-    ["UK3CB_BAF_Jackal2_GMG_W_MTP",100,100,50],                             // Jackal 2 (GMG)
-    ["UK3CB_BAF_Coyote_Passenger_L111A1_W_MTP",100,80,50],                  // Coyote Passenger (HMG)
-    ["UK3CB_BAF_Coyote_Passenger_L134A1_W_MTP",100,100,50],                 // Coyote Passenger (GMG)
-    ["UK3CB_BAF_Coyote_Logistics_L111A1_W_MTP",100,80,50],                  // Coyote Logistics (HMG)
-    ["UK3CB_BAF_Coyote_Logistics_L134A1_W_MTP",100,100,50],                 // Coyote Logistics (GMG)
-    ["rhsusf_M1230a1_usarmy_wd",120,0,60],                                  // M1230A1 (MEDEVAC)
-    ["rhsusf_M1237_M2_usarmy_wd",125,40,75],                                // M1237 (HMG)
-    ["rhsusf_M1237_MK19_usarmy_wd",125,60,75],                              // M1237 (GMG)
-    ["rhsusf_M1083A1P2_WD_flatbed_fmtv_usarmy",100,0,50],                   // M1083A1P2
-    ["rhsusf_M977A4_BKIT_usarmy_wd",125,0,75],                              // M977A4 BKIT
-    ["rhsusf_M977A4_BKIT_M2_usarmy_wd",125,40,75],                          // M977A4 BKIT (HMG)
-    ["B_UGV_01_F",150,0,50],                                                // UGV Stomper
-    ["B_UGV_01_rcws_F",150,40,50],                                          // UGV Stomper (RCWS)
+    ["B_T_Quadbike_01_F",10,0,5],                                            // Quad Bike
+    ["UK3CB_BAF_LandRover_Soft_FFR_Green_B_Tropical",75,0,50],                   // Land Rover SoftTop
+    ["UK3CB_BAF_LandRover_Hard_FFR_Green_B_Tropical",75,0,50],                   // Land Rover HardTop
+    ["UK3CB_BAF_LandRover_WMIK_HMG_FFR_Green_B_Tropical",100,40,50],             // Land Rover WMIK (HMG)
+    ["UK3CB_BAF_LandRover_WMIK_GMG_FFR_Green_B_Tropical",100,60,50],             // Land Rover WMIK (GMG)
+    ["UK3CB_BAF_LandRover_WMIK_Milan_FFR_Green_B_Tropical",100,100,50],          // Land Rover WMIK (Milan)
+    ["UK3CB_BAF_Jackal2_L2A1_W_Tropical",100,80,50],                             // Jackal 2 (HMG)
+    ["UK3CB_BAF_Jackal2_GMG_W_Tropical",100,100,50],                             // Jackal 2 (GMG)
+    ["UK3CB_BAF_Coyote_Passenger_L111A1_W_Tropical",100,80,50],                  // Coyote Passenger (HMG)
+    ["UK3CB_BAF_Coyote_Passenger_L134A1_W_Tropical",100,100,50],                 // Coyote Passenger (GMG)
+    ["UK3CB_BAF_Coyote_Logistics_L111A1_W_Tropical",100,80,50],                  // Coyote Logistics (HMG)
+    ["UK3CB_BAF_Coyote_Logistics_L134A1_W_Tropical",100,100,50],                 // Coyote Logistics (GMG)
+    ["B_T_UGV_01_olive_F",150,0,50],                                                // UGV Stomper
+    ["B_T_UGV_01_rcws_olive_F",150,40,50],                                          // UGV Stomper (RCWS)
     ["B_Boat_Transport_01_F",100,0,25],                                     // Assault Boat
     ["B_Boat_Armed_01_minigun_F",200,80,75],                                // Speedboat Minigun
-    ["rhsusf_mkvsoc",250,200,100],                                          // Mk.V SOCOM
+    ["rksla3_lcvpmk5_1", 200,0,75],                                         // heavy transport boat
+    ["rksla3_lcvpmk5_viv", 200,0,75],                                       // heavy transport boat (vehicles)
     ["B_SDV_01_F",150,0,50]                                                 // SDV
 ];
 
 heavy_vehicles = [
-    ["RHS_M2A2_BUSKI_WD",300,200,150],                                      // M2A2ODS (Busk I)
-    ["RHS_M2A3_BUSKIII_wd",300,250,175],                                    // M2A3 (Busk III)
-    ["RHS_M6_wd",300,250,175],                                              // M6A2
-    ["rhsusf_m1a1aim_tuski_wd",400,350,225],                                // M1A1SA (Tusk I)
-    ["rhsusf_m1a2sep1tuskiiwd_usarmy",500,400,250],                         // M1A2SEPv1 (Tusk II)
-    ["rhsusf_m109_usarmy",600,1250,300]                                     // M109A6
+    ["UK3CB_BAF_FV432_Mk3_GPMG_Green_Tropical",300,200,150],                // Bulldog GMPG
+    ["UK3CB_BAF_FV432_Mk3_RWS_Green_Tropical",300,250,175],                 // Bulldog HMG
+    ["Grace_IFV_Warrier",500,400,250]                                      // Warrior IFV
 ];
 
 air_vehicles = [
-    ["B_UAV_01_F",75,0,25],                                                 // AR-2 Darter
-    ["B_UAV_06_F",80,0,30],                                                 // AL-6 Pelican (Cargo)
     ["UK3CB_BAF_Wildcat_AH1_TRN_8A_MTP",225,0,125],                         // Wildcat AH1 8 Transport (Unarmed)
     ["UK3CB_BAF_Wildcat_HMA2_TRN_8A_MTP",250,0,125],                        // Wildcat HMA2 8 Transport (Unarmed)
     ["UK3CB_BAF_Wildcat_AH1_CAS_6C_MTP",275,200,150],                       // Wildcat AH1 6 (CAS/AT)

@@ -164,5 +164,6 @@ GRLIB_arsenal_backpacks = [
 	"UK3CB_BAF_B_Carryall_OLI",
 	"B_Parachute",
 	"ACE_NonSteerableParachute",
-	"ACE_TacticalLadder_Pack"
+	"ACE_TacticalLadder_Pack",
+	"B_UAV_01_backpack_F"
 ];
