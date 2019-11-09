@@ -15,6 +15,7 @@ GRLIB_arsenal_weapons = [
 	"UK3CB_BAF_L118A1_Covert",
 	// Primary Weapons
 	"UK3CB_BAF_L85A2",
+	"UK3CB_BAF_L85A2_RIS_AFG",
 	"UK3CB_BAF_L85A2_UGL_HWS",
 	// SMGs
 	"UK3CB_BAF_L91A1",
@@ -24,7 +25,10 @@ GRLIB_arsenal_weapons = [
 	// Launchers
 	"UK3CB_BAF_AT4_CS_AT_Launcher",
 	"UK3CB_BAF_AT4_CS_AP_Launcher",
-	"UK3CB_BAF_M6"
+	"UK3CB_BAF_M6",
+	// ACE Detectors
+	"ACE_VMH3",
+	"ACE_VMM3"
 ];
 
 GRLIB_arsenal_magazines = [
@@ -93,73 +97,54 @@ GRLIB_arsenal_items = [
 	"ItemWatch",
 	"ACE_Altimeter",
 	// Optics
-	// Other
-	"MineDetector",
-	"ItemGPS",
-	"ItemRadio",
-	"UK3CB_BAF_Javelin_CLU",
-	"FirstAidKit",
-	"Medikit",
-	"Rangefinder",
-	"ToolKit",
-	"UK3CB_BAF_SUIT",
+	"uk_3cb_baf_kite",
+	"uk_3cb_baf_maxikite",
+	"UK3CB_BAF_TA31F",
+	"UK3CB_BAF_TA31F_3D",
+	"UK3CB_BAF_TA648",
 	"UK3CB_BAF_SUSAT",
 	"UK3CB_BAF_SUSAT_3D",
-	"UK3CB_BAF_TA648",
-	"UK3CB_BAF_TA648_308",
-	"UK3CB_BAF_TA31F",
-	"UK3CB_BAF_TA31F_Hornbill",
-	"UK3CB_BAF_TA31F_3D",
-	"UK3CB_BAF_TA31F_Hornbill_3D",
-	"UK3CB_BAF_Eotech",
-	"UK3CB_BAF_SB31250",
-	"UK3CB_BAF_SB31250_Ghillie",
-	"UK3CB_BAF_SB31250_Desert",
-	"UK3CB_BAF_SB31250_Desert_Ghillie",
-	"UK3CB_BAF_SpecterLDS",
-	"UK3CB_BAF_SpecterLDS_3D",
-	"UK3CB_BAF_SpecterLDS_Dot",
-	"UK3CB_BAF_SpecterLDS_Dot_3D",
-	"UK3CB_BAF_LLM_IR_Tan",
+	"RKSL_optic_eot552",
+	"RKSL_optic_rmr_rm33",
+	"RKSL_optic_PMII_312_sunshade_wdl",
+	"RKSL_optic_PMII_525_wdl",
+	// Rail attachments
 	"UK3CB_BAF_LLM_IR_Black",
-	"UK3CB_BAF_LLM_Flashlight_Tan",
 	"UK3CB_BAF_LLM_Flashlight_Black",
-	"UK3CB_BAF_Flashlight_L131A1",
+	// Muzzle attachments
 	"UK3CB_BAF_SFFH",
-	"UK3CB_BAF_BFA_L85",
-	"UK3CB_BAF_BFA_L110",
-	"UK3CB_BAF_BFA_L129",
-	"UK3CB_BAF_BFA_L7",
 	"UK3CB_BAF_Silencer_L85",
 	"UK3CB_BAF_Silencer_L110",
 	"UK3CB_BAF_Silencer_L115A3",
-	"UK3CB_BAF_Silencer_L91A1",
-	"RKSL_optic_PMII_312",
-	"RKSL_optic_PMII_312_sunshade",
-	"RKSL_optic_PMII_312_wdl",
-	"RKSL_optic_PMII_312_sunshade_wdl",
-	"RKSL_optic_PMII_312_des",
-	"RKSL_optic_PMII_312_sunshade_des",
-	"RKSL_optic_PMII_525",
-	"RKSL_optic_PMII_525_wdl",
-	"RKSL_optic_PMII_525_des",
-	"rhsusf_acc_anpeq15",
-	"rhsusf_acc_anpeq15A",
-	"rhsusf_acc_anpeq15_bk",
-	"rhsusf_acc_anpeq15_bk_light",
-	"rhsusf_acc_anpeq15_bk_top",
-	"rhsusf_acc_anpeq15_light",
-	"rhsusf_acc_anpeq15_top",
-	"rhsusf_acc_anpeq15_wmx",
-	"rhsusf_acc_anpeq15_wmx_light",
-	"rhsusf_acc_anpeq15side",
-	"rhsusf_acc_anpeq15side_bk",
-	"optic_ERCO_snd_F",
-	"optic_ERCO_khk_F",
-	"optic_ERCO_blk_F",
-	"optic_Aco_smg",
-	
-	
+	"UK3CB_BAF_Silencer_L91A1",	
+	// Radio gear
+	"ACRE_PRC152",
+	"ACRE_PRC117F",
+	// Medical equipment
+	"ACE_fieldDressing",
+	"ACE_bloodIV_250",
+	"ACE_epinephrine",
+	"ACE_morphine",
+	"ACE_salineIV_500",
+	// Utility Items
+	"ACE_CableTie",
+	"ACE_EarPlugs",
+	"ACE_MapTools",
+	"ACE_microDAGR",
+	"ACE_RangeCard",
+	"ACE_SpraypaintRed",
+	"ACE_IR_Strobe_Item",
+	"ACE_Flashlight_XL50",
+	// Tools
+	"ACE_EntrenchingTool",
+	"ACE_Fortify",
+	"ACE_wirecutter",
+	"ToolKit",	
+	// Demolitions
+	"ACE_M26_Clacker",
+	"ACE_Clacker",
+	"MineDetector",
+	"ACE_DefusalKit"	
 ];
 
 GRLIB_arsenal_backpacks = [

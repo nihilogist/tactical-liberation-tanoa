@@ -59,14 +59,13 @@ addons[]=
 	"A3_Boat_F_Jets_Carrier_01",
 	"A3_Structures_F_System",
 	"A3_Structures_F_Mil_Cargo",
-	"A3_Structures_F_Mil_Flags",
-	"UK3CB_BAF_Units_Tropical"
+	"A3_Structures_F_Mil_Flags"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=23;
+		items=22;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -221,13 +220,6 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item22
-		{
-			className="UK3CB_BAF_Units_Tropical";
-			name="3CB BAF Units - Tropical";
-			author="3 Commando Brigade";
-			url="www.3commandobrigade.com";
-		};
 	};
 };
 randomSeed=9780715;
@@ -298,7 +290,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=318;
+		items=317;
 		class Item0
 		{
 			dataType="Marker";
@@ -19801,34 +19793,6 @@ class Mission
 			id=4493;
 			type="Land_ClutterCutter_small_F";
 			atlOffset=64.225212;
-		};
-		class Item317
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={2368.0198,12.951439,3597.321};
-					};
-					side="West";
-					flags=7;
-					class Attributes
-					{
-					};
-					id=4502;
-					type="UK3CB_BAF_Rifleman_Tropical";
-				};
-			};
-			class Attributes
-			{
-			};
-			id=4501;
 		};
 	};
 	class Connections
