@@ -62,6 +62,7 @@ militia_vehicles = [
     "rhsusf_m1025_w_s_m2",                                              // Transport (armed)
     "rhsusf_m1043_w_s_mk19",                                            // Transport (armed)
     "rhsusf_m1045_w_s",                                                 // Transport (AT)
+    "rhsusf_M1117W",                                                    // M1117 MRAP (armed)
     "rhsusf_CGRCAT1A2_usmc_wd"                                          // MRAP (unarmed)
 ];
 
@@ -70,6 +71,7 @@ opfor_vehicles = [
     "rhsusf_m1025_w_s_m2",                                              // Transport (armed)
     "rhsusf_m1043_w_s_mk19",                                            // Transport (armed)
     "rhsusf_m1045_w_s",                                                 // Transport (AT)
+    "rhsusf_M1117W",                                                    // M1117 MRAP (armed)
     "rhsusf_CGRCAT1A2_M2_usmc_wd",                                      // MRAP (HMG)
     "rhsusf_CGRCAT1A2_Mk19_usmc_wd",                                    // MRAP (GMG)
     "rhsusf_M1232_MC_M2_usmc_wd",                                       // MRAP, heavy (HMG)
@@ -87,6 +89,7 @@ opfor_vehicles_low_intensity = [
     "rhsusf_m1025_w_s_m2",                                              // Transport (armed)
     "rhsusf_m1043_w_s_mk19",                                            // Transport (armed)
     "rhsusf_m1045_w_s",                                                 // Transport (AT)
+    "rhsusf_M1117W",                                                    // M1117 MRAP (armed)
     "rhsusf_CGRCAT1A2_M2_usmc_wd"                                       // MRAP (HMG)
 ];
 
@@ -118,6 +121,7 @@ opfor_battlegroup_vehicles_low_intensity = [
     "rhsusf_m1025_w_s_m2",                                              // Transport (armed)
     "rhsusf_m1043_w_s_mk19",                                            // Transport (armed)
     "rhsusf_m1045_w_s",                                                 // Transport (AT)
+    "rhsusf_M1117W",                                                    // M1117 MRAP (armed)
     "rhsusf_CGRCAT1A2_M2_usmc_wd",                                      // MRAP (HMG)
     "rhsusf_CGRCAT1A2_Mk19_usmc_wd",                                    // MRAP (GMG)
     "rhsusf_M1232_MC_M2_usmc_wd",                                       // MRAP, heavy (HMG)
