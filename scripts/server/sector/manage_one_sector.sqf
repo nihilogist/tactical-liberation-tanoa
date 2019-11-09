@@ -43,20 +43,30 @@ private _opforcount = [] call F_opforCap;
 
 if ((!(_sector in blufor_sectors)) && (([getmarkerpos _sector, [_opforcount] call F_getCorrectedSectorRange, GRLIB_side_friendly] call F_getUnitsCount) > 0)) then {
 
+	// SQUAD SPAWN FOR CAPITAL SECTORS
 	if (_sector in sectors_bigtown) then {
+		// If Combat Readiness is high, then upgrade default squad type from Militia to Army
 		if (combat_readiness > 30) then {_infsquad = "army";};
 
+		// Spawn two squads for certain.
 		_squad1 = ([_infsquad] call F_getAdaptiveSquadComp);
 		_squad2 = ([_infsquad] call F_getAdaptiveSquadComp);
+		// If unit cap is high then spawn third squad
 		if (GRLIB_unitcap >= 1) then {_squad3 = ([_infsquad] call F_getAdaptiveSquadComp);};
+		// If unit cap is very high then spawn fourth squad
 		if (GRLIB_unitcap >= 1.5) then {_squad4 = ([_infsquad] call F_getAdaptiveSquadComp);};
 
+		// Spawn one militia-grade vehicle
 		_vehtospawn = [(selectRandom militia_vehicles),(selectRandom militia_vehicles)];
+		// Random chance to spawn a further militia-grade vehicle
 		if ((random 100) > (66 / GRLIB_difficulty_modifier)) then {_vehtospawn pushback (selectRandom militia_vehicles);};
+		// Random chance to spawn yet another militia-grade vehicle
 		if ((random 100) > (50 / GRLIB_difficulty_modifier)) then {_vehtospawn pushback (selectRandom militia_vehicles);};
 		if (_infsquad == "army") then {
+			// If the squad type is 'army', then spawn two further vehicles
 			_vehtospawn pushback ([] call F_getAdaptiveVehicle);
 			_vehtospawn pushback ([] call F_getAdaptiveVehicle);
+			// Random chance to spawn a third vehicle
 			if ((random 100) > (33 / GRLIB_difficulty_modifier)) then {_vehtospawn pushback ([] call F_getAdaptiveVehicle);};
 		};
 
@@ -123,6 +133,11 @@ if ((!(_sector in blufor_sectors)) && (([getmarkerpos _sector, [_opforcount] cal
 			_vehtospawn pushback ([] call F_getAdaptiveVehicle);
 			_squad4 = ([_infsquad] call F_getAdaptiveSquadComp);
 		};
+		// with high combat readiness then spawn a single support unit
+		if (combat_readiness > 35) then {_vehtospawn pushback (selectRandom opfor_artillery)};
+		// with very high combat readiness then spawn a second support unit
+		if (combat_readiness > 65) then {_vehtospawn pushback (selectRandom opfor_artillery)};
+			
 		if ((random 100) > (66 / GRLIB_difficulty_modifier)) then {_vehtospawn pushback ([] call F_getAdaptiveVehicle);};
 
 		_spawncivs = false;

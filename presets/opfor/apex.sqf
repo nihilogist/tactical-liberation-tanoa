@@ -149,3 +149,10 @@ opfor_air = [
     "FIR_F15C",                                                         // F15
     "FIR_F14D_Schnee"                                                   // F14
 ];
+
+// Enemy artillery pieces that will need to spawn as vehicles
+opfor_artillery = [
+    "RHS_Stinger_AA_pod_WD",                                            // Stinger AA launcher
+    "RHS_M119_WD",                                                      // M119 Howitzer
+    "RHS_M252_WD"                                                       // M252 Mortar
+];
