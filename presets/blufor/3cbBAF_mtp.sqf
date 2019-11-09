@@ -127,20 +127,15 @@ static_vehicles = [
 ];
 
 buildings = [
-    ["Land_Cargo_House_V1_F",0,0,0],
-    ["Land_Cargo_Patrol_V1_F",0,0,0],
-    ["Land_Cargo_Tower_V1_F",0,0,0],
-    ["Flag_NATO_F",0,0,0],
-    ["Flag_US_F",0,0,0],
-    ["BWA3_Flag_Ger_F",0,0,0],
+    ["Land_Cargo_House_V4_F",30,0,0],
+    ["Land_Cargo_Patrol_V4_F",30,0,0],
+    ["Land_Cargo_Tower_V4_F",50,0,0],
     ["Flag_UK_F",0,0,0],
-    ["Flag_White_F",0,0,0],
-    ["Land_Medevac_house_V1_F",0,0,0],
-    ["Land_Medevac_HQ_V1_F",0,0,0],
-    ["Flag_RedCrystal_F",0,0,0],
-    ["CamoNet_BLUFOR_F",0,0,0],
-    ["CamoNet_BLUFOR_open_F",0,0,0],
-    ["CamoNet_BLUFOR_big_F",0,0,0],
+    ["Land_Medevac_house_V1_F",30,0,0],
+    ["Land_Medevac_HQ_V1_F",30,0,0],
+    ["CamoNet_ghex_F",0,0,0],
+    ["CamoNet_ghex_open_F",0,0,0],
+    ["CamoNet_ghex_big_F",0,0,0],
     ["Land_PortableLight_single_F",0,0,0],
     ["Land_PortableLight_double_F",0,0,0],
     ["Land_LampSolar_F",0,0,0],
@@ -155,9 +150,7 @@ buildings = [
     ["Land_CampingChair_V1_F",0,0,0],
     ["Land_CampingChair_V2_F",0,0,0],
     ["Land_CampingTable_F",0,0,0],
-    ["MapBoard_altis_F",0,0,0],
-    ["MapBoard_stratis_F",0,0,0],
-    ["MapBoard_seismic_F",0,0,0],
+    ["MapBoard_Tanoa_F",0,0,0],
     ["Land_Pallet_MilBoxes_F",0,0,0],
     ["Land_PaperBox_open_empty_F",0,0,0],
     ["Land_PaperBox_open_full_F",0,0,0],
@@ -174,23 +167,22 @@ buildings = [
     ["Land_BarrelWater_grey_F",0,0,0],
     ["Land_WaterBarrel_F",0,0,0],
     ["Land_WaterTank_F",0,0,0],
-    ["Land_BagFence_Round_F",0,0,0],
-    ["Land_BagFence_Short_F",0,0,0],
-    ["Land_BagFence_Long_F",0,0,0],
-    ["Land_BagFence_Corner_F",0,0,0],
-    ["Land_BagFence_End_F",0,0,0],
-    ["Land_BagBunker_Small_F",0,0,0],
-    ["Land_BagBunker_Large_F",0,0,0],
-    ["Land_BagBunker_Tower_F",0,0,0],
-    ["Land_HBarrier_1_F",0,0,0],
-    ["Land_HBarrier_3_F",0,0,0],
-    ["Land_HBarrier_5_F",0,0,0],
-    ["Land_HBarrier_Big_F",0,0,0],
-    ["Land_HBarrierWall4_F",0,0,0],
-    ["Land_HBarrierWall6_F",0,0,0],
-    ["Land_HBarrierWall_corner_F",0,0,0],
-    ["Land_HBarrierWall_corridor_F",0,0,0],
-    ["Land_HBarrierTower_F",0,0,0],
+    ["Land_BagFence_01_round_green_F",0,0,0],
+    ["Land_BagFence_01_short_green_F",0,0,0],
+    ["Land_BagFence_01_long_green_F",0,0,0],
+    ["Land_BagFence_01_corner_green_F",0,0,0],
+    ["Land_BagFence_01_end_green_F",0,0,0],
+    ["Land_BagBunker_01_small_green_F",5,0,0],
+    ["Land_BagBunker_01_large_green_F",10,0,0],
+    ["Land_BagBunker_01_tower_green_F",15,0,0],
+    ["Land_HBarrier_01_line_1_green_F",5,0,0],
+    ["Land_HBarrier_01_line_3_green_F",7,0,0],
+    ["Land_HBarrier_01_line_5_green_F",10,0,0],
+    ["Land_HBarrier_01_wall_4_green_F",10,0,0],
+    ["Land_HBarrier_01_wall_6_green_F",15,0,0],
+    ["Land_HBarrier_01_wall_corner_green_F",10,0,0],
+    ["Land_HBarrier_01_wall_corridor_green_F",10,0,0],
+    ["Land_HBarrier_01_big_tower_green_F",20,0,0],
     ["Land_CncBarrierMedium_F",0,0,0],
     ["Land_CncBarrierMedium4_F",0,0,0],
     ["Land_Concrete_SmallWall_4m_F",0,0,0],
@@ -242,82 +234,82 @@ support_vehicles = [
 
 // Light infantry squad.
 blufor_squad_inf_light = [
-    "UK3CB_BAF_FT_MTP",
-    "UK3CB_BAF_Pointman_MTP",
-    "UK3CB_BAF_Pointman_MTP",
-    "UK3CB_BAF_LAT_ILAW_MTP",
-    "UK3CB_BAF_Grenadier_MTP",
-    "UK3CB_BAF_LSW_MTP",
-    "UK3CB_BAF_LSW_MTP",
-    "UK3CB_BAF_Marksman_MTP",
-    "UK3CB_BAF_Medic_MTP",
-    "UK3CB_BAF_Engineer_MTP"
+    "UK3CB_BAF_FT_Tropical",
+    "UK3CB_BAF_Pointman_Tropical",
+    "UK3CB_BAF_Pointman_Tropical",
+    "UK3CB_BAF_LAT_ILAW_Tropical",
+    "UK3CB_BAF_Grenadier_Tropical",
+    "UK3CB_BAF_LSW_Tropical",
+    "UK3CB_BAF_LSW_Tropical",
+    "UK3CB_BAF_Marksman_Tropical",
+    "UK3CB_BAF_Medic_Tropical",
+    "UK3CB_BAF_Engineer_Tropical"
 ];
 
 // Heavy infantry squad.
 blufor_squad_inf = [
-    "UK3CB_BAF_FT_MTP",
-    "UK3CB_BAF_LAT_ILAW_MTP",
-    "UK3CB_BAF_LAT_ILAW_MTP",
-    "UK3CB_BAF_Grenadier_MTP",
-    "UK3CB_BAF_LSW_MTP",
-    "UK3CB_BAF_LSW_MTP",
-    "UK3CB_BAF_MGLMG_MTP",
-    "UK3CB_BAF_Marksman_MTP",
-    "UK3CB_BAF_Medic_MTP",
-    "UK3CB_BAF_Engineer_MTP"
+    "UK3CB_BAF_FT_Tropical",
+    "UK3CB_BAF_LAT_ILAW_Tropical",
+    "UK3CB_BAF_LAT_ILAW_Tropical",
+    "UK3CB_BAF_Grenadier_Tropical",
+    "UK3CB_BAF_LSW_Tropical",
+    "UK3CB_BAF_LSW_Tropical",
+    "UK3CB_BAF_MGLMG_Tropical",
+    "UK3CB_BAF_Marksman_Tropical",
+    "UK3CB_BAF_Medic_Tropical",
+    "UK3CB_BAF_Engineer_Tropical"
 ];
 
 // AT specialists squad.
 blufor_squad_at = [
-    "UK3CB_BAF_FT_MTP",
-    "UK3CB_BAF_Rifleman_MTP",
-    "UK3CB_BAF_Rifleman_MTP",
-    "UK3CB_BAF_MAT_MTP",
-    "UK3CB_BAF_MAT_MTP",
-    "UK3CB_BAF_MAT_MTP",
-    "UK3CB_BAF_Medic_MTP",
-    "UK3CB_BAF_Rifleman_MTP"
+    "UK3CB_BAF_FT_Tropical",
+    "UK3CB_BAF_Rifleman_Tropical",
+    "UK3CB_BAF_Rifleman_Tropical",
+    "UK3CB_BAF_MAT_Tropical",
+    "UK3CB_BAF_MAT_Tropical",
+    "UK3CB_BAF_MAT_Tropical",
+    "UK3CB_BAF_Medic_Tropical",
+    "UK3CB_BAF_Rifleman_Tropical"
 ];
 
 // AA specialists squad.
 blufor_squad_aa = [
-    "UK3CB_BAF_FT_MTP",
-    "UK3CB_BAF_Rifleman_MTP",
-    "UK3CB_BAF_Rifleman_MTP",
+    "UK3CB_BAF_FT_Tropical",
+    "UK3CB_BAF_Rifleman_Tropical",
+    "UK3CB_BAF_Rifleman_Tropical",
     "B_soldier_AA_F",
     "B_soldier_AA_F",
     "B_soldier_AA_F",
-    "UK3CB_BAF_Medic_MTP",
-    "UK3CB_BAF_Rifleman_MTP"
+    "UK3CB_BAF_Medic_Tropical",
+    "UK3CB_BAF_Rifleman_Tropical"
 ];
 
 // Force recon squad.
 blufor_squad_recon = [
-    "UK3CB_BAF_SC_MTP_REC",
-    "UK3CB_BAF_Pointman_MTP_REC",
-    "UK3CB_BAF_Pointman_MTP_REC",
-    "UK3CB_BAF_FAC_MTP_REC",
-    "UK3CB_BAF_MGLMG_MTP_REC",
-    "UK3CB_BAF_Marksman_MTP_REC",
-    "UK3CB_BAF_Sniper_MTP_Ghillie_L115",
-    "UK3CB_BAF_Spotter_MTP_Ghillie_L85",
-    "UK3CB_BAF_Medic_MTP",
-    "UK3CB_BAF_Engineer_MTP"
+    "UK3CB_BAF_SC_Tropical_REC",
+    "UK3CB_BAF_Pointman_Tropical_REC",
+    "UK3CB_BAF_Pointman_Tropical_REC",
+    "UK3CB_BAF_FAC_Tropical_REC",
+    "UK3CB_BAF_MGLMG_Tropical_REC",
+    "UK3CB_BAF_Marksman_Tropical_REC",
+    "UK3CB_BAF_Marksman_Tropical_REC",
+    "UK3CB_BAF_Marksman_Tropical_REC",
+    "UK3CB_BAF_Medic_Tropical",
+    "UK3CB_BAF_Engineer_Tropical"
 ];
 
 // Paratroopers squad (The units of this squad will automatically get parachutes on build)
 blufor_squad_para = [
-    "UK3CB_BAF_Rifleman_MTP",
-    "UK3CB_BAF_Rifleman_MTP",
-    "UK3CB_BAF_Rifleman_MTP",
-    "UK3CB_BAF_Rifleman_MTP",
-    "UK3CB_BAF_Rifleman_MTP",
-    "UK3CB_BAF_Rifleman_MTP",
-    "UK3CB_BAF_Rifleman_MTP",
-    "UK3CB_BAF_Rifleman_MTP",
-    "UK3CB_BAF_Rifleman_MTP",
-    "UK3CB_BAF_Rifleman_MTP"
+    "UK3CB_BAF_Rifleman_Tropical",
+    "UK3CB_BAF_Rifleman_Tropical",
+    "UK3CB_BAF_Rifleman_Tropical",
+    "UK3CB_BAF_Rifleman_Tropical",
+    "UK3CB_BAF_Rifleman_Tropical",
+    "UK3CB_BAF_Rifleman_Tropical",
+    "UK3CB_BAF_Rifleman_Tropical",
+    "UK3CB_BAF_Rifleman_Tropical",
+    "UK3CB_BAF_Rifleman_Tropical",
+    "UK3CB_BAF_Rifleman_Tropical"
 ];
 
 /*
