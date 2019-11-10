@@ -26,6 +26,7 @@ GRLIB_arsenal_weapons = [
 	"UK3CB_BAF_AT4_CS_AT_Launcher",
 	"UK3CB_BAF_AT4_CS_AP_Launcher",
 	"UK3CB_BAF_M6",
+	"rhs_weap_fim92",
 	// ACE Detectors
 	"ACE_VMH3",
 	"ACE_VMM3"
