@@ -7,10 +7,15 @@ private _weathers = [
 private _newWeather = selectRandom _weathers;
 0 setOvercast _newWeather;
 forceWeatherChange;
+// set the starting amount of radio interference
+TACD_current_radio_interference = random [TACD_radio_interference_minimum, 1, TACD_radio_interference_maximum];
 
 diag_log format ["[KP LIBERATION] [WEATHER] Set initial weather to: %1 - Param Value: %2 - Time: %3", _newWeather, GRLIB_weather_param, diag_tickTime];
 
 while {GRLIB_endgame == 0} do {
+	// Set a new radio interference parameter
+	TACD_current_radio_interference = random [TACD_radio_interference_minimum, 1, TACD_radio_interference_maximum];
+	// Set the new weather
     _newWeather = selectRandom _weathers;
     (3600 * timeMultiplier) setOvercast _newWeather;
     diag_log format ["[KP LIBERATION] [WEATHER] Set next weather transition to: %1 - Time: %2", _newWeather, diag_tickTime];

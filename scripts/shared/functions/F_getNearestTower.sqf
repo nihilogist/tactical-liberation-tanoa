@@ -10,9 +10,8 @@ if ( _side == GRLIB_side_enemy ) then {
 	_sectors_to_search = blufor_sectors select {_x in sectors_tower};
 };
 
-// Add a random 'radio interference' component to the search
-_interferenceAmount = random [0.75, 1, 1.5];
-_limit = _limit * _interferenceAmount;
+// Adjust search radius by current radio interference amount
+_limit = _limit * TACD_current_radio_interference;
 
 _sectors_to_search = _sectors_to_search select {(markerPos _x) distance _postosearch < _limit};
 

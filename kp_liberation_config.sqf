@@ -198,6 +198,10 @@ KP_liberation_resistance_at_chance = 20;                                // Chanc
 KP_liberation_resistance_sector_chance = 35;                            // Chance that a guerilla squad will join an ongoing sector attack.
 KP_liberation_resistance_ambush_chance = 25;                            // Chance that some guerilla units will spawn in blufor sectors for an ambush, if reputation is low.
 
+TACD_radio_interference_minimum = 0.75;                                 // radio interference parameter
+TACD_radio_interference_maximum = 1.5;                                  // radio interference parameter
+TACD_current_radio_interference = 1;                                    // current value of the radio interference
+
 // Array of worldName values.
 // When playing on this map, it'll create a clearance (remove terrain objects) in a 15m radius around the battlegroup/reinforcements spawnpoint.
 KP_liberation_battlegroup_clearance = [
