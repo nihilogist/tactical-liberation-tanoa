@@ -6,25 +6,30 @@
 
 GRLIB_arsenal_weapons = [
 	// Primary Weapons - Support weapons
-	"UK3CB_BAF_L110A2",
+	"UK3CB_BAF_L110A2RIS",
 	"UK3CB_BAF_L7A2",
 	"UK3CB_BAF_L86A2",
-	// Primary Weapons - Sniper / Marksman
+	// Primary Weapons - Sniper
 	"UK3CB_BAF_L115A3",
-	"UK3CB_BAF_L115A3_Ghillie",
 	"UK3CB_BAF_L118A1_Covert",
+	"UK3CB_BAF_L135A1",
 	// Primary Weapons
-	"UK3CB_BAF_L85A2",
 	"UK3CB_BAF_L85A2_RIS_AFG",
-	"UK3CB_BAF_L85A2_UGL_HWS",
+	"UK3CB_BAF_L85A2_UGL",
+	"UK3CB_BAF_L86A3",
 	// SMGs
-	"UK3CB_BAF_L91A1",
+	"UK3CB_BAF_L22A1",
 	"UK3CB_BAF_L92A1",
+	// Grenade Launchers
+	"rhs_weap_m32",
 	// Sidearms
 	"UK3CB_BAF_L131A1",
 	// Launchers
 	"UK3CB_BAF_AT4_CS_AT_Launcher",
 	"UK3CB_BAF_AT4_CS_AP_Launcher",
+	"UK3CB_BAF_Javelin_Launcher",
+	"UK3CB_BAF_Javelin_Slung_Tube",
+	"UK3CB_BAF_NLAW_Launcher",
 	"UK3CB_BAF_M6",
 	"rhs_weap_fim92",
 	// ACE Detectors
@@ -36,6 +41,10 @@ GRLIB_arsenal_magazines = [
 ];
 
 GRLIB_arsenal_items = [
+	// Fixed Wing Pilot Gear
+	"H_PilotHelmetFighter_B",
+	"U_B_PilotCoveralls",
+	"V_LegStrapBag_black_F",
 	// Uniforms
 	"UK3CB_BAF_U_CombatUniform_DPMW",
 	"UK3CB_BAF_U_CombatUniform_DPMW_RM",
@@ -58,7 +67,7 @@ GRLIB_arsenal_items = [
 	"UK3CB_BAF_V_Osprey_DPMW8",
 	"UK3CB_BAF_V_Osprey_DPMW9",
 	"UK3CB_BAF_V_Pilot_DPMW",	
-	"UK3CB_BAF_V_PLCE_Webbing_DPMW",
+	"UK3CB_BAF_V_PLCE_Webbing_Plate_DPMW",
 	// Helmets
 	"UK3CB_BAF_H_Mk6_DPMW_Wdl_A",
 	"UK3CB_BAF_H_Mk6_DPMW_B",
@@ -88,6 +97,7 @@ GRLIB_arsenal_items = [
 	// Binoculars	
 	"Binocular",
 	"UK3CB_BAF_Soflam_Laserdesignator",
+	"UK3CB_BAF_Javelin_CLU",
 	// Map
 	"ItemMap",
 	// Compass
@@ -98,8 +108,8 @@ GRLIB_arsenal_items = [
 	"ItemWatch",
 	"ACE_Altimeter",
 	// Optics
-	"uk_3cb_baf_kite",
-	"uk_3cb_baf_maxikite",
+	"uk3cb_baf_kite",
+	"uk3cb_baf_maxikite",
 	"UK3CB_BAF_TA31F",
 	"UK3CB_BAF_TA31F_3D",
 	"UK3CB_BAF_TA648",
@@ -108,16 +118,21 @@ GRLIB_arsenal_items = [
 	"RKSL_optic_eot552",
 	"RKSL_optic_rmr_rm33",
 	"RKSL_optic_PMII_312_sunshade_wdl",
+	"RKSL_optic_PMII_312_sunshade_wdl_pip",
 	"RKSL_optic_PMII_525_wdl",
+	"RKSL_optic_PMII_525_wdl_pip",
 	// Rail attachments
 	"UK3CB_BAF_LLM_IR_Black",
 	"UK3CB_BAF_LLM_Flashlight_Black",
-	// Muzzle attachments
+	// Rifle Muzzle attachments
 	"UK3CB_BAF_SFFH",
 	"UK3CB_BAF_Silencer_L85",
 	"UK3CB_BAF_Silencer_L110",
 	"UK3CB_BAF_Silencer_L115A3",
-	"UK3CB_BAF_Silencer_L91A1",	
+	"UK3CB_BAF_Silencer_L91A1",
+	// Pistol Muzzle Attachments
+	"muzzle_snds_l",
+	"uk3cb_baf_laser_l131a1",	
 	// Radio gear
 	"ACRE_PRC152",
 	"ACRE_PRC117F",
@@ -153,18 +168,16 @@ GRLIB_arsenal_backpacks = [
 	"UK3CB_BAF_B_Bergen_DPMW_Rifleman_B",
 	"UK3CB_BAF_B_Bergen_DPMW_SL_A",
 	"UK3CB_BAF_B_Bergen_DPMW_JTAC_A",
-	"UK3CB_BAF_B_Bergen_DPMW_JTAC_H_A",
 	"UK3CB_BAF_B_Kitbag_DPMW",
 	"UK3CB_BAF_B_Carryall_DPMW",
 	"UK3CB_BAF_B_Bergen_OLI_Rifleman_B",
 	"UK3CB_BAF_B_Bergen_OLI_Rifleman_A",
-	"UK3CB_BAF_B_Bergen_OLI_SL_A",
 	"UK3CB_BAF_B_Bergen_OLI_JTAC_A",
-	"UK3CB_BAF_B_Bergen_OLI_JTAC_H_A",
 	"UK3CB_BAF_B_Kitbag_OLI",
 	"UK3CB_BAF_B_Carryall_OLI",
 	"B_Parachute",
 	"ACE_NonSteerableParachute",
 	"ACE_TacticalLadder_Pack",
+	"B_LegStrapBag_black_F",
 	"B_UAV_01_backpack_F"
 ];
