@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=4925;
+		nextID=4932;
 	};
 	class LayerIndexProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={4406.3232,42.171776,3412.5725};
-		dir[]={-0.52601528,-0.27606288,-0.80448496};
-		up[]={-0.15109631,0.96112806,-0.2310853};
-		aside[]={-0.83700716,3.5262201e-007,0.5472815};
+		pos[]={4418.4971,51.465355,3430.2295};
+		dir[]={-0.63161623,-0.24390718,-0.73600906};
+		up[]={-0.15887012,0.96978426,-0.1851275};
+		aside[]={-0.75892401,5.3545955e-007,0.65128249};
 	};
 };
 binarizationWanted=0;
@@ -2007,7 +2007,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=337;
+		items=338;
 		class Item0
 		{
 			dataType="Marker";
@@ -22893,6 +22893,16 @@ class Mission
 			id=4867;
 			type="Blue_Shield_French_F";
 			atlOffset=0.41835785;
+		};
+		class Item337
+		{
+			dataType="Group";
+			side="West";
+			class Attributes
+			{
+			};
+			id=4925;
+			atlOffset=60.779999;
 		};
 	};
 	class Connections
