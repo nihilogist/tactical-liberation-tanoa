@@ -92,9 +92,12 @@ light_vehicles = [
 ];
 
 heavy_vehicles = [
+    ["UK3CB_BAF_MAN_HX58_Fuel_Green_DPMW",150,0,350],                       // Large fuel truck
+    ["UK3CB_BAF_MAN_HX60_Fuel_Green_DPMW",125,0,250],                       // Small fuel truck
+    ["UK3CB_BAF_MAN_HX58_Repair_Green_DPMW",300,0,75],                      // Large repair truck
     ["UK3CB_BAF_FV432_Mk3_GPMG_Green_Tropical",300,200,150],                // Bulldog GMPG
     ["UK3CB_BAF_FV432_Mk3_RWS_Green_Tropical",300,250,175],                 // Bulldog HMG
-    ["Grace_IFV_Warrier",500,400,250]                                      // Warrior IFV
+    ["Grace_IFV_Warrior",500,400,250]                                       // Warrior IFV
 ];
 
 air_vehicles = [
