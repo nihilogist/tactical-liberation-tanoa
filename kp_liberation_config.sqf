@@ -783,6 +783,10 @@ vehicle_refuel_sources = [
 
 // Classnames of boats, so they can be built on water.
 boats_names = [
+    "UK3CB_BAF_RHIB_GPMG_Tropical",
+    "UK3CB_BAF_RHIB_HMG_Tropical",
+    "rksla3_lcvpmk5_1",
+    "rksla3_lcvpmk5_viv",
     "B_Boat_Armed_01_minigun_F",
     "B_Boat_Transport_01_F",
     "B_SDV_01_F",
