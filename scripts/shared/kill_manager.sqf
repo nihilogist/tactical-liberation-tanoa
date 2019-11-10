@@ -126,7 +126,11 @@ if (isServer) then {
             if (side _killer == GRLIB_side_friendly) then {
                 if (KP_liberation_civrep_debug > 0) then {diag_log format ["[KP LIBERATION] [CIVREP] Civilian killed by: %1", name _killer];};
                 [2, [(name _unit)]] remoteExec ["F_cr_globalMsg"];
-                [KP_liberation_cr_kill_penalty, true] spawn F_cr_changeCR;
+                _penalty = KP_liberation_cr_kill_penalty;
+                if (KP_liberation_civ_rep < 0) then {
+                    _penalty = _penalty + round(random KP_liberation_cr_kill_penalty);
+                };
+                [_penalty, true] spawn F_cr_changeCR;
             };
 
             // Killed by a player
