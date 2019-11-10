@@ -85,6 +85,7 @@ light_vehicles = [
     ["B_T_UGV_01_rcws_olive_F",150,40,50],                                   // UGV Stomper (RCWS)
     ["B_Boat_Transport_01_F",100,0,25],                                      // Assault Boat
     ["UK3CB_BAF_RHIB_GPMG_Tropical",200,80,75],                              // Rigid raider GPMG
+    ["UK3CB_BAF_RHIB_HMG_Tropical",200,80,75],                               // Rigid raider HMG
     ["rksla3_lcvpmk5_1", 200,0,75],                                          // heavy transport boat
     ["rksla3_lcvpmk5_viv", 200,0,75],                                        // heavy transport boat (vehicles)
     ["B_SDV_01_F",150,0,50]                                                  // SDV
