@@ -100,8 +100,11 @@ heavy_vehicles = [
 air_vehicles = [
     ["UK3CB_BAF_Wildcat_AH1_TRN_8A_Tropical",225,0,125],                         // Wildcat AH1 8 Transport (Unarmed)
     ["UK3CB_BAF_Wildcat_HMA2_TRN_8A_Tropical",250,0,125],                        // Wildcat HMA2 8 Transport (Unarmed)
-    ["UK3CB_BAF_Wildcat_AH1_CAS_6C_Tropical",275,200,150],                       // Wildcat AH1 6 (CAS/AT)
+    ["UK3CB_BAF_Wildcat_AH1_CAS_8A_Tropical",275,200,150],                       // Wildcat AH1 8 (CAS/AT)
+    ["UK3CB_BAF_Wildcat_AH1_CAS_8B_Tropical",275,200,150],                       // Wildcat AH1 8 (CAS/AT)
     ["UK3CB_BAF_Wildcat_AH1_CAS_8C_Tropical",275,200,150],                       // Wildcat AH1 8 (CAS/AT)
+    ["UK3CB_BAF_Wildcat_AH1_CAS_8D_Tropical",275,200,150],                       // Wildcat AH1 8 (CAS/AT)
+    ["UK3CB_BAF_Wildcat_AH1_HEL_8A_Tropical",275,200,150],                       // Wildcat AH1 8 (CAS/AT)
     ["UK3CB_BAF_Apache_AH1_Tropical",500,500,200],                               // Apache AH 1 (Multi-Role)
     ["UK3CB_BAF_Merlin_HC3_32_Tropical",300,0,175],                              // Merlin HC3 32
     ["UK3CB_BAF_Merlin_HC3_CSAR_Tropical",300,80,175],                           // Merlin HC3 CSAR (Armed)
