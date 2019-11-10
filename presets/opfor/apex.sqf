@@ -81,6 +81,7 @@ opfor_vehicles = [
     "rhsusf_m113_usarmy_MK19_90",                                       // APC, tracked, GMG
     "RHS_M2A2_wd",                                                      // IFV
     "B_T_AFV_Wheeled_01_cannon_F",                                      // APC
+    "I_LT_01_cannon_F",                                                 // Light tank
     "B_T_AFV_Wheeled_01_up_cannon_F"                                    // APC
 ];
 
@@ -109,6 +110,7 @@ opfor_battlegroup_vehicles = [
     "RHS_M2A2_wd",                                                      // IFV
     "B_T_AFV_Wheeled_01_cannon_F",                                      // APC
     "B_T_AFV_Wheeled_01_up_cannon_F",                                   // APC
+    "I_LT_01_cannon_F",                                                 // Light tank
     "rhsusf_CH53E_USMC",                                                // Transport Heli
     "RHS_UH1Y",                                                         // Transport Heli (Armed)
     "RHS_AH1Z_wd",                                                      // Attack Heli
