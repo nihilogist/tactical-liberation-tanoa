@@ -80,8 +80,8 @@ opfor_vehicles = [
     "rhsusf_m113_usarmy_M2_90",                                         // APC, tracked, HMG
     "rhsusf_m113_usarmy_MK19_90",                                       // APC, tracked, GMG
     "RHS_M2A2_wd",                                                      // IFV
-    "rhsusf_m1a1aimwd_usarmy",                                          // MBT
-    "rhsusf_m1a1aim_tuksi_wd"                                           // MBT
+    "B_T_AFV_Wheeled_01_cannon_F",                                      // APC
+    "B_T_AFV_Wheeled_01_up_cannon_F"                                    // APC
 ];
 
 // All enemy vehicles that can spawn as sector defenders and patrols but at a lower enemy combat readiness (aggression levels).
@@ -107,8 +107,8 @@ opfor_battlegroup_vehicles = [
     "rhsusf_m113_usarmy_M2_90",                                         // APC, tracked, HMG
     "rhsusf_m113_usarmy_MK19_90",                                       // APC, tracked, GMG
     "RHS_M2A2_wd",                                                      // IFV
-    "rhsusf_m1a1aimwd_usarmy",                                          // MBT
-    "rhsusf_m1a1aim_tuksi_wd",                                          // MBT
+    "B_T_AFV_Wheeled_01_cannon_F",                                      // APC
+    "B_T_AFV_Wheeled_01_up_cannon_F",                                   // APC
     "rhsusf_CH53E_USMC",                                                // Transport Heli
     "RHS_UH1Y",                                                         // Transport Heli (Armed)
     "RHS_AH1Z_wd",                                                      // Attack Heli
