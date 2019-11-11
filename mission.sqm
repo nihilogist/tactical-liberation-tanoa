@@ -12,14 +12,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1187;
+		nextID=1208;
 	};
 	class Camera
 	{
-		pos[]={275.1236,34.91753,15076.904};
-		dir[]={-0.30692005,-0.42079276,0.85380268};
-		up[]={-0.14237088,0.90704161,0.39606231};
-		aside[]={0.94113368,7.2206603e-007,0.33830559};
+		pos[]={226.57579,37.901882,15069.687};
+		dir[]={-0.10597051,-0.32321256,0.94050652};
+		up[]={-0.036197651,0.94621348,0.32129511};
+		aside[]={0.99381149,4.1863859e-007,0.11196996};
 	};
 };
 binarizationWanted=0;
@@ -24798,15 +24798,15 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={188.30579,16.144691,15152.512};
+				position[]={188.30579,16.463774,15152.512};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 			};
 			id=4967;
 			type="UK3CB_BAF_MAN_HX60_Container_Green";
-			atlOffset=6.1117878;
 		};
 		class Item354
 		{
