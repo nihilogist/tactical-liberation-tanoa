@@ -72,7 +72,50 @@ GRLIB_arsenal_magazines = [
 	"rhsusf_mag_6Rnd_M713_red",
 	"rhsusf_mag_6Rnd_M714_white",
 	"rhsusf_mag_6Rnd_M715_green",
-	"rhsusf_mag_6Rnd_M716_yellow"
+	"rhsusf_mag_6Rnd_M716_yellow",
+	//SOFLAM Batteries
+	"Laserbatteries",
+
+	//AMR Magazines
+	"UK3CB_BAF_127_10Rnd",
+	"UK3CB_BAF_127_10Rnd_AP",
+
+	//Shotgun Magazines
+	"UK3CB_BAF_12G_Pellets",
+	"UK3CB_BAF_12G_Slugs",
+
+	//Sidearm Magazines
+	"UK3CB_BAF_9_17Rnd",
+
+	//Virtual Launcher Magazines
+	"uk3cb_baf_nlaw_mag",
+	"rhs_fim92_mag",
+
+	//UGL Rounds
+	"UK3CB_BAF_1Rnd_HE_Grenade_Shell",
+	"UK3CB_BAF_1Rnd_HEDP_Grenade_Shell",
+	"UK3CB_BAF_UGL_FlareCIR_F",
+	"UK3CB_BAF_UGL_FlareWhite_F",
+	"UK3CB_BAF_1Rnd_Smoke_Grenade_shell",
+	"UK3CB_BAF_1Rnd_SmokeBlue_Grenade_shell",
+	"UK3CB_BAF_1Rnd_SmokeGreen_Grenade_shell",
+	"UK3CB_BAF_1Rnd_SmokeRed_Grenade_shell",
+
+	//Grenades
+	"B_IR_Grenade",
+	"UK3CB_BAF_SmokeShell",
+	"UK3CB_BAF_SmokeShellBlue",
+	"UK3CB_BAF_SmokeShellGreen",
+	"UK3CB_BAF_SmokeShellRed",
+	"ACE_HandFlare_White",
+	"ACE_HandFlare_Green",
+	"ACE_HandFlare_Red",
+	"rhs_mag_m67",
+	"rhs_mag_mk84",
+
+	//Explosives
+	"DemoCharge_Remote_Mag",
+	"SatchelCharge_Remote_Mag"
 ];
 
 GRLIB_arsenal_items = [
