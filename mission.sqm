@@ -5,21 +5,21 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=1;
+	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=4981;
+		nextID=4989;
 	};
 	class LayerIndexProvider
 	{
-		nextID=1208;
+		nextID=1229;
 	};
 	class Camera
 	{
-		pos[]={226.57579,37.901882,15069.687};
-		dir[]={-0.10597051,-0.32321256,0.94050652};
-		up[]={-0.036197651,0.94621348,0.32129511};
-		aside[]={0.99381149,4.1863859e-007,0.11196996};
+		pos[]={85.365799,91.168419,15129.166};
+		dir[]={0.79535419,-0.32626703,0.51109135};
+		up[]={0.27458894,0.94513577,0.17644633};
+		aside[]={0.54064918,1.3632816e-006,-0.84135586};
 	};
 };
 binarizationWanted=0;
@@ -75,13 +75,15 @@ addons[]=
 	"A3_Props_F_Tank_Military_TankAcc",
 	"UK3CB_BAF_Vehicles_MAN",
 	"UK3CB_BAF_Vehicles_Weapons",
-	"A3_Structures_F_Mil_Cargo"
+	"A3_Structures_F_Mil_Cargo",
+	"A3_Static_F_Destroyer_Boat_Rack_01",
+	"UK3CB_BAF_Units_Tropical"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=33;
+		items=34;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -311,12 +313,19 @@ class AddonsMetaData
 			author="3 Commando Brigade";
 			url="www.3commandobrigade.com";
 		};
+		class Item33
+		{
+			className="UK3CB_BAF_Units_Tropical";
+			name="3CB BAF Units - Tropical";
+			author="3 Commando Brigade";
+			url="www.3commandobrigade.com";
+		};
 	};
 };
 randomSeed=9780715;
 class ScenarioData
 {
-	author="[GREUH] Zbug, [GREUH] McKeewa, [KP] Wyqer";
+	author="[GREUH] Zbug, [GREUH] McKeewa, [KP] Wyqer modified by [TACD] Nihologist and [TACD] DocT";
 	respawnDialog=0;
 	disabledAI=1;
 	respawn=3;
@@ -2058,7 +2067,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=360;
+		items=364;
 		class Item0
 		{
 			dataType="Marker";
@@ -22333,7 +22342,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={198.138,9.8486977,15147.547};
+				position[]={211.043,9.4193649,15142.873};
 			};
 			side="Empty";
 			class Attributes
@@ -22342,7 +22351,7 @@ class Mission
 			};
 			id=4423;
 			type="Land_ClutterCutter_small_F";
-			atlOffset=1.131918;
+			atlOffset=0.70258427;
 		};
 		class Item300
 		{
@@ -22432,7 +22441,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={235.07419,0,15169.032};
+				position[]={231.1749,0,15168.64};
 				angles[]={0,3.1415927,0};
 			};
 			side="Empty";
@@ -22442,14 +22451,14 @@ class Mission
 			};
 			id=4490;
 			type="Land_ClutterCutter_small_F";
-			atlOffset=58.849285;
+			atlOffset=59.086361;
 		};
 		class Item308
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={225.08018,0,15168.258};
+				position[]={165.57864,0.34565583,15164.41};
 				angles[]={0,3.1415927,0};
 			};
 			side="Empty";
@@ -22459,14 +22468,14 @@ class Mission
 			};
 			id=4491;
 			type="Land_ClutterCutter_small_F";
-			atlOffset=59.460232;
+			atlOffset=55.434784;
 		};
 		class Item309
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={224.85909,0,15124.755};
+				position[]={166.0154,0,15128.73};
 				angles[]={0,3.1415927,0};
 			};
 			side="Empty";
@@ -22476,14 +22485,14 @@ class Mission
 			};
 			id=4492;
 			type="Land_ClutterCutter_small_F";
-			atlOffset=56.012222;
+			atlOffset=55.278309;
 		};
 		class Item310
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={234.09372,-0.32621375,15124.557};
+				position[]={231.26376,0,15124.926};
 				angles[]={0,3.1415927,0};
 			};
 			side="Empty";
@@ -22493,7 +22502,7 @@ class Mission
 			};
 			id=4493;
 			type="Land_ClutterCutter_small_F";
-			atlOffset=55.586754;
+			atlOffset=55.938995;
 		};
 		class Item311
 		{
@@ -24798,21 +24807,6 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={188.30579,16.463774,15152.512};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=4967;
-			type="UK3CB_BAF_MAN_HX60_Container_Green";
-		};
-		class Item354
-		{
-			dataType="Object";
-			class PositionInfo
-			{
 				position[]={198.96208,16.496355,15139.527};
 				angles[]={0,1.5510709,0};
 			};
@@ -24825,7 +24819,7 @@ class Mission
 			type="Land_Cargo_House_V3_F";
 			atlOffset=0.65890503;
 		};
-		class Item355
+		class Item354
 		{
 			dataType="Object";
 			class PositionInfo
@@ -24841,7 +24835,7 @@ class Mission
 			type="Land_TTowerBig_2_F";
 			atlOffset=1.8908787;
 		};
-		class Item356
+		class Item355
 		{
 			dataType="Object";
 			class PositionInfo
@@ -24856,7 +24850,7 @@ class Mission
 			type="Land_PortableHelipadLight_01_F";
 			atlOffset=0.40363979;
 		};
-		class Item357
+		class Item356
 		{
 			dataType="Object";
 			class PositionInfo
@@ -24871,7 +24865,7 @@ class Mission
 			type="Land_PortableHelipadLight_01_F";
 			atlOffset=0.15535641;
 		};
-		class Item358
+		class Item357
 		{
 			dataType="Object";
 			class PositionInfo
@@ -24886,7 +24880,7 @@ class Mission
 			type="Land_PortableHelipadLight_01_F";
 			atlOffset=0.36937904;
 		};
-		class Item359
+		class Item358
 		{
 			dataType="Object";
 			class PositionInfo
@@ -24900,6 +24894,89 @@ class Mission
 			id=4975;
 			type="Land_PortableHelipadLight_01_F";
 			atlOffset=68.834572;
+		};
+		class Item359
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={229.35509,6.6711369,15157.592};
+				angles[]={0,1.5778581,-0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=4981;
+			type="Land_Destroyer_01_Boat_Rack_01_F";
+			atlOffset=64.495995;
+		};
+		class Item360
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={229.53075,6.6713576,15134.626};
+				angles[]={0,1.543044,-0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=4982;
+			type="Land_Destroyer_01_Boat_Rack_01_F";
+		};
+		class Item361
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={205.84573,11.248714,15151.364};
+				angles[]={0,4.7350817,-0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=4986;
+			type="UK3CB_BAF_LandRover_WMIK_GPMG_FFR_Green_B_Tropical";
+			atlOffset=0.037641525;
+		};
+		class Item362
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={205.82584,10.85178,15143.662};
+				angles[]={0,4.7270236,-0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=4987;
+			type="UK3CB_BAF_LandRover_Soft_FFR_Green_B_Tropical";
+			atlOffset=0.0019245148;
+		};
+		class Item363
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={196.81985,11.08357,15151.115};
+				angles[]={0,4.7386389,-0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=4988;
+			type="UK3CB_BAF_LandRover_WMIK_GMG_FFR_Green_B_Tropical";
+			atlOffset=0.0051727295;
 		};
 	};
 	class Connections
