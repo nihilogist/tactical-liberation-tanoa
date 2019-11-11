@@ -18,7 +18,7 @@ GRLIB_arsenal_weapons = [
 	"UK3CB_BAF_L85A2_UGL",
 	"UK3CB_BAF_L86A3",
 	// SMGs
-	"UK3CB_BAF_L22A1",
+	"UK3CB_BAF_L22A2",
 	"UK3CB_BAF_L92A1",
 	// Grenade Launchers
 	"rhs_weap_m32",
@@ -38,6 +38,41 @@ GRLIB_arsenal_weapons = [
 ];
 
 GRLIB_arsenal_magazines = [
+	// 5.56 Box magazines
+	"UK3CB_BAF_556_100Rnd",                // 5.56 100 round boxmag
+	"UK3CB_BAF_556_100Rnd_T",              // 5.56 100 round boxmag tracer
+	"UK3CB_BAF_556_200Rnd",                // 5.56 200 round boxmag
+	"UK3CB_BAF_556_200Rnd_T",              // 5.56 200 round boxmag tracer
+	// 7.62 belt feeds
+	"UK3CB_BAF_762_100Rnd",                // 7.62 100 round belt
+	"UK3CB_BAF_762_100Rnd_T",              // 7.62 100 round belt tracer
+	"UK3CB_BAF_762_200Rnd",                // 7.62 200 round belt
+	"UK3CB_BAF_762_200Rnd_T",              // 7.62 200 round belt tracer
+	// 5.56 standard 30round magazines
+	"UK3CB_BAF_556_30Rnd",                 // 5.56 30 round magazine
+	"UK3CB_BAF_556_30Rnd_T",               // 5.56 30 round magazine tracer
+	// .338 five round magazines
+	"UK3CB_BAF_338_5Rnd",                  // .338 5 round magazine
+	"UK3CB_BAF_338_5Rnd_Tracer",           // .338 5 round magazine tracer
+	// 7.62 ten round magazines
+	"UK3CB_BAF_762_L42A1_10Rnd",           // 7.62 10 round magazine
+	"UK3CB_BAF_762_L42A1_5Rnd_T",          // 7.62 10 round magazine tracer
+	// 9mm thirty round magazines
+	"UK3CB_BAF_9_30Rnd",                   // 9mm 30 round magazine
+	// Mental grenade magazines
+	"rhsusf_mag_6Rnd_M433_HET",
+	"rhsusf_mag_6Rnd_M433_HEDP",
+	"rhsusf_mag_6Rnd_M433_HE",
+	"rhsusf_mag_6Rnd_m4009",
+	"rhsusf_mag_6Rnd_M576_Buckshot",
+	"rhsusf_mag_6Rnd_M433_HEDP",
+	"rhsusf_mag_6Rnd_M585_white",
+	"rhsusf_mag_6Rnd_M661_green",
+	"rhsusf_mag_6Rnd_M662_red",
+	"rhsusf_mag_6Rnd_M713_red",
+	"rhsusf_mag_6Rnd_M714_white",
+	"rhsusf_mag_6Rnd_M715_green",
+	"rhsusf_mag_6Rnd_M716_yellow"
 ];
 
 GRLIB_arsenal_items = [
