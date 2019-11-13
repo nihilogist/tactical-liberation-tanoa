@@ -21,7 +21,7 @@ FOB_box_typename = "B_Slingload_01_Cargo_F";                                // T
 FOB_truck_typename = "B_Truck_01_box_F";                                    // This is the FOB as a vehicle.
 Arsenal_typename = "B_supplyCrate_F";                                       // This is the virtual arsenal as portable supply crates.
 Respawn_truck_typename = "UK3CB_BAF_LandRover_Amb_FFR_Green_A_Tropical";    // This is the mobile respawn (and medical) truck.
-huron_typename = "UK3CB_BAF_Merlin_HC3_18_GPMG_Tropical";                             // This is Spartan 01, a multipurpose mobile respawn as a helicopter.
+huron_typename = "UK3CB_BAF_Merlin_HC4_CSAR_Tropical_RM";                             // This is Spartan 01, a multipurpose mobile respawn as a helicopter.
 crewman_classname = "UK3CB_BAF_Crewman_Tropical";                                // This defines the crew for vehicles.
 pilot_classname = "UK3CB_BAF_HeliPilot_Army_Tropical";                           // This defines the pilot for helicopters.
 KP_liberation_little_bird_classname = "UK3CB_BAF_Wildcat_AH1_TRN_8A_Tropical";   // These are the little birds which spawn on the Freedom or at Chimera base.
@@ -95,8 +95,9 @@ heavy_vehicles = [
     ["UK3CB_BAF_Panther_GPMG_Green_A_MTP",100,40,50],						//Panther CLV (GPMG)
 	["UK3CB_BAF_FV432_Mk3_GPMG_Green_Tropical",300,200,150],                // Bulldog GMPG
     ["UK3CB_BAF_FV432_Mk3_RWS_Green_Tropical",300,250,175],                 // Bulldog HMG
-    ["Grace_IFV_Warrier",500,400,250],                                      // Warrior IFV
-	["rhsusf_M142_usarmy_WD",200,600,100]                                      // HIMARS
+    ["Grace_IFV_Warrior",500,400,250],                                      // Warrior IFV
+	["rhsusf_M142_usarmy_WD",200,600,100],                                      // HIMARS
+	["UK3CB_BAF_MAN_HX58_Cargo_Green_A_Tropical",100,0,25]						//Cargo Truck
 	
 ];
 
@@ -109,8 +110,8 @@ air_vehicles = [
     ["UK3CB_BAF_Wildcat_AH1_CAS_8D_Tropical",275,200,150],                       // Wildcat AH1 8 (CAS/AT-PG)
     ["UK3CB_BAF_Wildcat_AH1_HEL_8A_Tropical",275,200,150],                       // Wildcat AH1 8 (Hellfire K/N)
     ["UK3CB_BAF_Apache_AH1_Tropical",500,500,200],                               // Apache AH 1 (Multi-Role)
-    ["UK3CB_BAF_Merlin_HC3_32_Tropical",300,0,175],                              // Merlin HC3 32
-    ["UK3CB_BAF_Merlin_HC3_CSAR_Tropical",300,80,175],                           // Merlin HC3 CSAR (Armed)
+    ["UK3CB_BAF_Merlin_HC3_CSAR_Tropical",300,80,175],                              // Merlin HC3 CSAR (Armed)
+    ["UK3CB_BAF_Merlin_HC3_Cargo_Tropical",300,0,175],                           // Merlin HC3 Cargo
     ["MELB_H6M",175,0,75],                                                       // Little Bird Observer
     ["MELB_MH6M",200,0,75],                                                      // Little Bird Transport
     ["MELB_AH6M",225,100,75],                                                      // Little Bird Attack
