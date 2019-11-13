@@ -190,16 +190,13 @@ GRLIB_arsenal_items = [
 	"uk3cb_baf_kite",
 	"uk3cb_baf_maxikite",
 	"UK3CB_BAF_TA31F",
-	"UK3CB_BAF_TA31F_3D",
 	"UK3CB_BAF_TA648",
 	"UK3CB_BAF_SUSAT",
-	"UK3CB_BAF_SUSAT_3D",
 	"RKSL_optic_eot552",
 	"RKSL_optic_rmr_rm33",
 	"RKSL_optic_PMII_312_sunshade_wdl",
-	"RKSL_optic_PMII_312_sunshade_wdl_pip",
 	"RKSL_optic_PMII_525_wdl",
-	"RKSL_optic_PMII_525_wdl_pip",
+
 	// Rail attachments
 	"UK3CB_BAF_LLM_IR_Black",
 	"UK3CB_BAF_LLM_Flashlight_Black",

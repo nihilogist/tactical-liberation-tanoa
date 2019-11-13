@@ -12,14 +12,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1229;
+		nextID=1418;
 	};
 	class Camera
 	{
-		pos[]={85.365799,91.168419,15129.166};
-		dir[]={0.79535419,-0.32626703,0.51109135};
-		up[]={0.27458894,0.94513577,0.17644633};
-		aside[]={0.54064918,1.3632816e-006,-0.84135586};
+		pos[]={158.3087,81.533638,15158.608};
+		dir[]={0.57982689,-0.81207615,-0.067717887};
+		up[]={0.80653954,0.58346611,-0.094198383};
+		aside[]={-0.11601373,2.6806374e-006,-0.99333876};
 	};
 };
 binarizationWanted=0;
@@ -22441,8 +22441,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={231.1749,0,15168.64};
-				angles[]={0,3.1415927,0};
+				position[]={231.304,-0.00033187866,15175.126};
+				angles[]={0,1.5707964,0};
 			};
 			side="Empty";
 			class Attributes
@@ -22451,15 +22451,15 @@ class Mission
 			};
 			id=4490;
 			type="Land_ClutterCutter_small_F";
-			atlOffset=59.086361;
+			atlOffset=60.087997;
 		};
 		class Item308
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={165.57864,0.34565583,15164.41};
-				angles[]={0,3.1415927,0};
+				position[]={166.037,0.00015258789,15171.445};
+				angles[]={0,1.5707964,0};
 			};
 			side="Empty";
 			class Attributes
@@ -22468,15 +22468,15 @@ class Mission
 			};
 			id=4491;
 			type="Land_ClutterCutter_small_F";
-			atlOffset=55.434784;
+			atlOffset=55.507;
 		};
 		class Item309
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={166.0154,0,15128.73};
-				angles[]={0,3.1415927,0};
+				position[]={165.522,-0.00017166138,15121.105};
+				angles[]={0,1.5707964,0};
 			};
 			side="Empty";
 			class Attributes
@@ -22485,15 +22485,15 @@ class Mission
 			};
 			id=4492;
 			type="Land_ClutterCutter_small_F";
-			atlOffset=55.278309;
+			atlOffset=55.688;
 		};
 		class Item310
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={231.26376,0,15124.926};
-				angles[]={0,3.1415927,0};
+				position[]={231.136,-0.34626389,15117.957};
+				angles[]={0,1.5707964,0};
 			};
 			side="Empty";
 			class Attributes
@@ -22502,7 +22502,7 @@ class Mission
 			};
 			id=4493;
 			type="Land_ClutterCutter_small_F";
-			atlOffset=55.938995;
+			atlOffset=55.820004;
 		};
 		class Item311
 		{
@@ -24901,7 +24901,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={229.35509,6.6711369,15157.592};
-				angles[]={0,1.5778581,-0};
+				angles[]={0,1.5778581,0};
 			};
 			side="Empty";
 			class Attributes
@@ -24917,7 +24917,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={229.53075,6.6713576,15134.626};
-				angles[]={0,1.543044,-0};
+				angles[]={0,1.543044,0};
 			};
 			side="Empty";
 			flags=4;
@@ -24933,7 +24933,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={205.84573,11.248714,15151.364};
-				angles[]={0,4.7350817,-0};
+				angles[]={0,4.7350817,0};
 			};
 			side="Empty";
 			flags=4;
@@ -24950,7 +24950,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={205.82584,10.85178,15143.662};
-				angles[]={0,4.7270236,-0};
+				angles[]={0,4.7270236,0};
 			};
 			side="Empty";
 			flags=4;
@@ -24967,7 +24967,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={196.81985,11.08357,15151.115};
-				angles[]={0,4.7386389,-0};
+				angles[]={0,4.7386389,0};
 			};
 			side="Empty";
 			flags=4;
@@ -24976,7 +24976,7 @@ class Mission
 			};
 			id=4988;
 			type="UK3CB_BAF_LandRover_WMIK_GMG_FFR_Green_B_Tropical";
-			atlOffset=0.0051727295;
+			atlOffset=0.0051717758;
 		};
 	};
 	class Connections

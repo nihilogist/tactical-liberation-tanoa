@@ -7,8 +7,7 @@
     - RHS USAF
 
     Optional Mods:
-    - F-15C
-    - F/A-18
+    - Firewill A10
 */
 
 /*
@@ -22,14 +21,14 @@ FOB_box_typename = "B_Slingload_01_Cargo_F";                                // T
 FOB_truck_typename = "B_Truck_01_box_F";                                    // This is the FOB as a vehicle.
 Arsenal_typename = "B_supplyCrate_F";                                       // This is the virtual arsenal as portable supply crates.
 Respawn_truck_typename = "UK3CB_BAF_LandRover_Amb_FFR_Green_A_Tropical";    // This is the mobile respawn (and medical) truck.
-huron_typename = "UK3CB_BAF_Merlin_HC3_18_Tropical";                             // This is Spartan 01, a multipurpose mobile respawn as a helicopter.
+huron_typename = "UK3CB_BAF_Merlin_HC3_18_GPMG_Tropical";                             // This is Spartan 01, a multipurpose mobile respawn as a helicopter.
 crewman_classname = "UK3CB_BAF_Crewman_Tropical";                                // This defines the crew for vehicles.
 pilot_classname = "UK3CB_BAF_HeliPilot_Army_Tropical";                           // This defines the pilot for helicopters.
 KP_liberation_little_bird_classname = "UK3CB_BAF_Wildcat_AH1_TRN_8A_Tropical";   // These are the little birds which spawn on the Freedom or at Chimera base.
-KP_liberation_boat_classname = "B_Boat_Transport_01_F";                     // These are the boats which spawn at the stern of the Freedom.
+KP_liberation_boat_classname = "UK3CB_BAF_RHIB_GPMG";                     // These are the boats which spawn at the stern of the Freedom.
 KP_liberation_truck_classname = "rhsusf_M977A4_BKIT_usarmy_wd";             // These are the trucks which are used in the logistic convoy system.
-KP_liberation_small_storage_building = "ContainmentArea_02_sand_F";         // A small storage area for resources.
-KP_liberation_large_storage_building = "ContainmentArea_01_sand_F";         // A large storage area for resources.
+KP_liberation_small_storage_building = "ContainmentArea_02_forest_F";         // A small storage area for resources.
+KP_liberation_large_storage_building = "ContainmentArea_01_forest_F";         // A large storage area for resources.
 KP_liberation_recycle_building = "Land_RepairDepot_01_green_F";               // The building defined to unlock FOB recycling functionality.
 KP_liberation_air_vehicle_building = "B_Radar_System_01_F";                 // The building defined to unlock FOB air vehicle functionality.
 KP_liberation_heli_slot_building = "Land_HelipadSquare_F";                  // The helipad used to increase the GLOBAL rotary-wing cap.
@@ -77,42 +76,48 @@ light_vehicles = [
     ["UK3CB_BAF_LandRover_WMIK_Milan_FFR_Green_B_Tropical",100,100,50],      // Land Rover WMIK (Milan)
     ["UK3CB_BAF_Jackal2_L2A1_W_Tropical",100,80,50],                         // Jackal 2 (HMG)
     ["UK3CB_BAF_Jackal2_GMG_W_Tropical",100,100,50],                         // Jackal 2 (GMG)
-    ["UK3CB_BAF_Coyote_Passenger_L111A1_W_Tropical",100,80,50],              // Coyote Passenger (HMG)
-    ["UK3CB_BAF_Coyote_Passenger_L134A1_W_Tropical",100,100,50],             // Coyote Passenger (GMG)
-    ["UK3CB_BAF_Coyote_Logistics_L111A1_W_Tropical",100,80,50],              // Coyote Logistics (HMG)
-    ["UK3CB_BAF_Coyote_Logistics_L134A1_W_Tropical",100,100,50],             // Coyote Logistics (GMG)
     ["B_T_UGV_01_olive_F",150,0,50],                                         // UGV Stomper
     ["B_T_UGV_01_rcws_olive_F",150,40,50],                                   // UGV Stomper (RCWS)
     ["B_Boat_Transport_01_F",100,0,25],                                      // Assault Boat
-    ["UK3CB_BAF_RHIB_GPMG_Tropical",200,80,75],                              // Rigid raider GPMG
-    ["UK3CB_BAF_RHIB_HMG_Tropical",200,80,75],                               // Rigid raider HMG
+    ["UK3CB_BAF_RHIB_GPMG_Tropical",100,80,75],                              // Rigid raider GPMG
+    ["UK3CB_BAF_RHIB_HMG_Tropical",100,80,75],                               // Rigid raider HMG
     ["rksla3_lcvpmk5_1", 200,0,75],                                          // heavy transport boat
     ["rksla3_lcvpmk5_viv", 200,0,75],                                        // heavy transport boat (vehicles)
-    ["B_SDV_01_F",150,0,50]                                                  // SDV
+    ["rhsusf_mkvsoc", 250,75,75],                                        // Heavy Cutter
+	["B_SDV_01_F",150,0,50]                                                  // SDV
 ];
 
 heavy_vehicles = [
-    ["UK3CB_BAF_FV432_Mk3_GPMG_Green_Tropical",300,200,150],                // Bulldog GMPG
+	["UK3CB_BAF_Coyote_Passenger_L111A1_W_Tropical",100,80,50],              // Coyote Passenger (HMG)
+    ["UK3CB_BAF_Coyote_Passenger_L134A1_W_Tropical",100,100,50],             // Coyote Passenger (GMG)
+    ["UK3CB_BAF_Coyote_Logistics_L111A1_W_Tropical",100,80,50],              // Coyote Logistics (HMG)
+    ["UK3CB_BAF_Coyote_Logistics_L134A1_W_Tropical",100,100,50],             // Coyote Logistics (GMG)
+    ["UK3CB_BAF_Panther_GPMG_Green_A_MTP",100,40,50],						//Panther CLV (GPMG)
+	["UK3CB_BAF_FV432_Mk3_GPMG_Green_Tropical",300,200,150],                // Bulldog GMPG
     ["UK3CB_BAF_FV432_Mk3_RWS_Green_Tropical",300,250,175],                 // Bulldog HMG
-    ["Grace_IFV_Warrier",500,400,250]                                      // Warrior IFV
+    ["Grace_IFV_Warrier",500,400,250],                                      // Warrior IFV
+	["rhsusf_M142_usarmy_WD",200,600,100]                                      // HIMARS
+	
 ];
 
 air_vehicles = [
     ["UK3CB_BAF_Wildcat_AH1_TRN_8A_Tropical",225,0,125],                         // Wildcat AH1 8 Transport (Unarmed)
     ["UK3CB_BAF_Wildcat_HMA2_TRN_8A_Tropical",250,0,125],                        // Wildcat HMA2 8 Transport (Unarmed)
-    ["UK3CB_BAF_Wildcat_AH1_CAS_8A_Tropical",275,200,150],                       // Wildcat AH1 8 (CAS/AT)
-    ["UK3CB_BAF_Wildcat_AH1_CAS_8B_Tropical",275,200,150],                       // Wildcat AH1 8 (CAS/AT)
+    ["UK3CB_BAF_Wildcat_AH1_CAS_8A_Tropical",275,200,150],                       // Wildcat AH1 8 (CAS)
+    ["UK3CB_BAF_Wildcat_AH1_CAS_8B_Tropical",275,200,150],                       // Wildcat AH1 8 (CAS-PG)
     ["UK3CB_BAF_Wildcat_AH1_CAS_8C_Tropical",275,200,150],                       // Wildcat AH1 8 (CAS/AT)
-    ["UK3CB_BAF_Wildcat_AH1_CAS_8D_Tropical",275,200,150],                       // Wildcat AH1 8 (CAS/AT)
-    ["UK3CB_BAF_Wildcat_AH1_HEL_8A_Tropical",275,200,150],                       // Wildcat AH1 8 (CAS/AT)
+    ["UK3CB_BAF_Wildcat_AH1_CAS_8D_Tropical",275,200,150],                       // Wildcat AH1 8 (CAS/AT-PG)
+    ["UK3CB_BAF_Wildcat_AH1_HEL_8A_Tropical",275,200,150],                       // Wildcat AH1 8 (Hellfire K/N)
     ["UK3CB_BAF_Apache_AH1_Tropical",500,500,200],                               // Apache AH 1 (Multi-Role)
     ["UK3CB_BAF_Merlin_HC3_32_Tropical",300,0,175],                              // Merlin HC3 32
     ["UK3CB_BAF_Merlin_HC3_CSAR_Tropical",300,80,175],                           // Merlin HC3 CSAR (Armed)
-    ["MELB_H6M",175,0,75],                                                       // Little Bird transport
-    ["MELB_MH6M",200,0,75],                                                      // Little Bird transport
-    ["MELB_AH6M",225,100,75],                                                      // Little Bird attack
-    ["RHS_A10",1000,1000,400],                                                   // A-10A (CAS)
-    ["FIR_AV8B_GR9A",1250,1250,450]                                              // RAF Harrier
+    ["MELB_H6M",175,0,75],                                                       // Little Bird Observer
+    ["MELB_MH6M",200,0,75],                                                      // Little Bird Transport
+    ["MELB_AH6M",225,100,75],                                                      // Little Bird Attack
+    ["FIR_A10C_CAMO",750,750,400],                                                   // A-10A (CAS)
+    ["FIR_AV8B_GR9A_Blank",750,750,450],                                              // RAF Harrier
+	["RHS_C130J",750,0,450]                                              // C130 Cargo Plane
+	
 ];
 
 static_vehicles = [
@@ -127,35 +132,134 @@ static_vehicles = [
     ["UK3CB_BAF_Static_L134A1_Deployed_High_Tropical",25,60,0],                  // L134A1 GMG (High)
     ["RHS_TOW_TriPod_WD",50,100,0],                                         // TOW (AT)
     ["RHS_Stinger_AA_pod_WD",50,100,0],                                     // Stinger (AA)
-    ["UK3CB_BAF_Static_L16_Deployed_Tropical",80,150,0]                         // Mk6 Mortar
+	["B_AAA_System_01_F",200,500,0],                                     // Static CIWS
+    ["UK3CB_BAF_Static_L16_Deployed_Tropical",80,150,0]                         // 81mm L16 Mortar
 ];
 
 buildings = [
-    ["Land_Cargo_House_V4_F",30,0,0],
-    ["Land_Cargo_Patrol_V4_F",30,0,0],
-    ["Land_Cargo_Tower_V4_F",50,0,0],
-    ["Flag_UK_F",0,0,0],
-    ["Land_Medevac_house_V1_F",30,0,0],
-    ["Land_Medevac_HQ_V1_F",30,0,0],
-    ["CamoNet_ghex_F",0,0,0],
+
+	//Cluttercutters
+    ["Land_ClutterCutter_large_F",0,0,0],
+	//Structures
+    ["Land_Cargo_House_V4_F",0,0,0],
+    ["Land_Cargo_Patrol_V4_F",0,0,0],
+    ["Land_Cargo_Tower_V4_F",0,0,0],
+    ["Land_Medevac_house_V1_F",0,0,0],
+    ["Land_Medevac_HQ_V1_F",0,0,0],
+	["Flag_UK_F",0,0,0],
+	//Tents
+	["Land_MedicalTent_01_floor_light_F",0,0,0],
+	["Land_ConnectorTent_01_floor_light_F",0,0,0],
+	["Land_ConnectorTent_01_NATO_tropic_open_F",0,0,0],
+	["Land_ConnectorTent_01_NATO_tropic_closed_F",0,0,0],
+	["Land_ConnectorTent_01_NATO_tropic_cross_F",0,0,0],
+	["Land_MedicalTent_01_tropic_closed_F",0,0,0],
+	["Land_MedicalTent_01_NATO_tropic_generic_closed_F",0,0,0],
+	["Land_MedicalTent_01_NATO_tropic_generic_inner_F",0,0,0],
+	["Land_MedicalTent_01_NATO_tropic_generic_open_F",0,0,0],
+	["Land_MedicalTent_01_NATO_tropic_generic_outer_F",0,0,0],
+	["Land_TentDome_F",0,0,0],
+	["Land_TentSolar_01_olive_F",0,0,0],
+	["Land_TentDome_F",0,0,0],
+	["Land_CanvasCover_01_F",0,0,0],
+	["Land_CanvasCover_02_F",0,0,0],
+	//Camo Nets
+	["CamoNet_ghex_F",0,0,0],
     ["CamoNet_ghex_open_F",0,0,0],
     ["CamoNet_ghex_big_F",0,0,0],
-    ["Land_PortableLight_single_F",0,0,0],
+	//Lights
+	["Land_PortableLight_single_F",0,0,0],
     ["Land_PortableLight_double_F",0,0,0],
-    ["Land_LampSolar_F",0,0,0],
+    ["Land_FloodLight_F",0,0,0],
     ["Land_LampHalogen_F",0,0,0],
     ["Land_LampStreet_small_F",0,0,0],
     ["Land_LampAirport_F",0,0,0],
-    ["Land_HelipadCircle_F",0,0,0],                                         // Strictly aesthetic - as in it does not increase helicopter cap!
-    ["Land_HelipadRescue_F",0,0,0],                                         // Strictly aesthetic - as in it does not increase helicopter cap!
     ["PortableHelipadLight_01_blue_F",0,0,0],
     ["PortableHelipadLight_01_green_F",0,0,0],
     ["PortableHelipadLight_01_red_F",0,0,0],
-    ["Land_CampingChair_V1_F",0,0,0],
+	//Trenches
+	["Land_Trench_01_forest_F",0,0,0],
+	["Land_Trench_01_grass_F",0,0,0],
+	["Land_TrenchFrame_01_F",0,0,0],	
+	//Wire and Sandbags
+	["Land_Razorwire_F",0,0,0],
+	["Land_BagFence_01_round_green_F",0,0,0],
+    ["Land_BagFence_01_short_green_F",0,0,0],
+    ["Land_BagFence_01_long_green_F",0,0,0],
+    ["Land_BagFence_01_corner_green_F",0,0,0],
+    ["Land_BagFence_01_end_green_F",0,0,0],
+	["Land_SandbagBarricade_01_half_F",0,0,0],
+	["Land_SandbagBarricade_01_F",0,0,0],
+	["Land_SandbagBarricade_01_hole_F",0,0,0],
+	//Sandbag Bunkers
+    ["Land_BagBunker_01_small_green_F",0,0,0],
+    ["Land_BagBunker_01_large_green_F",0,0,0],
+    ["Land_BagBunker_01_tower_green_F",0,0,0],
+	//Hbarriers
+    ["Land_HBarrier_01_line_1_green_F",0,0,0],
+    ["Land_HBarrier_01_line_3_green_F",0,0,0],
+    ["Land_HBarrier_01_line_5_green_F",0,0,0],
+	["Land_HBarrier_01_big_4_green_F",0,0,0],
+    ["Land_HBarrier_01_wall_4_green_F",0,0,0],
+    ["Land_HBarrier_01_wall_6_green_F",0,0,0],
+    ["Land_HBarrier_01_wall_corner_green_F",0,0,0],
+    ["Land_HBarrier_01_wall_corridor_green_F",0,0,0],
+    ["Land_HBarrier_01_big_tower_green_F",0,0,0],
+	//Concrete Walls
+    ["Land_CncBarrierMedium_F",0,0,0],
+	["Land_CncBarrier_stripes_F",0,0,0],
+    ["Land_CncBarrierMedium4_F",0,0,0],
+    ["Land_Concrete_SmallWall_4m_F",0,0,0],
+    ["Land_Concrete_SmallWall_8m_F",0,0,0],
+    ["Land_CncShelter_F",0,0,0],
+    ["Land_CncWall1_F",0,0,0],
+    ["Land_CncWall4_F",0,0,0],
+	//Fences and Barriers
+	["Land_PlasticNetFence_01_short_F",0,0,0],
+	["Land_PlasticNetFence_01_long_F",0,0,0],
+	["Land_PlasticNetFence_01_pole_F",0,0,0],
+	["Land_Mil_WiredFence_F",0,0,0],
+	["Land_Mil_WiredFence_Gate_F",0,0,0],
+	["Land_RoadBarrier_01_F",0,0,0],
+	["RoadBarrier_F",0,0,0],	
+	["Land_ConcreteHedgehog_01_F",0,0,0],
+	["Land_ConcreteHedgehog_01_pallete_F",0,0,0],
+	//Logistical Structures
+	["FIR_Baseplate",0,300,0],
+	["Box_NATO_AmmoVeh_F",0,300,0],
+	["UK3CB_BAF_Vehicles_Servicing_Ground_Point",0,0,0],
+	["UK3CB_BAF_Vehicles_Servicing_Aircraft_Point",0,0,0],
+	["UK3CB_BAF_Vehicles_Logistics_Point",0,0,0],
+	["Land_RepairDepot_01_green_F",100,0,100],
+	["UK3CB_BAF_MAN_HX60_Container_Servicing_Ground_Green",100,100,100],
+	["UK3CB_BAF_MAN_HX60_Container_Servicing_Air_Green",100,100,100],
+	["FlexibleTank_01_forest_F",0,0,100],
+	//Sanitation Systems
+	["Land_BarrelWater_F",0,0,0],
+    ["Land_BarrelWater_grey_F",0,0,0],
+    ["Land_WaterBarrel_F",0,0,0],
+    ["Land_WaterTank_F",0,0,0],
+	["Land_Sink_F",0,0,0],
+	["Land_WaterTower_01_F",0,0,0],
+	["Land_FieldToilet_F",0,0,0],
+	["WaterPump_01_forest_F",0,0,0],
+	//Airfield Items
+	["Land_HelipadCircle_F",0,0,0],                                         // Strictly aesthetic - as in it does not increase helicopter cap!
+    ["Land_HelipadRescue_F",0,0,0],                                         // Strictly aesthetic - as in it does not increase helicopter cap!
+	//HQ Items
+	["MapBoard_Tanoa_F",0,0,0],
+	["Portable_GCS_Base_F",0,0,0],
+	["Portable_GCS_Hub_F",0,0,0],
+	["Land_DeskChair_01_olive_F",0,0,0],
+	["Land_PortableDesk_01_olive_F",0,0,0],
+	["Land_PortableCabinet_01_bookcase_olive_F",0,0,0],
+    ["Land_PortableCabinet_01_4drawers_olive_F",0,0,0],
+	["Land_PortableCabinet_01_7drawers_olive_F",0,0,0],
+	["Land_CampingChair_V1_F",0,0,0],
     ["Land_CampingChair_V2_F",0,0,0],
     ["Land_CampingTable_F",0,0,0],
-    ["MapBoard_Tanoa_F",0,0,0],
-    ["Land_Pallet_MilBoxes_F",0,0,0],
+	//Base Items
+	["Land_Pallet_MilBoxes_F",0,0,0],
     ["Land_PaperBox_open_empty_F",0,0,0],
     ["Land_PaperBox_open_full_F",0,0,0],
     ["Land_PaperBox_closed_F",0,0,0],
@@ -163,49 +267,20 @@ buildings = [
     ["Land_ToolTrolley_02_F",0,0,0],
     ["Land_WeldingTrolley_01_F",0,0,0],
     ["Land_Workbench_01_F",0,0,0],
-    ["Land_GasTank_01_blue_F",0,0,0],
-    ["Land_GasTank_01_khaki_F",0,0,0],
-    ["Land_GasTank_01_yellow_F",0,0,0],
-    ["Land_GasTank_02_F",0,0,0],
-    ["Land_BarrelWater_F",0,0,0],
-    ["Land_BarrelWater_grey_F",0,0,0],
-    ["Land_WaterBarrel_F",0,0,0],
-    ["Land_WaterTank_F",0,0,0],
-    ["Land_BagFence_01_round_green_F",0,0,0],
-    ["Land_BagFence_01_short_green_F",0,0,0],
-    ["Land_BagFence_01_long_green_F",0,0,0],
-    ["Land_BagFence_01_corner_green_F",0,0,0],
-    ["Land_BagFence_01_end_green_F",0,0,0],
-    ["Land_BagBunker_01_small_green_F",5,0,0],
-    ["Land_BagBunker_01_large_green_F",10,0,0],
-    ["Land_BagBunker_01_tower_green_F",15,0,0],
-    ["Land_HBarrier_01_line_1_green_F",5,0,0],
-    ["Land_HBarrier_01_line_3_green_F",7,0,0],
-    ["Land_HBarrier_01_line_5_green_F",10,0,0],
-    ["Land_HBarrier_01_wall_4_green_F",10,0,0],
-    ["Land_HBarrier_01_wall_6_green_F",15,0,0],
-    ["Land_HBarrier_01_wall_corner_green_F",10,0,0],
-    ["Land_HBarrier_01_wall_corridor_green_F",10,0,0],
-    ["Land_HBarrier_01_big_tower_green_F",20,0,0],
-    ["Land_CncBarrierMedium_F",0,0,0],
-    ["Land_CncBarrierMedium4_F",0,0,0],
-    ["Land_Concrete_SmallWall_4m_F",0,0,0],
-    ["Land_Concrete_SmallWall_8m_F",0,0,0],
-    ["Land_CncShelter_F",0,0,0],
-    ["Land_CncWall1_F",0,0,0],
-    ["Land_CncWall4_F",0,0,0],
-    ["Land_Sign_WarningMilitaryArea_F",0,0,0],
+	["Land_Sign_WarningMilitaryArea_F",0,0,0],
     ["Land_Sign_WarningMilAreaSmall_F",0,0,0],
-    ["Land_Sign_WarningMilitaryVehicles_F",0,0,0],
-    ["Land_Razorwire_F",0,0,0],
-    ["Land_ClutterCutter_large_F",0,0,0]
+    ["Land_Sign_WarningMilitaryVehicles_F",0,0,0]
 ];
 
 support_vehicles = [
+
     [Arsenal_typename,100,200,0],
     [Respawn_truck_typename,200,0,75],
     [FOB_box_typename,300,500,0],
     [FOB_truck_typename,300,500,75],
+	["UK3CB_BAF_MAN_HX58_Cargo_Green_Tropical",125,0,75],					//HX 58 Cargo
+	["UK3CB_BAF_MAN_HX60_Fuel_Green_Tropical",125,0,200],					//HX 58 Fuel
+	["UK3CB_BAF_MAN_HX58_Repair_Green_Tropical",300,0,75],					//HX 58 Repair
     [KP_liberation_small_storage_building,0,0,0],
     [KP_liberation_large_storage_building,0,0,0],
     [KP_liberation_recycle_building,250,0,0],
