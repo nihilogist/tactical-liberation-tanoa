@@ -22,7 +22,7 @@ class Params
         title = $STR_PARAMS_UNITCAP;
         values[] = {0,1,2,3,4,5};
         texts[] = {$STR_PARAMS_UNITCAP1,$STR_PARAMS_UNITCAP2,$STR_PARAMS_UNITCAP3,$STR_PARAMS_UNITCAP4,$STR_PARAMS_UNITCAP5,$STR_PARAMS_UNITCAP6};
-        default = 2;
+        default = 3;
     };
     class Difficulty {
         title = $STR_PARAMS_DIFFICULTY;
@@ -34,7 +34,7 @@ class Params
         title = $STR_AGGRESSIVITY_PARAM;
         values[] = {0,1,2,3,4};
         texts[] = {$STR_AGGRESSIVITY_PARAM0, $STR_AGGRESSIVITY_PARAM1,$STR_AGGRESSIVITY_PARAM2,$STR_AGGRESSIVITY_PARAM3,$STR_AGGRESSIVITY_PARAM4};
-        default = 2;
+        default = 3;
     };
     class AdaptToPlayercount {
         title = $STR_PARAM_ADAPT_TO_PLAYERCOUNT;
@@ -46,7 +46,7 @@ class Params
         title = $STR_PARAMS_CIVILIANS;
         values[] = {0,1,2,3};
         texts[] = {$STR_PARAMS_CIVILIANS1,$STR_PARAMS_CIVILIANS2,$STR_PARAMS_CIVILIANS3,$STR_PARAMS_CIVILIANS4};
-        default = 1;
+        default = 2;
     };
     class FirstFob {
         title = $STR_PARAMS_FIRSTFOB;
@@ -70,7 +70,7 @@ class Params
         title = $STR_PARAM_SQUAD_SIZE;
         values[] = {0,1,2,4,6,8,10,12,16,20,24,30,36};
         texts[] = {0,1,2,4,6,8,10,12,16,20,24,30,36};
-        default = 12;
+        default = 10;
     };
     class BluforDefenders {
         title = $STR_PARAM_BLUFOR_DEFENDERS;
@@ -226,13 +226,13 @@ class Params
         title = $STR_PARAM_RESPAWN_COOLDOWN;
         values[] = {0, 300, 600, 900, 1200, 1800, 3600};
         texts[] = {$STR_PARAMS_DISABLED, 5, 10, 15, 20, 30, 60};
-        default = 900;
+        default = 300;
     };
     class MobileArsenal {
         title = $STR_PARAMS_MOBILEARSENAL;
         values[] = { 0, 1 };
         texts[] = { $STR_PARAMS_DISABLED, $STR_PARAMS_ENABLED };
-        default = 1;
+        default = 0;
     };
     class AiLogistics {
         title = $STR_PARAMS_AILOGISTICS;
@@ -268,7 +268,7 @@ class Params
         title = $STR_PARAM_ALLOW_ENEMIES_IN_IMMOBILE;
         values[] = {0, 25, 50, 75, 100};
         text[] = { $STR_PARAMS_DISABLED, "25%", "50%", "75%", "100%"};
-        default = 50;
+        default = 75;
     };
     class DelayDespawnMax {
         title = $STR_PARAM_DELAY_DESPAWN_MAX;
