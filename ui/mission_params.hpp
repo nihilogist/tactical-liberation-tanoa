@@ -304,7 +304,7 @@ class Params
         title = $STR_CLEANUP_PARAM;
         values[] = { 0,1,2,4 };
         texts[] = { $STR_PARAMS_DISABLED, $STR_CLEANUP_PARAM1, $STR_CLEANUP_PARAM2, $STR_CLEANUP_PARAM3 };
-        default = 2;
+        default = 4;
     };
     class Introduction {
         title = $STR_PARAMS_INTRO;
