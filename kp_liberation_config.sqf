@@ -328,14 +328,10 @@ box_transport_config = [
     ["rhsusf_M1239_socom_d", -5, [-0.125,-1.73,-0.66], [0,-3.28,-0.66]],
     ["rhsusf_M1239_M2_socom_d", -5, [-0.125,-1.73,-0.66], [0,-3.28,-0.66]],
     ["rhsusf_M1239_MK19_socom_d", -5, [-0.125,-1.73,-0.66], [0,-3.28,-0.66]],
-    ["UK3CB_BAF_Merlin_HC3_18_DPMT", -7.5, [0.25,3.7,-1.5], [0.25,1.6,-1.5], [0.25,-0.4,-1.5]],
-    ["UK3CB_BAF_Merlin_HC3_32_MTP", -7.5, [0.25,3.7,-1.5], [0.25,1.6,-1.5], [0.25,-0.4,-1.5]],
-    ["UK3CB_BAF_Merlin_HC3_CSAR_MTP", -7.5, [0.25,3.7,-1.5], [0.25,1.6,-1.5], [0.25,-0.4,-1.5]],
-    ["UK3CB_BAF_Merlin_HC4_18_Arctic", -7.5, [0.25,3.7,-1.5], [0.25,1.6,-1.5], [0.25,-0.4,-1.5]],
-    ["UK3CB_BAF_Merlin_HC4_18_GPMG_Arctic", -7.5, [0.25,3.7,-1.5], [0.25,1.6,-1.5], [0.25,-0.4,-1.5]],
-    ["UK3CB_BAF_Merlin_HC4_32_Arctic", -7.5, [0.25,3.7,-1.5], [0.25,1.6,-1.5], [0.25,-0.4,-1.5]],
+	["UK3CB_BAF_Merlin_HC4_CSAR_Tropical_RM", -7.5, [0.25,3.7,-1.5], [0.25,1.6,-1.5], [0.25,-0.4,-1.5]],
 	["UK3CB_BAF_Merlin_HC3_CSAR_Tropical", -7.5, [0.25,3.7,-1.5], [0.25,1.6,-1.5], [0.25,-0.4,-1.5]],
-    ["UK3CB_BAF_Merlin_HC4_CSAR_Arctic", -7.5, [0.25,3.7,-1.5], [0.25,1.6,-1.5], [0.25,-0.4,-1.5]]
+	["UK3CB_BAF_Merlin_HC3_Cargo_Tropical", -7.5, [0.25,3.7,-1.5], [0.25,1.6,-1.5], [0.25,-0.4,-1.5]],
+   	["UK3CB_BAF_MAN_HX58_Cargo_Green_A_Tropical", -7.5, [-0.61,4.56,-0.45], [0.75,4.56,-0.45], [-0.61,2.98,-0.45], [0.75,2.98,-0.45], [-0.61,1.4,-0.45], [0.75,1.4,-0.45], [-0.61,-0.18,-0.45], [0.75,-0.18,-0.45]]
 ];
 
 /* Various other settings.
@@ -391,7 +387,7 @@ vehicle_repair_sources = [
     "rhsusf_M977A4_REPAIR_usarmy_wd",
     "UK3CB_BAF_Coyote_Logistics_L111A1_W_Tropical",
     "UK3CB_BAF_Coyote_Logistics_L134A1_W_Tropical",
-	"UK3CB_BAF_MAN_HX58_Cargo_Green_Tropical",
+	"UK3CB_BAF_MAN_HX58_Cargo_Green_A_Tropical",
 	"UK3CB_BAF_MAN_HX58_Repair_Green_Tropical"
 ];
 
@@ -421,7 +417,7 @@ vehicle_rearm_sources = [
     "rhsusf_M977A4_AMMO_usarmy_wd",
 	"UK3CB_BAF_Coyote_Logistics_L111A1_W_Tropical",
     "UK3CB_BAF_Coyote_Logistics_L134A1_W_Tropical",
-	"UK3CB_BAF_MAN_HX58_Cargo_Green_Tropical",
+	"UK3CB_BAF_MAN_HX58_Cargo_Green_A_Tropical",
 	"UK3CB_BAF_MAN_HX58_Repair_Green_Tropical"
 ];
 
