@@ -124,6 +124,10 @@ GRLIB_arsenal_items = [
 	"H_PilotHelmetFighter_B",
 	"U_B_PilotCoveralls",
 	"V_LegStrapBag_black_F",
+	//Diver Gear
+	"U_B_Wetsuit",
+	"V_RebreatherB",
+	"B_Assault_Diver",
 	// Uniforms
 	"UK3CB_BAF_U_CombatUniform_DPMW",
 	"UK3CB_BAF_U_CombatUniform_DPMW_RM",
