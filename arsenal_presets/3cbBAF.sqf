@@ -118,7 +118,8 @@ GRLIB_arsenal_magazines = [
 
 	//Explosives
 	"DemoCharge_Remote_Mag",
-	"SatchelCharge_Remote_Mag"
+	"SatchelCharge_Remote_Mag,"
+	"ClaymoreDirectionalMine_Remote_Mag"
 ];
 
 GRLIB_arsenal_items = [
