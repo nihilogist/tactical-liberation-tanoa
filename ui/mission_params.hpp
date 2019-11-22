@@ -214,7 +214,7 @@ class Params
         title = $STR_PARAMS_MAPMARKERS;
         values[] = { 0, 1 };
         texts[] = { $STR_PARAMS_DISABLED, $STR_PARAMS_ENABLED };
-        default = 1;
+        default = 0;
     };
     class MobileRespawn {
         title = $STR_PARAMS_MOBILERESPAWN;

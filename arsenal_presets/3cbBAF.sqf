@@ -21,6 +21,7 @@ GRLIB_arsenal_weapons = [
 	// SMGs
 	"UK3CB_BAF_L22A2",
 	"UK3CB_BAF_L92A1",
+	"rhsusf_weap_MP7A2",
 	// Grenade Launchers
 	"rhs_weap_m32",
 	// Sidearms
@@ -58,8 +59,9 @@ GRLIB_arsenal_magazines = [
 	// 7.62 ten round magazines
 	"UK3CB_BAF_762_L42A1_10Rnd",           // 7.62 10 round magazine
 	"UK3CB_BAF_762_L42A1_5Rnd_T",          // 7.62 10 round magazine tracer
-	// 9mm thirty round magazines
+	// 9mm magazines
 	"UK3CB_BAF_9_30Rnd",                   // 9mm 30 round magazine
+	"rhsusf_mag_40Rnd_46x30_FMJ",			//46x30 40 round magazine
 	// Mental grenade magazines
 	"rhsusf_mag_6Rnd_M433_HET",
 	"rhsusf_mag_6Rnd_M433_HEDP",
@@ -187,6 +189,8 @@ GRLIB_arsenal_items = [
 	"ItemCompass",
 	//Terminal
 	"B_UavTerminal",
+	"ItemGPS",
+	"FIR_PDU",
 	// Watch
 	"ItemWatch",
 	"ACE_Altimeter",
@@ -210,6 +214,7 @@ GRLIB_arsenal_items = [
 	"UK3CB_BAF_Silencer_L110",
 	"UK3CB_BAF_Silencer_L115A3",
 	"UK3CB_BAF_Silencer_L91A1",
+	"rhsusf_acc_rotex_MP7",
 	// Pistol Muzzle Attachments
 	"muzzle_snds_l",
 	"uk3cb_baf_laser_l131a1",	
