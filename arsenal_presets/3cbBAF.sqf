@@ -237,6 +237,10 @@ GRLIB_arsenal_items = [
 	"ACE_SpraypaintRed",
 	"ACE_IR_Strobe_Item",
 	"ACE_Flashlight_XL50",
+	"ACE_RangeTable_82mm",
+	"ACE_ATragMX",
+	"ACE_Kestrel4500",
+	"ACE_SpottingScope",
 	// Tools
 	"ACE_EntrenchingTool",
 	"ACE_Fortify",
