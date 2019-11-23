@@ -55,6 +55,16 @@ militia_squad = [
 	"rhsusf_usmc_marpat_wd_engineer"                                    // Engineer
 ];
 
+gendarme_squad = [
+	"B_GEN_Commander_F",                                                // 1 x Gendarme commander
+	"B_GEN_Soldier_F",                                                  // 5 x Gendarmes
+	"B_GEN_Soldier_F",
+	"B_GEN_Soldier_F",
+	"B_GEN_Soldier_F",
+	"B_GEN_Soldier_F"
+];
+
+
 // Militia vehicles. Lightweight vehicle classnames the game will pick from randomly as sector defenders. Can also be empty for only infantry milita.
 militia_vehicles = [
 	"rhsusf_M_1025_w_mk19",     // Light M19 10%

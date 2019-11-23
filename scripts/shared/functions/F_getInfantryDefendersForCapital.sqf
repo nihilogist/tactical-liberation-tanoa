@@ -7,7 +7,7 @@ private _squads = [];
 private _infsquad = "militia";
 
 // If combat readiness is above 30, then this is upgraded to army
-if (combat_readiness > 30) then {_infsquad = "army";};
+if (combat_readiness > 15) then {_infsquad = "army";};
 
 // Two infantry squads will always spawn
 _squads pushBack ([_infsquad] call F_getAdaptiveSquadComp);

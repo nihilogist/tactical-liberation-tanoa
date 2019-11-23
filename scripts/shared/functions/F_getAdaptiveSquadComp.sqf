@@ -31,9 +31,11 @@ if (_type == "army") then {
 		};
 	};
 } else {
+	// Create a militia squad (currently only Gendarmes)
+	_squadcomp = gendarme_squad;
 	private _multiplier = 1;
 	if (GRLIB_unitcap < 1) then {_multiplier = GRLIB_unitcap;};
-	while {count _squadcomp < (10 * _multiplier)} do {_squadcomp pushback (selectRandom militia_squad)};
+	while {count _squadcomp < (10 * _multiplier)} do {_squadcomp pushback "B_GEN_Soldier_F"};
 };
 
 _squadcomp
