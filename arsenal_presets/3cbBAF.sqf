@@ -33,6 +33,7 @@ GRLIB_arsenal_weapons = [
 	"UK3CB_BAF_Javelin_Slung_Tube",
 	"UK3CB_BAF_NLAW_Launcher",
 	"UK3CB_BAF_M6",
+	"rhs_weap_fgm148",
 	"rhs_weap_fim92",
 	// ACE Detectors
 	"ACE_VMH3",
@@ -93,6 +94,7 @@ GRLIB_arsenal_magazines = [
 	//Virtual Launcher Magazines
 	"uk3cb_baf_nlaw_mag",
 	"rhs_fim92_mag",
+	"rhs_fgm148_magazine_AT",
 
 	//UGL Rounds
 	"UK3CB_BAF_1Rnd_HE_Grenade_Shell",
@@ -142,6 +144,7 @@ GRLIB_arsenal_items = [
 	"UK3CB_BAF_U_JumperUniform_DPMW",
 	"UK3CB_BAF_U_CrewmanCoveralls_RTR",
 	"UK3CB_BAF_U_HeliPilotCoveralls_Army",
+	"rhs_uniform_g3_blk",
 	// Vests
 	"UK3CB_BAF_V_Osprey_DPMW1",
 	"UK3CB_BAF_V_Osprey_DPMW2",
@@ -154,6 +157,7 @@ GRLIB_arsenal_items = [
 	"UK3CB_BAF_V_Osprey_DPMW9",
 	"UK3CB_BAF_V_Pilot_DPMW",	
 	"UK3CB_BAF_V_PLCE_Webbing_Plate_DPMW",
+	"V_PlateCarrier1_blk",
 	// Helmets
 	"UK3CB_BAF_H_Mk6_DPMW_Wdl_A",
 	"UK3CB_BAF_H_Mk6_DPMW_B",
@@ -164,9 +168,10 @@ GRLIB_arsenal_items = [
 	"UK3CB_BAF_H_CrewHelmet_DPMW_A",
 	"UK3CB_BAF_H_CrewHelmet_DPMW_ESS_A",
 	"UK3CB_BAF_H_PilotHelmetHeli_A",
-	"UK3CB_BAF_H_Beret_RAMC",
-	"UK3CB_BAF_H_Beret_PR",
-	"UK3CB_BAF_H_Beret_Rifles",
+	"rhsusf_opscore_bk_pelt",
+	"UK3CB_BAF_H_Beret_RM_Bootneck",
+	"UK3CB_BAF_H_Beret_RM_Officer_PRR",
+	"UK3CB_BAF_H_Beret_AAC",
 	"UK3CB_BAF_H_Beret_CRArt",
 	// Facewear
 	"UK3CB_BAF_G_Tactical_Grey",
@@ -178,12 +183,18 @@ GRLIB_arsenal_items = [
 	"G_Balaclava_blk",
 	"G_Balaclava_oli",
 	"G_Bandana_oli",
+	"rhsusf_shemagh_grn",
+	"rhsusf_shemagh2_grn",
+	"rhsusf_shemagh_gogg_grn",
+	"rhsusf_shemagh2_gogg_grn",
 	// Night Vision
 	"UK3CB_BAF_HMNVS",
 	// Binoculars	
 	"Binocular",
 	"UK3CB_BAF_Soflam_Laserdesignator",
 	"UK3CB_BAF_Javelin_CLU",
+	"ACE_Vector",
+	"ACE_VectorDay",
 	// Map
 	"ItemMap",
 	// Compass
@@ -222,12 +233,16 @@ GRLIB_arsenal_items = [
 	// Radio gear
 	"ACRE_PRC152",
 	"ACRE_PRC117F",
+	"ACRE_VHF30108SPIKE",
 	// Medical equipment
 	"ACE_fieldDressing",
 	"ACE_bloodIV_250",
+	"ACE_bloodIV_500",
+	"ACE_bloodIV",
 	"ACE_epinephrine",
 	"ACE_morphine",
 	"ACE_salineIV_500",
+	"ACE_salineIV",
 	// Utility Items
 	"ACE_CableTie",
 	"ACE_EarPlugs",
@@ -241,6 +256,7 @@ GRLIB_arsenal_items = [
 	"ACE_ATragMX",
 	"ACE_Kestrel4500",
 	"ACE_SpottingScope",
+	"ACE_UAVBattery",
 	// Tools
 	"ACE_EntrenchingTool",
 	"ACE_Fortify",
@@ -269,5 +285,6 @@ GRLIB_arsenal_backpacks = [
 	"ACE_NonSteerableParachute",
 	"ACE_TacticalLadder_Pack",
 	"B_LegStrapBag_black_F",
+	"B_TacticalPack_blk",
 	"B_UAV_01_backpack_F"
 ];
