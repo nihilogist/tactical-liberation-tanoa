@@ -265,7 +265,11 @@ opfor_troup_transports = [
     "rhsusf_M1078A1P2_B_WD_fmtv_usarmy",                                // Transport truck
     "rhsusf_m113_usarmy_M2_90",                                         // APC, tracked, HMG
     "rhsusf_m113_usarmy_MK19_90",                                       // APC, tracked, GMG
-    "rhsusf_CH53E_USMC",                                                 // Transport Heli
+    "rhsusf_CGRCAT1A2_M2_usmc_wd",                                      // MRAP (HMG)
+    "rhsusf_CGRCAT1A2_Mk19_usmc_wd",                                    // MRAP (GMG)
+    "rhsusf_M1232_MC_M2_usmc_wd",                                       // MRAP, heavy (HMG)
+    "rhsusf_M1232_MC_MK19_usmc_wd",                                     // MRAP, heavy (GMG)	
+	"rhsusf_CH53E_USMC",                                                 // Transport Heli
 	"B_T_VTOL_01_INFANTRY_F" 											//Transport Osprey
 ];
 
@@ -274,7 +278,9 @@ opfor_choppers = [
     "rhsusf_CH53E_USMC",                                                // Transport Heli
     "RHS_UH1Y",                                                         // Transport Heli (Armed)
     "RHS_AH1Z_wd",                                                      // Attack Heli
-    "RHS_AH64D_wd"                                                      // Attack Heli
+    "RHS_AH64D_wd",                                                      // Attack Heli
+	"B_T_VTOL_01_ARMED_F",                                               // Osprey Gunship
+	"B_T_VTOL_01_INFANTRY_F" 											//Transport Osprey
 ];
 
 // Enemy fixed-wings that will need to spawn in the air.

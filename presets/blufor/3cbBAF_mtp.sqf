@@ -76,6 +76,15 @@ light_vehicles = [
     ["UK3CB_BAF_LandRover_WMIK_Milan_FFR_Green_B_Tropical",100,100,50],      // Land Rover WMIK (Milan)
     ["UK3CB_BAF_Jackal2_L2A1_W_Tropical",100,80,50],                         // Jackal 2 (HMG)
     ["UK3CB_BAF_Jackal2_GMG_W_Tropical",100,100,50],                         // Jackal 2 (GMG)
+	["UK3CB_BAF_Panther_GPMG_Green_A_MTP",100,40,50],						//Panther CLV (GPMG)
+	
+    ["UK3CB_BAF_Husky_Logistics_HMG_Green_Tropical_RM",100,80,50],              // Husky  Logistics (HMG)
+    ["UK3CB_BAF_Husky_Logistics_GMG_Green_Tropical_RM",100,100,50],             // Husky Logistics (GMG)
+	["UK3CB_BAF_Husky_Logistics_GPMG_Green_Tropical_RM",100,75,50],             // Husky Logistics (GPMG)	
+	["UK3CB_BAF_Husky_Passenger_HMG_Green_Tropical_RM",100,80,50],              // Husky  Passenger(HMG)
+    ["UK3CB_BAF_Husky_Passenger_GMG_Green_Tropical_RM",100,100,50],             // Husky Passenger(GMG)
+	["UK3CB_BAF_Husky_Passenger_GPMG_Green_Tropical_RM",100,75,50],             // Husky Passenger (GPMG)	
+	
     ["B_T_UGV_01_olive_F",150,0,50],                                         // UGV Stomper
     ["B_T_UGV_01_rcws_olive_F",150,40,50],                                   // UGV Stomper (RCWS)
     ["B_Boat_Transport_01_F",100,0,25],                                      // Assault Boat
@@ -92,11 +101,14 @@ heavy_vehicles = [
     ["UK3CB_BAF_Coyote_Passenger_L134A1_W_Tropical",100,100,50],             // Coyote Passenger (GMG)
     ["UK3CB_BAF_Coyote_Logistics_L111A1_W_Tropical",100,80,50],              // Coyote Logistics (HMG)
     ["UK3CB_BAF_Coyote_Logistics_L134A1_W_Tropical",100,100,50],             // Coyote Logistics (GMG)
-    ["UK3CB_BAF_Panther_GPMG_Green_A_MTP",100,40,50],						//Panther CLV (GPMG)
+
 	["UK3CB_BAF_FV432_Mk3_GPMG_Green_Tropical",300,200,150],                // Bulldog GMPG
     ["UK3CB_BAF_FV432_Mk3_RWS_Green_Tropical",300,250,175],                 // Bulldog HMG
-    ["Grace_IFV_Warrior",500,400,250],                                      // Warrior IFV
-	["rhsusf_M142_usarmy_WD",200,600,100],                                      // HIMARS
+    ["UK3CB_BAF_Warrior_A3_W_MTP_RM",500,400,250],                                      // Warrior IFV
+	["UK3CB_BAF_Warrior_A3_W_Cage_MTP_RM",500,400,250],                                      // Warrior IFV
+	["UK3CB_BAF_Warrior_A3_W_Cage_Camo_MTP_RM",500,400,250],                                      // Warrior IFV
+	["UK3CB_BAF_Warrior_A3_W_Camo_MTP_RM",500,400,250],                                      // Warrior IFV
+		["rhsusf_M142_usarmy_WD",200,600,100],                                      // HIMARS
 	["UK3CB_BAF_MAN_HX58_Cargo_Green_A_Tropical",100,0,25]						//Cargo Truck
 	
 ];
@@ -117,8 +129,9 @@ air_vehicles = [
     ["MELB_AH6M",225,100,75],                                                      // Little Bird Attack
     ["FIR_A10C_CAMO",750,750,400],                                                   // A-10A (CAS)
     ["FIR_AV8B_GR9A_Blank",750,750,450],                                              // RAF Harrier
+	["UK3CB_BAF_MQ9_Reaper_Tropical_RM",150,200,50],                                              // Reaper Drone
 	["RHS_C130J",750,0,450]                                              // C130 Cargo Plane
-	
+		
 ];
 
 static_vehicles = [

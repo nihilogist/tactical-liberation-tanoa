@@ -12,14 +12,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1565;
+		nextID=1712;
 	};
 	class Camera
 	{
-		pos[]={265.35022,68.780159,15221.793};
-		dir[]={0.58223307,-0.49089265,-0.64828652};
-		up[]={0.32806295,0.87102193,-0.36528328};
-		aside[]={-0.74402833,1.3913959e-006,-0.66821766};
+		pos[]={1154.8359,176.54295,14828.347};
+		dir[]={0.89748335,-0.44012684,-0.032561153};
+		up[]={0.43994042,0.89772701,-0.015964175};
+		aside[]={-0.036265321,6.4801134e-007,-0.99939692};
 	};
 };
 binarizationWanted=0;
@@ -34,7 +34,8 @@ addons[]=
 	"UK3CB_BAF_Equipment_Uniforms",
 	"ace_realisticnames",
 	"A3_Weapons_F_Items",
-	"ace_medical",
+	"ace_medical_engine",
+	"ace_medical_treatment",
 	"ace_explosives",
 	"A3_Structures_F_Exp_Military_Fortifications",
 	"A3_Structures_F_Exp_Military_Camonets",
@@ -88,7 +89,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=37;
+		items=38;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -140,206 +141,213 @@ class AddonsMetaData
 		};
 		class Item7
 		{
-			className="ace_medical";
-			name="ACE3 - Medical";
+			className="ace_medical_engine";
+			name="ACE3 - Medical Engine";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
 		class Item8
+		{
+			className="ace_medical_treatment";
+			name="ACE3 - Medical Treatment";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
+		class Item9
 		{
 			className="ace_explosives";
 			name="ACE3 - Explosives";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item9
+		class Item10
 		{
 			className="A3_Structures_F_Exp";
 			name="Arma 3 Apex - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item10
+		class Item11
 		{
 			className="A3_Structures_F_Exp_Industrial";
 			name="Arma 3 Apex - Industrial Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item11
+		class Item12
 		{
 			className="A3_Structures_F_EPA";
 			name="Arma 3 Survive Episode - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item12
+		class Item13
 		{
 			className="ace_interaction";
 			name="ACE3 - Interaction";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item13
+		class Item14
 		{
 			className="ace_cargo";
 			name="ACE3 - Cargo";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item14
+		class Item15
 		{
 			className="ace_dragging";
 			name="ACE3 - Dragging";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item15
+		class Item16
 		{
 			className="A3_Structures_F";
 			name="Arma 3 - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item16
+		class Item17
 		{
 			className="A3_Structures_F_Ind";
 			name="Arma 3 - Industrial Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item17
+		class Item18
 		{
 			className="A3_Structures_F_Mil";
 			name="Arma 3 - Military Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item18
+		class Item19
 		{
 			className="ace_logistics_wirecutter";
 			name="ACE3 - Logistics Wire Cutter";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item19
+		class Item20
 		{
 			className="ace_concertina_wire";
 			name="ACE3 - Concertina Wire";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item20
+		class Item21
 		{
 			className="A3_Signs_F";
 			name="Arma 3 - Signs";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item21
+		class Item22
 		{
 			className="A3_Props_F_Exp";
 			name="Arma 3 Apex - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item22
+		class Item23
 		{
 			className="A3_Structures_F_Exp_Infrastructure";
 			name="Arma 3 Apex - Infrastructure Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item23
+		class Item24
 		{
 			className="A3_Structures_F_Heli";
 			name="Arma 3 Helicopters - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item24
+		class Item25
 		{
 			className="A3_Structures_F_EPC";
 			name="Arma 3 Win Episode - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item25
+		class Item26
 		{
 			className="3den_Objects";
 			name="3den_Objects";
 		};
-		class Item26
+		class Item27
 		{
 			className="A3_Boat_F_Destroyer";
 			name="Arma 3 Jets - Boats and Submersibles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item27
+		class Item28
 		{
 			className="A3_Static_F_Destroyer";
 			name="CFGPATCHES_A3_Static_F_Destroyer";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item28
+		class Item29
 		{
 			className="A3_Static_F_Jets";
 			name="Arma 3 Jets - Turrets";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item29
+		class Item30
 		{
 			className="A3_Supplies_F_Heli";
 			name="Arma 3 Helicopters - Ammoboxes and Supplies";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item30
+		class Item31
 		{
 			className="A3_Props_F_Tank";
 			name="Arma 3 Tank - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item31
+		class Item32
 		{
 			className="UK3CB_BAF_Vehicles_MAN";
 			name="3CB BAF Vehicles - MAN Truck";
 			author="AUTHOR_3CB";
 			url="www.3commandobrigade.com";
 		};
-		class Item32
+		class Item33
 		{
 			className="UK3CB_BAF_Vehicles_Weapons";
 			name="3CB BAF Vehicles - Weapons";
 			author="3 Commando Brigade";
 			url="www.3commandobrigade.com";
 		};
-		class Item33
+		class Item34
 		{
 			className="UK3CB_BAF_Units_Tropical";
 			name="3CB BAF Units - Tropical";
 			author="3 Commando Brigade";
 			url="www.3commandobrigade.com";
 		};
-		class Item34
+		class Item35
 		{
 			className="A3_Props_F_Argo";
 			name="Arma 3 Malden - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item35
+		class Item36
 		{
 			className="A3_Props_F_Enoch";
 			name="Arma 3 Enoch - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item36
+		class Item37
 		{
 			className="A3_Boat_F_Exp";
 			name="Arma 3 Apex - Boats and Submersibles";
@@ -23446,7 +23454,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={305.703,11.528225,15146.774};
+				position[]={305.703,11.162387,15146.774};
 				angles[]={0,1.5707964,0};
 			};
 			side="Empty";
@@ -23456,7 +23464,7 @@ class Mission
 			};
 			id=4424;
 			type="Land_ClutterCutter_small_F";
-			atlOffset=1.0224209;
+			atlOffset=0.65658283;
 		};
 		class Item301
 		{
@@ -23529,7 +23537,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={231.304,-0.00033187866,15175.126};
+				position[]={231.304,0.7344203,15175.126};
 				angles[]={0,1.5707964,0};
 			};
 			side="Empty";
@@ -23539,7 +23547,7 @@ class Mission
 			};
 			id=4490;
 			type="Land_ClutterCutter_small_F";
-			atlOffset=60.087997;
+			atlOffset=60.82275;
 		};
 		class Item308
 		{
@@ -23563,7 +23571,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={231.136,-0.34626389,15117.957};
+				position[]={231.136,0.64572096,15117.957};
 				angles[]={0,1.5707964,0};
 			};
 			side="Empty";
@@ -23573,7 +23581,7 @@ class Mission
 			};
 			id=4493;
 			type="Land_ClutterCutter_small_F";
-			atlOffset=55.820004;
+			atlOffset=56.811989;
 		};
 		class Item310
 		{
@@ -23981,6 +23989,7 @@ class Mission
 					flags=6;
 					class Attributes
 					{
+						name="NGS_VIRT_01G";
 					};
 					id=4935;
 					type="B_UAV_AI";
@@ -24027,6 +24036,8 @@ class Mission
 			flags=6;
 			class Attributes
 			{
+				init="call{this setAutonomous false;}";
+				name="NGS_VIRT_01";
 			};
 			id=4934;
 			type="B_Ship_Gun_01_F";
@@ -24190,17 +24201,18 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={291.52542,15.005466,15146.317};
+						position[]={291.37201,15.013261,15146.438};
 						angles[]={0,1.5707964,0};
 					};
 					side="West";
 					flags=6;
 					class Attributes
 					{
+						name="CIWS_VIRT_01G";
 					};
 					id=4950;
 					type="B_UAV_AI";
-					atlOffset=9.5367432e-007;
+					atlOffset=0.0077953339;
 				};
 			};
 			class Attributes
@@ -24229,20 +24241,22 @@ class Mission
 				};
 			};
 			id=4948;
-			atlOffset=0.007566452;
+			atlOffset=0.0077953339;
 		};
 		class Item343
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={291.52542,17.509785,15146.268};
+				position[]={291.52524,17.510014,15146.268};
 				angles[]={0,1.5707964,0};
 			};
 			side="West";
 			flags=6;
 			class Attributes
 			{
+				init="call{this setAutonomous false;}";
+				name="CIWS_VIRT_01";
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
 				reportOwnPosition=1;
@@ -24250,7 +24264,7 @@ class Mission
 			};
 			id=4949;
 			type="B_AAA_System_01_F";
-			atlOffset=0.007566452;
+			atlOffset=0.0077953339;
 		};
 		class Item344
 		{
@@ -24264,16 +24278,18 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={208.26196,19.134291,15146.208};
+						position[]={208.24899,19.135677,15146.114};
 						angles[]={0,4.712389,0};
 					};
 					side="West";
 					flags=6;
 					class Attributes
 					{
+						name="CIWS_VIRT_02G";
 					};
 					id=4953;
 					type="B_UAV_AI";
+					atlOffset=0.0013866425;
 				};
 			};
 			class Attributes
@@ -24302,20 +24318,22 @@ class Mission
 				};
 			};
 			id=4951;
-			atlOffset=0.0017776489;
+			atlOffset=0.0013866425;
 		};
 		class Item345
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={208.26196,21.638609,15146.158};
+				position[]={208.26234,21.638218,15146.158};
 				angles[]={0,4.712389,0};
 			};
 			side="West";
 			flags=6;
 			class Attributes
 			{
+				init="call{this setAutonomous false;}";
+				name="CIWS_VIRT_02";
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
 				reportOwnPosition=1;
@@ -24323,7 +24341,7 @@ class Mission
 			};
 			id=4952;
 			type="B_AAA_System_01_F";
-			atlOffset=0.0017776489;
+			atlOffset=0.0013866425;
 		};
 		class Item346
 		{
