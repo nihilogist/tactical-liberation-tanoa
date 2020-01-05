@@ -357,7 +357,13 @@ ai_resupply_sources = [
     "rhsusf_M977A4_AMMO_BKIT_usarmy_d",
     "rhsusf_M977A4_AMMO_BKIT_usarmy_wd",
     "rhsusf_M977A4_AMMO_usarmy_d",
-    "rhsusf_M977A4_AMMO_usarmy_wd"
+    "rhsusf_M977A4_AMMO_usarmy_wd",
+	
+"UK3CB_BAF_Husky_Logistics_HMG_Green_Tropical_RM",
+"UK3CB_BAF_Husky_Logistics_GMG_Green_Tropical_RM",
+"UK3CB_BAF_Husky_Logistics_GPMG_Green_Tropical_RM"
+	
+	
 ];
 
 // Everything that can resupply other vehicles.
@@ -388,7 +394,10 @@ vehicle_repair_sources = [
     "UK3CB_BAF_Coyote_Logistics_L111A1_W_Tropical",
     "UK3CB_BAF_Coyote_Logistics_L134A1_W_Tropical",
 	"UK3CB_BAF_MAN_HX58_Cargo_Green_A_Tropical",
-	"UK3CB_BAF_MAN_HX58_Repair_Green_Tropical"
+	"UK3CB_BAF_MAN_HX58_Repair_Green_Tropical",
+	"UK3CB_BAF_Husky_Logistics_HMG_Green_Tropical_RM",
+"UK3CB_BAF_Husky_Logistics_GMG_Green_Tropical_RM",
+"UK3CB_BAF_Husky_Logistics_GPMG_Green_Tropical_RM"
 ];
 
 vehicle_rearm_sources = [
@@ -418,7 +427,10 @@ vehicle_rearm_sources = [
 	"UK3CB_BAF_Coyote_Logistics_L111A1_W_Tropical",
     "UK3CB_BAF_Coyote_Logistics_L134A1_W_Tropical",
 	"UK3CB_BAF_MAN_HX58_Cargo_Green_A_Tropical",
-	"UK3CB_BAF_MAN_HX58_Repair_Green_Tropical"
+	"UK3CB_BAF_MAN_HX58_Repair_Green_Tropical",
+	"UK3CB_BAF_Husky_Logistics_HMG_Green_Tropical_RM",
+"UK3CB_BAF_Husky_Logistics_GMG_Green_Tropical_RM",
+"UK3CB_BAF_Husky_Logistics_GPMG_Green_Tropical_RM"
 ];
 
 vehicle_refuel_sources = [
@@ -445,7 +457,10 @@ vehicle_refuel_sources = [
     "rhsusf_M978A4_BKIT_usarmy_wd",
     "rhsusf_M978A4_usarmy_d",
     "rhsusf_M978A4_usarmy_wd",
-	"UK3CB_BAF_MAN_HX60_Fuel_Green_Tropical"
+	"UK3CB_BAF_MAN_HX60_Fuel_Green_Tropical",
+	"UK3CB_BAF_Husky_Logistics_HMG_Green_Tropical_RM",
+"UK3CB_BAF_Husky_Logistics_GMG_Green_Tropical_RM",
+"UK3CB_BAF_Husky_Logistics_GPMG_Green_Tropical_RM"
 ];
 
 // Classnames of boats, so they can be built on water.
@@ -463,7 +478,8 @@ boats_names = [
     "O_Boat_Transport_01_F",
     "O_T_Boat_Armed_01_hmg_F",
     "O_T_Boat_Transport_01_F",
-    "rhsusf_mkvsoc"
+    "rhsusf_mkvsoc",
+	"Land_Pier_small_F"
 ];
 
 // Large storage area placement position offsets.

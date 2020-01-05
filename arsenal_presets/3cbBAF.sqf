@@ -13,6 +13,7 @@ GRLIB_arsenal_weapons = [
 	"UK3CB_BAF_L115A3",
 	"UK3CB_BAF_L118A1_Covert",
 	"UK3CB_BAF_L135A1",
+	"rhs_weap_M107",
 	// Primary Weapons
 	"UK3CB_BAF_L85A2_RIS_AFG",
 	"UK3CB_BAF_L85A2_UGL",
@@ -22,8 +23,10 @@ GRLIB_arsenal_weapons = [
 	"UK3CB_BAF_L22A2",
 	"UK3CB_BAF_L92A1",
 	"rhsusf_weap_MP7A2",
+	"SMG_03C_khaki",
 	// Grenade Launchers
 	"rhs_weap_m32",
+	"rhs_weap_M320",
 	// Sidearms
 	"UK3CB_BAF_L131A1",
 	// Launchers
@@ -60,9 +63,10 @@ GRLIB_arsenal_magazines = [
 	// 7.62 ten round magazines
 	"UK3CB_BAF_762_L42A1_10Rnd",           // 7.62 10 round magazine
 	"UK3CB_BAF_762_L42A1_5Rnd_T",          // 7.62 10 round magazine tracer
-	// 9mm magazines
+	// 9mm and SMG magazines
 	"UK3CB_BAF_9_30Rnd",                   // 9mm 30 round magazine
 	"rhsusf_mag_40Rnd_46x30_FMJ",			//46x30 40 round magazine
+	"50Rnd_570x28_SMG_03",					//P90
 	// Mental grenade magazines
 	"rhsusf_mag_6Rnd_M433_HET",
 	"rhsusf_mag_6Rnd_M433_HEDP",
@@ -77,12 +81,17 @@ GRLIB_arsenal_magazines = [
 	"rhsusf_mag_6Rnd_M714_white",
 	"rhsusf_mag_6Rnd_M715_green",
 	"rhsusf_mag_6Rnd_M716_yellow",
+	"rhs_mag_m441_HE",
+	"rhs_mag_m714_white",
+	"rhs_mag_m585_white",
 	//SOFLAM Batteries
 	"Laserbatteries",
 
 	//AMR Magazines
 	"UK3CB_BAF_127_10Rnd",
 	"UK3CB_BAF_127_10Rnd_AP",
+	"rhsusf_mag_10Rnd_STD_50BMG_M33",
+	"rhsusf_mag_10Rnd_STD_50BMG_mk211",
 
 	//Shotgun Magazines
 	"UK3CB_BAF_12G_Pellets",
@@ -95,6 +104,11 @@ GRLIB_arsenal_magazines = [
 	"uk3cb_baf_nlaw_mag",
 	"rhs_fim92_mag",
 	"rhs_fgm148_magazine_AT",
+	"uk3cb_baf_at4_cs_ap_mag",
+	"uk3cb_baf_at4_cs_at_mag",
+	"ace_launch_nlaw_ready_f",
+	"nlaw_f",
+	
 
 	//UGL Rounds
 	"UK3CB_BAF_1Rnd_HE_Grenade_Shell",
@@ -243,12 +257,16 @@ GRLIB_arsenal_items = [
 	"ACE_morphine",
 	"ACE_salineIV_500",
 	"ACE_salineIV",
+	"ACE_personalAidKit",
+	"ACE_splint",
+	"ACE_tourniquet",
 	// Utility Items
 	"ACE_CableTie",
 	"ACE_EarPlugs",
 	"ACE_MapTools",
 	"ACE_microDAGR",
 	"ACE_RangeCard",
+	"ACE_artilleryTable",
 	"ACE_SpraypaintRed",
 	"ACE_IR_Strobe_Item",
 	"ACE_Flashlight_XL50",

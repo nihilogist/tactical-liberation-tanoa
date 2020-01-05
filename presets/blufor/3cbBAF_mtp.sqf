@@ -281,6 +281,7 @@ buildings = [
     ["Land_ToolTrolley_02_F",0,0,0],
     ["Land_WeldingTrolley_01_F",0,0,0],
     ["Land_Workbench_01_F",0,0,0],
+	["Land_Pier_small_F",0,0,0],
 	["Land_Sign_WarningMilitaryArea_F",0,0,0],
     ["Land_Sign_WarningMilAreaSmall_F",0,0,0],
     ["Land_Sign_WarningMilitaryVehicles_F",0,0,0]
@@ -317,7 +318,7 @@ support_vehicles = [
     ["B_Slingload_01_Repair_F",275,0,0],                                    // Huron Repair
     ["B_Slingload_01_Fuel_F",75,0,200],                                     // Huron Fuel
     ["B_Slingload_01_Ammo_F",75,200,0]                                      // Huron Ammo
-];
+	];
 
 /*
     --- Squads ---
