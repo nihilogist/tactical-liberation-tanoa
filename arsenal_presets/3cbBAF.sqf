@@ -29,6 +29,7 @@ GRLIB_arsenal_weapons = [
 	"rhs_weap_M320",
 	// Sidearms
 	"UK3CB_BAF_L131A1",
+	"UK3CB_BAF_L9A1",
 	// Launchers
 	"UK3CB_BAF_AT4_CS_AT_Launcher",
 	"UK3CB_BAF_AT4_CS_AP_Launcher",
