@@ -100,7 +100,7 @@ GRLIB_arsenal_magazines = [
 
 	//Sidearm Magazines
 	"UK3CB_BAF_9_17Rnd",
-
+	"UK3CB_BAF_9_13Rnd",
 	//Virtual Launcher Magazines
 	"uk3cb_baf_nlaw_mag",
 	"rhs_fim92_mag",
