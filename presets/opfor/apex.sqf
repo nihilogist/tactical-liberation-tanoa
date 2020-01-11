@@ -24,6 +24,7 @@ opfor_aa = "rhsusf_usmc_marpat_wd_stinger";                             // AA Sp
 opfor_medic = "rhsusf_army_ucp_medic";                                  // Combat Life Saver
 opfor_engineer = "rhsusf_usmc_marpat_wd_engineer";                      // Engineer
 opfor_paratrooper = "rhsusf_usmc_marpat_wd_rifleman_m4";                // Paratrooper
+opfor_crew = "rhsusf_usmc_marpat_wd_crewman";                           // vehicle crew
 
 // Enemy vehicles used by secondary objectives.
 opfor_mrap = "rhsusf_CGRCAT1A2_usmc_wd";                                // US MRAP (unarmed)

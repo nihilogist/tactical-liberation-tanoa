@@ -11,6 +11,7 @@ F_getNearestTower = compileFinal preprocessFileLineNumbers "scripts\shared\funct
 F_getNearestBluforObjective = compileFinal preprocessFileLineNumbers "scripts\shared\functions\F_getNearestBluforObjective.sqf";
 F_libSpawnVehicle = compileFinal preprocessFileLineNumbers "scripts\shared\functions\F_libSpawnVehicle.sqf";
 F_libSpawnMilitiaCrew = compileFinal preprocessFileLineNumbers "scripts\shared\functions\F_libSpawnMilitiaCrew.sqf";
+F_libSpawnOpforCrew = compileFinal preprocessFileLineNumbers "scripts\shared\functions\F_libSpawnOpforCrew.sqf";
 F_sectorOwnership = compileFinal preprocessFileLineNumbers "scripts\shared\functions\F_sectorOwnership.sqf";
 F_spawnBuildingSquad = compileFinal preprocessFileLineNumbers "scripts\shared\functions\F_spawnBuildingSquad.sqf";
 F_spawnMilitaryPostSquad = compileFinal preprocessFileLineNumbers "scripts\shared\functions\F_spawnMilitaryPostSquad.sqf";
