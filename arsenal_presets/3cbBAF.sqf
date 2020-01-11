@@ -19,6 +19,7 @@ GRLIB_arsenal_weapons = [
 	"UK3CB_BAF_L85A2_UGL",
 	"UK3CB_BAF_L86A3",
 	"UK3CB_BAF_L128A1",
+	"uk3cb_baf_l85a2_ris",
 	// SMGs
 	"UK3CB_BAF_L22A2",
 	"UK3CB_BAF_L92A1",
