@@ -58,165 +58,113 @@ militia_squad = [
 
 // Militia vehicles. Lightweight vehicle classnames the game will pick from randomly as sector defenders. Can also be empty for only infantry milita.
 militia_vehicles = [
-	"rhsusf_M_1025_w_mk19",     // Light M19 10%
-	"rhsusf_M_1043_w_mk19",     // Light M19 10%
-	"rhsusf_M_1025_w_mk19",     // Light M19 10%
-	"rhsusf_M_1043_w_mk19",     // Light M19 10%
-	"rhsusf_M_1025_w_mk19",     // Light M19 10%
-	"rhsusf_M_1043_w_mk19",     // Light M19 10%
-	"rhsusf_M1220_M153_MK19_usarmy_wd",     // Heavy M19 10%
-	"rhsusf_M1220_MK19_usarmy_wd",     // Heavy M19 10%
-	"rhsusf_M1230_MK19_usarmy_wd",     // Heavy M19 10%
-	"rhsusf_M1232_MK19_usarmy_wd",     // Heavy M19 10%
-	"rhsusf_M1237_MK19_usarmy_wd",     // Heavy M19 10%
-	"rhsusf_m113_usarmy_MK19",     // Heavy M19 10%
-	"rhsusf_M_1025_w_m2",     // Light M2 30%
-	"rhsusf_M_1043_w_m2",     // Light M2 30%
-	"rhsusf_M_1025_w_m2",     // Light M2 30%
-	"rhsusf_M_1043_w_m2",     // Light M2 30%
-	"rhsusf_M_1025_w_m2",     // Light M2 30%
-	"rhsusf_M_1043_w_m2",     // Light M2 30%
-	"rhsusf_M_1025_w_m2",     // Light M2 30%
-	"rhsusf_M_1043_w_m2",     // Light M2 30%
-	"rhsusf_M_1025_w_m2",     // Light M2 30%
-	"rhsusf_M_1043_w_m2",     // Light M2 30%
-	"rhsusf_M_1025_w_m2",     // Light M2 30%
-	"rhsusf_M_1043_w_m2",     // Light M2 30%
-	"rhsusf_M_1025_w_m2",     // Light M2 30%
-	"rhsusf_M_1043_w_m2",     // Light M2 30%
-	"rhsusf_M_1025_w_m2",     // Light M2 30%
-	"rhsusf_M_1043_w_m2",     // Light M2 30%
-	"rhsusf_M_1025_w_m2",     // Light M2 30%
-	"rhsusf_M_1043_w_m2",     // Light M2 30%
-	"rhsusf_M1220_M153_M2_usarmy_wd",     // Heavy M2 20%
-	"rhsusf_M1220_M2_usarmy_wd",     // Heavy M2 20%
-	"rhsusf_M1230_M2_usarmy_wd",     // Heavy M2 20%
-	"rhsusf_M1237_M2_usarmy_wd",     // Heavy M2 20%
-	"rhsusf_m113_usarmy",     // Heavy M2 20%
-	"rhsusf_m113_usarmy_M240",     // Heavy M2 20%
-	"rhsusf_M1220_M153_M2_usarmy_wd",     // Heavy M2 20%
-	"rhsusf_M1220_M2_usarmy_wd",     // Heavy M2 20%
-	"rhsusf_M1232_M2_usarmy_wd",     // Heavy M2 20%
-	"rhsusf_M1237_M2_usarmy_wd",     // Heavy M2 20%
-	"rhsusf_m113_usarmy",     // Heavy M2 20%
-	"rhsusf_m113_usarmy_M240",     // Heavy M2 20%
-	"rhsusf_M_1045_w",     // Light AT 10%
-	"rhsusf_m996_w",     // Light AT 10%
-	"rhsusf_M_1045_w",     // Light AT 10%
-	"rhsusf_m996_w",     // Light AT 10%
-	"rhsusf_M_1045_w",     // Light AT 10%
-	"rhsusf_m996_w",     // Light AT 10%
-	"rhsusf_M1117_W",     // Armoured Car 10%
-	"rhsusf_stryker_m1126_m2_wd",     // Armoured Car 10%
-	"rhsusf_M1117_W",     // Armoured Car 10%
-	"rhsusf_stryker_m1126_m2_wd",     // Armoured Car 10%
-	"rhsusf_M1117_W",     // Armoured Car 10%
-	"rhsusf_stryker_m1126_m2_wd",     // Armoured Car 10%
-	"RHS_M6_wd",     // AA IFV 10%
-	"RHS_M6_wd",     // AA IFV 10%
-	"RHS_M6_wd",     // AA IFV 10%
-	"RHS_M6_wd",     // AA IFV 10%
-	"RHS_M6_wd",     // AA IFV 10%
-	"RHS_M6_wd"     // AA IFV 10%
+	"rhsusf_m1025_w_mk19",     // Light HMMWV-A Mk19
+	"rhsusf_m1043_w_mk19",     // Light HMMWV-B Mk19
+	"rhsusf_m1025_w_mk19",     // Light HMMWV-A Mk19
+	"rhsusf_m1043_w_mk19",     // Light HMMWV-B Mk19
+	"rhsusf_M_1045_w",     // Light HMMVW-A TOW
+	"rhsusf_m996_w",     // Light HMMVW-B TOW
+	"rhsusf_m1025_w_m2",     // Light HMMWV-A M2 
+	"rhsusf_m1043_w_m2",     // Light HMMWV-B M2
+	"rhsusf_m1025_w_m2",     // Light HMMWV-A M2 
+	"rhsusf_m1043_w_m2",     // Light HMMWV-B M2 
+	"rhsusf_M1220_M153_MK19_usarmy_wd",     // Medium MRAP-A M19 RWS
+	"rhsusf_M1220_MK19_usarmy_wd",     // Medium MRAP-B M19
+	"rhsusf_M1220_M153_M2_usarmy_wd",     // Medium MRAP-A M2 RWS
+	"rhsusf_M1237_M2_usarmy_wd",     // Medium MRAP-E M2
+	"rhsusf_m113_usarmy_MK19",     // Medium APC M19 
+	"rhsusf_m113_usarmy",     // Medium APC M2 
+	"rhsusf_m113_usarmy_M240",     // Medium APC M240 
+	"rhsusf_stryker_m1126_m2_wd",     // Medium Stryker APC M2
+	"rhsusf_M1117_W",     // Guardian Armoured Car
+	"rhsusf_M1117_W",     // Guardian Armoured Car 
+	"rhsusf_M1117_W",     // Guardian Armoured Car 
+	"rhsusf_M1117_W",     // Guardian Armoured Car 
+	"rhsusf_M1117_W",     // Guardian Armoured Car 
+	"rhsusf_M1117_W",     // Guardian Armoured Car 
+	"rhsusf_M1117_W",     // Guardian Armoured Car 
+	"rhsusf_M1117_W",     // Guardian Armoured Car 
+	"RHS_M6_wd"     // Bradley Linebacker (AA)
 ];
 
 // All enemy vehicles that can spawn as sector defenders and patrols at high enemy combat readiness (aggression levels)
 opfor_vehicles = [
-
-	"rhsusf_M_1045_w",     // 10% AT HV
-	"rhsusf_m996_w",     // 10% AT HV
-	"rhsusf_M_1045_w",     // 10% AT HV
-	"rhsusf_m996_w",     // 10% AT HV
-	"rhsusf_M_1045_w",     // 10% AT HV
-	"rhsusf_M_1025_w_mk19",     // 10% M19 HV
-	"rhsusf_M_1043_w_mk19",     // 10% M19 HV
-	"rhsusf_M_1025_w_mk19",     // 10% M19 HV
-	"rhsusf_M_1043_w_mk19",     // 10% M19 HV
-	"rhsusf_M_1043_w_mk19",     // 10% M19 HV
-	"rhsusf_M1220_M153_M2_usarmy_wd",     // 10% mrap M2
-	"rhsusf_M1220_M2_usarmy_wd",     // 10% mrap M2
-	"rhsusf_M1230_M2_usarmy_wd",     // 10% mrap M2
-	"rhsusf_M1232_M2_usarmy_wd",     // 10% mrap M2
-	"rhsusf_M1237_M2_usarmy_wd",     // 10% mrap M2
-	"rhsusf_M1220_M153_MK19_usarmy_wd",     // 10% mrap M19
-	"rhsusf_M1220_MK19_usarmy_wd",     // 10% mrap M19
-	"rhsusf_M1230_MK19_usarmy_wd",     // 10% mrap M19
-	"rhsusf_M1232_MK19_usarmy_wd",     // 10% mrap M19
-	"rhsusf_M1237_MK19_usarmy_wd",     // 10% mrap M19
-	"rhsusf_m113_usarmy",     // 10% APC M2
-	"rhsusf_m113_usarmy_M240",     // 10% APC M2
-	"rhsusf_m113_usarmy",     // 10% APC M2
-	"rhsusf_m113_usarmy_M240",     // 10% APC M2
-	"rhsusf_m113_usarmy",     // 10% APC M2
-	"rhsusf_m113_usarmy_MK19",     // 10% APC M19
-	"rhsusf_m113_usarmy_MK19",     // 10% APC M19
-	"rhsusf_m113_usarmy_MK19",     // 10% APC M19
-	"rhsusf_m113_usarmy_MK19",     // 10% APC M19
-	"rhsusf_m113_usarmy_MK19",     // 10% APC M19
-	"rhsusf_M1117_W",     // 10% Armoured Car
-	"rhsusf_stryker_m1126_m2_wd",     // 10% Armoured Car
-	"rhsusf_M1117_W",     // 10% Armoured Car
-	"rhsusf_stryker_m1126_m2_wd",     // 10% Armoured Car
-	"rhsusf_stryker_m1126_m2_wd",     // 10% Armoured Car
-	"RHS_M2A2_wd",     // 10% IFV
-	"RHS_M2A2_BUSKI_WD",     // 10% IFV
-	"RHS_M2A3_wd",     // 10% IFV
-	"RHS_M2A3_BUSKI_wd",     // 10% IFV
-	"RHS_M2A3_BUSKIII_wd",     // 10% IFV
-	"RHS_M6_wd",     // 10% AA IFV
-	"RHS_M6_wd",     // 10% AA IFV
-	"RHS_M6_wd",     // 10% AA IFV
-	"RHS_M6_wd",     // 10% AA IFV
-	"RHS_M6_wd",     // 10% AA IFV
-	"B_T_AFV_Wheeled_01_up_cannon_F",     // 10% gunsystem
-	"B_T_AFV_Wheeled_01_up_cannon_F",     // 10% gunsystem
-	"B_T_AFV_Wheeled_01_up_cannon_F",     // 10% gunsystem
-	"B_T_AFV_Wheeled_01_up_cannon_F",     // 10% gunsystem
-	"B_T_AFV_Wheeled_01_up_cannon_F"     // 10% gunsystem
+	"rhsusf_m1025_w_mk19",     // Light HMMWV-A Mk19
+	"rhsusf_m996_w",     // Light HMMVW-B TOW
+	"rhsusf_m1043_w_m2",     // Light HMMWV-B M2
+	"rhsusf_M1220_M153_MK19_usarmy_wd",     // Medium MRAP-A M19 RWS
+	"rhsusf_M1220_MK19_usarmy_wd",     // Medium MRAP-B M19
+	"rhsusf_M1230_MK19_usarmy_wd",     // Medium MRAP-C M19
+	"rhsusf_M1232_MK19_usarmy_wd",     // Medium MRAP-D M19
+	"rhsusf_M1237_MK19_usarmy_wd",     // Medium MRAP-E M19
+	"rhsusf_M1220_M153_M2_usarmy_wd",     // Medium MRAP-A M2 RWS
+	"rhsusf_M1220_M2_usarmy_wd",     // Medium MRAP-B M2
+	"rhsusf_M1230_M2_usarmy_wd",     // Medium MRAP-C M2
+	"rhsusf_M1232_M2_usarmy_wd",     // Medium MRAP-D M2
+	"rhsusf_M1237_M2_usarmy_wd",     // Medium MRAP-E M2	
+	"rhsusf_m113_usarmy_MK19",     // Medium APC M19 
+	"rhsusf_m113_usarmy",     // Medium APC M2 
+	"rhsusf_m113_usarmy_M240",     // Medium APC M240 
+	"rhsusf_stryker_m1126_m2_wd",     // Medium Stryker APC M2	
+	"rhsusf_m113_usarmy_MK19",     // Medium APC M19 
+	"rhsusf_m113_usarmy",     // Medium APC M2 
+	"rhsusf_m113_usarmy_M240",     // Medium APC M240 
+	"rhsusf_stryker_m1126_m2_wd",     // Medium Stryker APC M2		
+	"rhsusf_stryker_m1126_m2_wd",     // Medium Stryker APC M2		
+	"rhsusf_stryker_m1126_m2_wd",     // Medium Stryker APC M2		
+	"rhsusf_M1117_W",     // Guardian Armoured Car
+	"rhsusf_M1117_W",     // Guardian Armoured Car 	
+	"RHS_M2A2_BUSKI_WD",     //  IFV
+	"RHS_M2A3_BUSKIII_wd",     //  IFV
+	"RHS_M2A2_BUSKI_WD",     //  IFV
+	"RHS_M2A3_BUSKIII_wd",     //  IFV
+	"RHS_M2A2_BUSKI_WD",     //  IFV
+	"RHS_M2A3_BUSKIII_wd",     //  IFV
+	"RHS_M6_wd",     //  AA IFV
+	"RHS_M6_wd",     //  AA IFV		
+	"B_T_AFV_Wheeled_01_up_cannon_F",     //  gunsystem
+	"B_T_AFV_Wheeled_01_up_cannon_F",     //  gunsystem		
+	"B_T_AFV_Wheeled_01_up_cannon_F",     //  gunsystem
+	"B_T_AFV_Wheeled_01_up_cannon_F",     //  gunsystem	
+	"rhsusf_m1a2sep1tuskiwd_usarmy" 	// Abrams	
 ];
 
 // All enemy vehicles that can spawn as sector defenders and patrols but at a lower enemy combat readiness (aggression levels).
 opfor_vehicles_low_intensity = [
-	"rhsusf_M_1025_w_m2",     // 10% M2 HV
-	"rhsusf_M_1043_w_m2",     // 10% M2 HV
-	"rhsusf_M_1025_w_m2",     // 10% M2 HV
-	"rhsusf_M_1043_w_m2",     // 10% M2 HV
-	"rhsusf_M_1045_w",     // 10% AT HV
-	"rhsusf_m996_w",     // 10% AT HV
-	"rhsusf_M_1045_w",     // 10% AT HV
-	"rhsusf_m996_w",     // 10% AT HV
-	"rhsusf_M_1025_w_mk19",     // 10% M19 HV
-	"rhsusf_M_1043_w_mk19",     // 10% M19 HV
-	"rhsusf_M_1025_w_mk19",     // 10% M19 HV
-	"rhsusf_M_1043_w_mk19",     // 10% M19 HV
-	"rhsusf_M1220_M153_M2_usarmy_wd",     // 20% mrap M2
-	"rhsusf_M1220_M2_usarmy_wd",     // 20% mrap M2
-	"rhsusf_M1232_M2_usarmy_wd",     // 20% mrap M2
-	"rhsusf_M1237_M2_usarmy_wd",     // 20% mrap M2
-	"rhsusf_M1220_M153_M2_usarmy_wd",     // 20% mrap M2
-	"rhsusf_M1220_M2_usarmy_wd",     // 20% mrap M2
-	"rhsusf_M1232_M2_usarmy_wd",     // 20% mrap M2
-	"rhsusf_M1237_M2_usarmy_wd",     // 20% mrap M2
-	"rhsusf_M1220_M153_MK19_usarmy_wd",     // 10% mrap M19
-	"rhsusf_M1230_MK19_usarmy_wd",     // 10% mrap M19
-	"rhsusf_M1232_MK19_usarmy_wd",     // 10% mrap M19
-	"rhsusf_M1237_MK19_usarmy_wd",     // 10% mrap M19
-	"rhsusf_m113_usarmy",     // 10% APC M2
-	"rhsusf_m113_usarmy_M240",     // 10% APC M2
-	"rhsusf_m113_usarmy",     // 10% APC M2
-	"rhsusf_m113_usarmy_M240",     // 10% APC M2
-	"rhsusf_m113_usarmy_MK19",     // 5% APC M19
-	"rhsusf_m113_usarmy_MK19",     // 5% APC M19
-	"rhsusf_M1117_W",     // 5% Armoured Car
-	"rhsusf_stryker_m1126_m2_wd",     // 5% Armoured Car
-	"RHS_M2A2_BUSKI_WD",     // 5% IFV
-	"RHS_M2A3_BUSKIII_wd",     // 5% IFV
-	"RHS_M6_wd",     // 10% AA IFV
-	"RHS_M6_wd",     // 10% AA IFV
-	"RHS_M6_wd",     // 10% AA IFV
-	"RHS_M6_wd",     // 10% AA IFV
-	"B_T_AFV_Wheeled_01_up_cannon_F",     // 5% gunsystem
-	"B_T_AFV_Wheeled_01_up_cannon_F"     // 5% gunsystem
+	"rhsusf_m1025_w_mk19",     // Light HMMWV-A Mk19
+	"rhsusf_m1043_w_mk19",     // Light HMMWV-B Mk19
+	"rhsusf_M_1045_w",     // Light HMMVW-A TOW
+	"rhsusf_m996_w",     // Light HMMVW-B TOW
+	"rhsusf_m1025_w_m2",     // Light HMMWV-A M2 
+	"rhsusf_m1043_w_m2",     // Light HMMWV-B M2
+	"rhsusf_M1220_M153_MK19_usarmy_wd",     // Medium MRAP-A M19 RWS
+	"rhsusf_M1220_MK19_usarmy_wd",     // Medium MRAP-B M19
+	"rhsusf_M1230_MK19_usarmy_wd",     // Medium MRAP-C M19
+	"rhsusf_M1232_MK19_usarmy_wd",     // Medium MRAP-D M19
+	"rhsusf_M1237_MK19_usarmy_wd",     // Medium MRAP-E M19
+	"rhsusf_M1220_M153_M2_usarmy_wd",     // Medium MRAP-A M2 RWS
+	"rhsusf_M1220_M2_usarmy_wd",     // Medium MRAP-B M2
+	"rhsusf_M1230_M2_usarmy_wd",     // Medium MRAP-C M2
+	"rhsusf_M1232_M2_usarmy_wd",     // Medium MRAP-D M2
+	"rhsusf_M1237_M2_usarmy_wd",     // Medium MRAP-E M2
+	"rhsusf_m113_usarmy_MK19",     // Medium APC M19 
+	"rhsusf_m113_usarmy",     // Medium APC M2 
+	"rhsusf_m113_usarmy_M240",     // Medium APC M240 
+	"rhsusf_stryker_m1126_m2_wd",     // Medium Stryker APC M2	
+	"rhsusf_m113_usarmy_MK19",     // Medium APC M19 
+	"rhsusf_m113_usarmy",     // Medium APC M2 
+	"rhsusf_m113_usarmy_M240",     // Medium APC M240 
+	"rhsusf_stryker_m1126_m2_wd",     // Medium Stryker APC M2	
+	"rhsusf_M1117_W",     // Guardian Armoured Car
+	"rhsusf_M1117_W",     // Guardian Armoured Car 	
+	"RHS_M2A2_BUSKI_WD",     //  IFV
+	"RHS_M2A3_BUSKIII_wd",     //  IFV
+	"RHS_M2A2_BUSKI_WD",     //  IFV
+	"RHS_M2A3_BUSKIII_wd",     //  IFV
+	"RHS_M6_wd",     //  AA IFV
+	"RHS_M6_wd",     //  AA IFV	
+	"B_T_AFV_Wheeled_01_up_cannon_F",     //  gunsystem
+	"B_T_AFV_Wheeled_01_up_cannon_F"     //  gunsystem	
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at high enemy combat readiness (aggression levels).
@@ -233,14 +181,18 @@ opfor_battlegroup_vehicles = [
     "rhsusf_m113_usarmy_M2_90",                                         // APC, tracked, HMG
     "rhsusf_m113_usarmy_MK19_90",                                       // APC, tracked, GMG
     "RHS_M2A2_wd",                                                      // IFV
-    "B_T_AFV_Wheeled_01_cannon_F",                                      // APC
-    "B_T_AFV_Wheeled_01_up_cannon_F",                                   // APC
+	"RHS_M2A2_BUSKI_WD",     //  IFV
+	"RHS_M2A3_BUSKIII_wd",     //  IFV
+	"RHS_M6_wd",     //  AA IFV
+    "B_T_AFV_Wheeled_01_cannon_F",                                      // GunSystem
+    "B_T_AFV_Wheeled_01_up_cannon_F",                                   // GunSystem
     "rhsusf_CH53E_USMC",                                                // Transport Heli
     "B_T_VTOL_01_ARMED_F",                                               // Osprey Gunship
 	"B_T_VTOL_01_INFANTRY_F",                                            // Osprey Transport
 	"RHS_UH1Y",                                                         // Transport Heli (Armed)
     "RHS_AH1Z_wd",                                                      // Attack Heli
-    "RHS_AH64D_wd"                                                      // Attack Heli
+    "RHS_AH64D_wd",                                                      // Attack Heli
+	"rhsusf_m1a2sep1tuskiwd_usarmy" 	// Abrams	
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at lower enemy combat readiness (aggression levels).
@@ -255,6 +207,10 @@ opfor_battlegroup_vehicles_low_intensity = [
     "rhsusf_M1232_MC_M2_usmc_wd",                                       // MRAP, heavy (HMG)
     "rhsusf_M1232_MC_MK19_usmc_wd",                                     // MRAP, heavy (GMG)
     "rhsusf_m113_usarmy_M2_90",                                         // APC, tracked, HMG
+	"RHS_M2A2_wd",                                                      // IFV
+	"RHS_M2A2_BUSKI_WD",     //  IFV
+	"RHS_M2A3_BUSKIII_wd",     //  IFV
+	"RHS_M6_wd",     //  AA IFV
 	"B_T_VTOL_01_INFANTRY_F",                                            // Osprey Transport
     "rhsusf_CH53E_USMC",                                                // Transport Heli
     "RHS_UH1Y"                                                          // Transport Heli (Armed)
