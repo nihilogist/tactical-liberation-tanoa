@@ -9,6 +9,7 @@ GRLIB_arsenal_weapons = [
 	"UK3CB_BAF_L110A2RIS",
 	"UK3CB_BAF_L7A2",
 	"UK3CB_BAF_L86A2",
+	"UK3CB_BAF_L110_762",
 	// Primary Weapons - Sniper
 	"UK3CB_BAF_L115A3",
 	"UK3CB_BAF_L118A1_Covert",
@@ -19,6 +20,7 @@ GRLIB_arsenal_weapons = [
 	"UK3CB_BAF_L85A2_UGL",
 	"UK3CB_BAF_L86A3",
 	"UK3CB_BAF_L128A1",
+	"UK3CB_BAF_L129A1",
 	"uk3cb_baf_l85a2_ris",
 	// SMGs
 	"UK3CB_BAF_L22A2",
@@ -62,9 +64,10 @@ GRLIB_arsenal_magazines = [
 	// .338 five round magazines
 	"UK3CB_BAF_338_5Rnd",                  // .338 5 round magazine
 	"UK3CB_BAF_338_5Rnd_Tracer",           // .338 5 round magazine tracer
-	// 7.62 ten round magazines
+	// 7.62 magazines
 	"UK3CB_BAF_762_L42A1_10Rnd",           // 7.62 10 round magazine
 	"UK3CB_BAF_762_L42A1_5Rnd_T",          // 7.62 10 round magazine tracer
+	"UK3CB_BAF_762_L42A1_20Rnd",           // 7.62 20 round magazine
 	// 9mm and SMG magazines
 	"UK3CB_BAF_9_30Rnd",                   // 9mm 30 round magazine
 	"rhsusf_mag_40Rnd_46x30_FMJ",			//46x30 40 round magazine
@@ -145,10 +148,15 @@ GRLIB_arsenal_items = [
 	"H_PilotHelmetFighter_B",
 	"U_B_PilotCoveralls",
 	"V_LegStrapBag_black_F",
-	//Diver Gear
+	// Diver Gear
 	"U_B_Wetsuit",
 	"V_RebreatherB",
 	"B_Assault_Diver",
+	// CBRN Gear
+	"U_B_CBRN_Suit_01_Wdl_F",
+	"G_AirPurifyingRespirator_01_F",
+	"B_CombinationUnitRespirator_01_F",
+	"ChemicalDetector_01_watch_F",
 	// Uniforms
 	"UK3CB_BAF_U_CombatUniform_DPMW",
 	"UK3CB_BAF_U_CombatUniform_DPMW_RM",
@@ -173,6 +181,7 @@ GRLIB_arsenal_items = [
 	"UK3CB_BAF_V_Osprey_DPMW9",
 	"UK3CB_BAF_V_Pilot_DPMW",	
 	"UK3CB_BAF_V_PLCE_Webbing_Plate_DPMW",
+	"V_EOD_olive_F",
 	"V_PlateCarrier1_blk",
 	// Helmets
 	"UK3CB_BAF_H_Mk6_DPMW_Wdl_A",
@@ -236,6 +245,8 @@ GRLIB_arsenal_items = [
 	// Rail attachments
 	"UK3CB_BAF_LLM_IR_Black",
 	"UK3CB_BAF_LLM_Flashlight_Black",
+	"UK3CB_underbarrel_acc_bipod",
+	"UK3CB_underbarrel_acc_fgrip_bipod",
 	// Rifle Muzzle attachments
 	"UK3CB_BAF_SFFH",
 	"UK3CB_BAF_Silencer_L85",
@@ -306,5 +317,7 @@ GRLIB_arsenal_backpacks = [
 	"ACE_TacticalLadder_Pack",
 	"B_LegStrapBag_black_F",
 	"B_TacticalPack_blk",
+	"B_W_Static_Designator_01_weapon_F",
+	"B_UAV_06_backpack_F",
 	"B_UAV_01_backpack_F"
 ];

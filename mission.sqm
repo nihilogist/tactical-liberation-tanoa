@@ -5,21 +5,21 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=513;
+	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=5021;
+		nextID=5050;
 	};
 	class LayerIndexProvider
 	{
-		nextID=1859;
+		nextID=1922;
 	};
 	class Camera
 	{
-		pos[]={445.93387,172.1765,15209.174};
-		dir[]={-0.80391133,-0.59184223,-0.06077892};
-		up[]={-0.59019655,0.80584508,-0.044618826};
-		aside[]={-0.075387917,1.1205411e-006,0.99720806};
+		pos[]={3291.073,10.921157,4054.8154};
+		dir[]={0.85429281,-0.10710304,0.50887436};
+		up[]={0.092262037,0.99401653,0.05495457};
+		aside[]={0.51176536,-2.667075e-007,-0.85914624};
 	};
 };
 binarizationWanted=0;
@@ -68,22 +68,22 @@ addons[]=
 	"A3_Boat_F_Destroyer_Destroyer_01",
 	"A3_Characters_F_Common",
 	"A3_Static_F_Destroyer_Ship_Gun_01",
-	"A3_Structures_F_Heli_Items_Airport",
-	"A3_Structures_F_Heli_Ind_Machines",
-	"A3_Structures_F_Heli_Items_Tools",
 	"A3_Static_F_Jets_AAA_System_01",
-	"A3_Supplies_F_Heli_Fuel",
-	"A3_Props_F_Tank_Military_TankAcc",
-	"UK3CB_BAF_Vehicles_MAN",
-	"UK3CB_BAF_Vehicles_Weapons",
-	"A3_Structures_F_Mil_Cargo",
 	"A3_Static_F_Destroyer_Boat_Rack_01",
-	"UK3CB_BAF_Units_Tropical",
-	"A3_Structures_F_Heli_Ind_Airport",
 	"A3_Props_F_Argo_Civilian_InfoBoards",
 	"A3_Props_F_Enoch_Military_Camps",
 	"A3_Structures_F_Heli_Items_Electronics",
-	"rksla3_lcvpmk5"
+	"rksla3_lcvpmk5",
+	"UK3CB_BAF_Vehicles_RHIB",
+	"UK3CB_BAF_Units_Desert",
+	"A3_Structures_F_Heli_Civ_Market",
+	"A3_Structures_F_EPA_Mil_Scrapyard",
+	"UK3CB_BAF_Vehicles_Weapons",
+	"A3_Structures_F_Heli_Items_Luggage",
+	"UK3CB_BAF_Vehicles_Weapons_Editor",
+	"A3_Static_F_Destroyer_Ship_MRLS_01",
+	"A3_Static_F_Jets_SAM_System_02",
+	"A3_Props_F_Orange_Humanitarian_Camps"
 };
 class AddonsMetaData
 {
@@ -300,57 +300,53 @@ class AddonsMetaData
 		};
 		class Item30
 		{
-			className="A3_Supplies_F_Heli";
-			name="Arma 3 Helicopters - Ammoboxes and Supplies";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item31
-		{
-			className="A3_Props_F_Tank";
-			name="Arma 3 Tank - Decorative and Mission Objects";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item32
-		{
-			className="UK3CB_BAF_Vehicles_MAN";
-			name="3CB BAF Vehicles - MAN Truck";
-			author="AUTHOR_3CB";
-			url="www.3commandobrigade.com";
-		};
-		class Item33
-		{
-			className="UK3CB_BAF_Vehicles_Weapons";
-			name="3CB BAF Vehicles - Weapons";
-			author="3 Commando Brigade";
-			url="www.3commandobrigade.com";
-		};
-		class Item34
-		{
-			className="UK3CB_BAF_Units_Tropical";
-			name="3CB BAF Units - Tropical";
-			author="3 Commando Brigade";
-			url="www.3commandobrigade.com";
-		};
-		class Item35
-		{
 			className="A3_Props_F_Argo";
 			name="Arma 3 Malden - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item36
+		class Item31
 		{
 			className="A3_Props_F_Enoch";
 			name="Arma 3 Enoch - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item37
+		class Item32
 		{
 			className="A3_Boat_F_Exp";
 			name="Arma 3 Apex - Boats and Submersibles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item33
+		{
+			className="UK3CB_BAF_Vehicles_RHIB";
+			name="UK3CB_BAF_Vehicles_RHIB";
+		};
+		class Item34
+		{
+			className="UK3CB_BAF_Units_Desert";
+			name="3CB BAF Units - Desert";
+			author="3 Commando Brigade";
+			url="www.3commandobrigade.com";
+		};
+		class Item35
+		{
+			className="UK3CB_BAF_Vehicles_Weapons";
+			name="3CB BAF Vehicles - Weapons";
+			author="3 Commando Brigade";
+			url="www.3commandobrigade.com";
+		};
+		class Item36
+		{
+			className="UK3CB_BAF_Vehicles_Weapons_Editor";
+			name="UK3CB_BAF_Vehicles_Weapons_Editor";
+		};
+		class Item37
+		{
+			className="A3_Props_F_Orange";
+			name="Arma 3 Orange - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
@@ -421,7 +417,7 @@ class CustomAttributes
 								};
 								class value
 								{
-									items=108;
+									items=114;
 									class Item0
 									{
 										class data
@@ -1934,6 +1930,90 @@ class CustomAttributes
 											value="ace_nightvision_shuttereffects";
 										};
 									};
+									class Item108
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="ace_medical_paincoefficient";
+										};
+									};
+									class Item109
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="ace_medical_ivflowrate";
+										};
+									};
+									class Item110
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="ace_medical_fracturechance";
+										};
+									};
+									class Item111
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="ace_medical_feedback_bloodvolumeeffecttype";
+										};
+									};
+									class Item112
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="ace_medical_treatment_allowselfpak";
+										};
+									};
+									class Item113
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="ace_medical_treatment_mediciv";
+										};
+									};
 								};
 							};
 						};
@@ -1950,7 +2030,7 @@ class CustomAttributes
 								};
 								class value
 								{
-									items=108;
+									items=114;
 									class Item0
 									{
 										class data
@@ -2201,7 +2281,7 @@ class CustomAttributes
 																"SCALAR"
 															};
 														};
-														value=1.5;
+														value=3;
 													};
 												};
 												class Item1
@@ -4374,7 +4454,7 @@ class CustomAttributes
 																"SCALAR"
 															};
 														};
-														value=0;
+														value=1;
 													};
 												};
 											};
@@ -4990,7 +5070,7 @@ class CustomAttributes
 																"SCALAR"
 															};
 														};
-														value=0;
+														value=1;
 													};
 												};
 												class Item1
@@ -5035,7 +5115,7 @@ class CustomAttributes
 																"SCALAR"
 															};
 														};
-														value=0.1;
+														value=0.40031007;
 													};
 												};
 												class Item1
@@ -5530,7 +5610,7 @@ class CustomAttributes
 																"SCALAR"
 															};
 														};
-														value=180;
+														value=300;
 													};
 												};
 												class Item1
@@ -5617,7 +5697,7 @@ class CustomAttributes
 														{
 															type[]=
 															{
-																"BOOL"
+																"SCALAR"
 															};
 														};
 														value=0;
@@ -6070,7 +6150,7 @@ class CustomAttributes
 																"SCALAR"
 															};
 														};
-														value=1;
+														value=2;
 													};
 												};
 												class Item1
@@ -6810,6 +6890,276 @@ class CustomAttributes
 											};
 										};
 									};
+									class Item108
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item109
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=2.5;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item110
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=0.60476953;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item111
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=2;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item112
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item113
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+										};
+									};
 								};
 							};
 						};
@@ -6879,7 +7229,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=379;
+		items=359;
 		class Item0
 		{
 			dataType="Marker";
@@ -11848,11 +12198,11 @@ class Mission
 		class Item158
 		{
 			dataType="Marker";
-			position[]={168.90675,-39.136116,4603.5269};
+			position[]={307.73608,-39.295643,14927.284};
 			name="opfor_airspawn_3";
 			type="Empty";
 			id=310;
-			atlOffset=19.498524;
+			atlOffset=24.770397;
 		};
 		class Item159
 		{
@@ -27142,19 +27492,20 @@ class Mission
 		class Item298
 		{
 			dataType="Marker";
-			position[]={166.90915,87.896484,15146.164};
+			position[]={3239.127,89.809235,4083.6653};
 			name="huronmarker";
 			text="Spartan 01";
 			type="b_air";
 			id=4421;
-			atlOffset=79.219414;
+			atlOffset=112.87549;
 		};
 		class Item299
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={213.18529,9.3788195,15141.098};
+				position[]={3290.4229,9.342803,4051.2837};
+				angles[]={0,5.2665172,0};
 			};
 			side="Empty";
 			class Attributes
@@ -27163,32 +27514,15 @@ class Mission
 			};
 			id=4423;
 			type="Land_ClutterCutter_small_F";
-			atlOffset=0.66203976;
+			atlOffset=0.64218998;
 		};
 		class Item300
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={305.703,11.162387,15146.774};
-				angles[]={0,1.5707964,0};
-			};
-			side="Empty";
-			class Attributes
-			{
-				name="littlebird_0";
-			};
-			id=4424;
-			type="Land_ClutterCutter_small_F";
-			atlOffset=0.65658283;
-		};
-		class Item301
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={166.23183,9.7235003,15146.212};
-				angles[]={0,1.5707964,0};
+				position[]={3275.2271,9.4170647,4017.6086};
+				angles[]={0,0.55412817,0};
 			};
 			side="Empty";
 			class Attributes
@@ -27197,15 +27531,15 @@ class Mission
 			};
 			id=4426;
 			type="Land_ClutterCutter_small_F";
-			atlOffset=1.046257;
+			atlOffset=0.75598812;
 		};
-		class Item302
+		class Item301
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={157.8,9.8379879,15155.903};
-				angles[]={0,1.5707964,0};
+				position[]={3262.5491,8.9538975,4015.5381};
+				angles[]={0,0.55412817,0};
 			};
 			side="Empty";
 			class Attributes
@@ -27214,64 +27548,47 @@ class Mission
 			};
 			id=4429;
 			type="Land_ClutterCutter_small_F";
-			atlOffset=1.1586056;
+			atlOffset=0.29068279;
 		};
-		class Item303
+		class Item302
 		{
 			dataType="Marker";
-			position[]={243.877,1.897,15146.273};
+			position[]={3316.0947,1.8767033,4083.7747};
 			name="startbase_marker";
 			text="HMS Virtuous";
 			type="mil_start";
 			colorName="ColorWEST";
 			id=4430;
-			atlOffset=57.799751;
+			atlOffset=27.794167;
 		};
-		class Item304
+		class Item303
 		{
 			dataType="Layer";
 			name="Cache Ammo [BLU]";
 			id=4459;
 			atlOffset=60.779999;
 		};
-		class Item305
+		class Item304
 		{
 			dataType="Layer";
 			name="Storage (Lamp) [BLU]";
 			id=4470;
 			atlOffset=60.779999;
 		};
-		class Item306
+		class Item305
 		{
 			dataType="Layer";
 			name="Storage [BLU] #1";
 			id=4478;
 			atlOffset=60.779999;
 		};
-		class Item307
+		class Item306
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={231.304,0.3743861,15175.126};
-				angles[]={0,1.5707964,0};
-			};
-			side="Empty";
-			class Attributes
-			{
-				name="boat_0";
-			};
-			id=4490;
-			type="Land_ClutterCutter_small_F";
-			atlOffset=60.462715;
-		};
-		class Item308
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={165.522,-0.00017166138,15121.105};
-				angles[]={0,1.5707964,0};
+				position[]={3295.2263,1.3281397,4006.167};
+				angles[]={0,0.55412817,0};
 			};
 			side="Empty";
 			class Attributes
@@ -27280,26 +27597,9 @@ class Mission
 			};
 			id=4492;
 			type="Land_ClutterCutter_small_F";
-			atlOffset=55.688;
+			atlOffset=23.602051;
 		};
-		class Item309
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={231.136,0.64572096,15117.957};
-				angles[]={0,1.5707964,0};
-			};
-			side="Empty";
-			class Attributes
-			{
-				name="boat_2";
-			};
-			id=4493;
-			type="Land_ClutterCutter_small_F";
-			atlOffset=56.811989;
-		};
-		class Item310
+		class Item307
 		{
 			dataType="Object";
 			class PositionInfo
@@ -27315,7 +27615,7 @@ class Mission
 			id=4848;
 			type="Land_City_Pillar_F";
 		};
-		class Item311
+		class Item308
 		{
 			dataType="Object";
 			class PositionInfo
@@ -27331,7 +27631,7 @@ class Mission
 			id=4849;
 			type="Land_City_Pillar_F";
 		};
-		class Item312
+		class Item309
 		{
 			dataType="Object";
 			class PositionInfo
@@ -27347,7 +27647,7 @@ class Mission
 			id=4850;
 			type="Blue_Shield_English_F";
 		};
-		class Item313
+		class Item310
 		{
 			dataType="Object";
 			class PositionInfo
@@ -27364,7 +27664,7 @@ class Mission
 			type="Blue_Shield_French_F";
 			atlOffset=5.9604645e-008;
 		};
-		class Item314
+		class Item311
 		{
 			dataType="Object";
 			class PositionInfo
@@ -27380,7 +27680,7 @@ class Mission
 			id=4852;
 			type="Land_City_Pillar_F";
 		};
-		class Item315
+		class Item312
 		{
 			dataType="Object";
 			class PositionInfo
@@ -27396,7 +27696,7 @@ class Mission
 			id=4853;
 			type="Land_City_Pillar_F";
 		};
-		class Item316
+		class Item313
 		{
 			dataType="Object";
 			class PositionInfo
@@ -27413,7 +27713,7 @@ class Mission
 			type="Blue_Shield_English_F";
 			atlOffset=0.007689476;
 		};
-		class Item317
+		class Item314
 		{
 			dataType="Object";
 			class PositionInfo
@@ -27430,7 +27730,7 @@ class Mission
 			type="Blue_Shield_French_F";
 			atlOffset=0.0059328079;
 		};
-		class Item318
+		class Item315
 		{
 			dataType="Object";
 			class PositionInfo
@@ -27446,7 +27746,7 @@ class Mission
 			id=4856;
 			type="Land_City_Pillar_F";
 		};
-		class Item319
+		class Item316
 		{
 			dataType="Object";
 			class PositionInfo
@@ -27462,7 +27762,7 @@ class Mission
 			id=4857;
 			type="Land_City_Pillar_F";
 		};
-		class Item320
+		class Item317
 		{
 			dataType="Object";
 			class PositionInfo
@@ -27479,7 +27779,7 @@ class Mission
 			type="Blue_Shield_English_F";
 			atlOffset=4.7683716e-007;
 		};
-		class Item321
+		class Item318
 		{
 			dataType="Object";
 			class PositionInfo
@@ -27496,7 +27796,7 @@ class Mission
 			type="Blue_Shield_French_F";
 			atlOffset=4.7683716e-007;
 		};
-		class Item322
+		class Item319
 		{
 			dataType="Object";
 			class PositionInfo
@@ -27512,7 +27812,7 @@ class Mission
 			id=4860;
 			type="Land_City_Pillar_F";
 		};
-		class Item323
+		class Item320
 		{
 			dataType="Object";
 			class PositionInfo
@@ -27529,7 +27829,7 @@ class Mission
 			type="Land_City_Pillar_F";
 			atlOffset=0.0026397705;
 		};
-		class Item324
+		class Item321
 		{
 			dataType="Object";
 			class PositionInfo
@@ -27546,7 +27846,7 @@ class Mission
 			type="Blue_Shield_English_F";
 			atlOffset=0.0021362305;
 		};
-		class Item325
+		class Item322
 		{
 			dataType="Object";
 			class PositionInfo
@@ -27562,7 +27862,7 @@ class Mission
 			id=4863;
 			type="Blue_Shield_French_F";
 		};
-		class Item326
+		class Item323
 		{
 			dataType="Object";
 			class PositionInfo
@@ -27579,7 +27879,7 @@ class Mission
 			type="Land_City_Pillar_F";
 			atlOffset=0.0028533936;
 		};
-		class Item327
+		class Item324
 		{
 			dataType="Object";
 			class PositionInfo
@@ -27596,7 +27896,7 @@ class Mission
 			type="Land_City_Pillar_F";
 			atlOffset=0.36836243;
 		};
-		class Item328
+		class Item325
 		{
 			dataType="Object";
 			class PositionInfo
@@ -27612,7 +27912,7 @@ class Mission
 			id=4866;
 			type="Blue_Shield_English_F";
 		};
-		class Item329
+		class Item326
 		{
 			dataType="Object";
 			class PositionInfo
@@ -27628,13 +27928,13 @@ class Mission
 			type="Blue_Shield_French_F";
 			atlOffset=0.41835785;
 		};
-		class Item330
+		class Item327
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={243.942,-0.083896637,15146.163};
-				angles[]={0,4.712389,0};
+				position[]={3316.1599,-0.10006332,4083.6641};
+				angles[]={0,3.6957171,0};
 			};
 			side="Empty";
 			class Attributes
@@ -27642,7 +27942,7 @@ class Mission
 			};
 			id=4932;
 			type="Land_Destroyer_01_base_F";
-			atlOffset=55.819004;
+			atlOffset=25.812998;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -27660,7 +27960,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="a3\boat_f_destroyer\destroyer_01\data\destroyer_01_tag_02_co.paa";
+							value="a3\boat_f_destroyer\destroyer_01\data\destroyer_01_tag_04_co.paa";
 						};
 					};
 				};
@@ -27686,7 +27986,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item331
+		class Item328
 		{
 			dataType="Group";
 			side="West";
@@ -27698,8 +27998,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={323.05099,12.054814,15145.743};
-						angles[]={0,1.5707964,0.026075218};
+						position[]={3357.3291,12.025558,4151.2979};
+						angles[]={6.2610021,0.55412459,0.013718288};
 					};
 					side="West";
 					flags=6;
@@ -27709,7 +28009,7 @@ class Mission
 					};
 					id=4935;
 					type="B_UAV_AI";
-					atlOffset=0.044273376;
+					atlOffset=0.030529976;
 				};
 			};
 			class Attributes
@@ -27738,15 +28038,15 @@ class Mission
 				};
 			};
 			id=4933;
-			atlOffset=0.044273376;
+			atlOffset=0.030529022;
 		};
-		class Item332
+		class Item329
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={322.97916,14.747398,15146.182};
-				angles[]={0,1.5707964,0.026075218};
+				position[]={3357.8735,14.675737,4150.8311};
+				angles[]={6.2610021,0.55412459,0.013718288};
 			};
 			side="West";
 			flags=6;
@@ -27754,158 +28054,14 @@ class Mission
 			{
 				init="call{this setAutonomous false;}";
 				name="NGS_VIRT_01";
+				receiveRemoteTargets=1;
+				aiRadarUsage=1;
 			};
 			id=4934;
 			type="B_Ship_Gun_01_F";
-			atlOffset=0.044273376;
+			atlOffset=0.030529022;
 		};
-		class Item333
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={301.00897,10.512823,15146.375};
-				angles[]={0,0,0.0070251585};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=4936;
-			type="Land_PortableHelipadLight_01_F";
-		};
-		class Item334
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={312.57751,10.634123,15146.34};
-				angles[]={0,0,0.027457729};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=4937;
-			type="Land_PortableHelipadLight_01_F";
-		};
-		class Item335
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={307.57056,10.55895,15151.649};
-				angles[]={0,0,0.0070251585};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=4938;
-			type="Land_PortableHelipadLight_01_F";
-		};
-		class Item336
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={307.51883,10.558586,15142.032};
-				angles[]={0,0,0.0070251585};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=4939;
-			type="Land_PortableHelipadLight_01_F";
-		};
-		class Item337
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={303.36481,11.262564,15137.158};
-				angles[]={0,4.6391058,0.0070251585};
-			};
-			side="Empty";
-			class Attributes
-			{
-			};
-			id=4940;
-			type="Land_DieselGroundPowerUnit_01_F";
-			atlOffset=69.719475;
-		};
-		class Item338
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={298.66269,10.966266,15150.226};
-				angles[]={0,0.73199987,0.0070251585};
-			};
-			side="Empty";
-			class Attributes
-			{
-			};
-			id=4941;
-			type="Land_PressureWasher_01_F";
-			atlOffset=68.30809;
-		};
-		class Item339
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={307.01205,10.792534,15155.205};
-				angles[]={0,0,0.0070251585};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=4944;
-			type="Land_RotorCoversBag_01_F";
-			atlOffset=0.0021076202;
-		};
-		class Item340
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={308.41965,10.695712,15154.946};
-				angles[]={0,2.8601341,0};
-			};
-			side="Empty";
-			class Attributes
-			{
-			};
-			id=4946;
-			type="Land_WheelChock_01_F";
-			atlOffset=0.1485939;
-		};
-		class Item341
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={307.82852,10.543156,15154.853};
-				angles[]={0,1.0356613,0.0070251585};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=4947;
-			type="Land_WheelChock_01_F";
-			atlOffset=0.00019264221;
-		};
-		class Item342
+		class Item330
 		{
 			dataType="Group";
 			side="West";
@@ -27917,8 +28073,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={291.37201,15.013261,15146.438};
-						angles[]={0,1.5707964,0};
+						position[]={3341.1555,14.989712,4124.5811};
+						angles[]={0,0.55412459,0};
 					};
 					side="West";
 					flags=6;
@@ -27928,7 +28084,7 @@ class Mission
 					};
 					id=4950;
 					type="B_UAV_AI";
-					atlOffset=0.0077953339;
+					atlOffset=0.00041389465;
 				};
 			};
 			class Attributes
@@ -27957,21 +28113,20 @@ class Mission
 				};
 			};
 			id=4948;
-			atlOffset=0.0077953339;
+			atlOffset=0.0014028549;
 		};
-		class Item343
+		class Item331
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={291.52524,17.510014,15146.268};
-				angles[]={0,1.5707964,0};
+				position[]={3341.3088,17.486465,4124.4111};
+				angles[]={0,0.55412459,0};
 			};
 			side="West";
 			flags=6;
 			class Attributes
 			{
-				init="call{this setAutonomous false;}";
 				name="CIWS_VIRT_01";
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
@@ -27980,9 +28135,9 @@ class Mission
 			};
 			id=4949;
 			type="B_AAA_System_01_F";
-			atlOffset=0.0077953339;
+			atlOffset=0.0014028549;
 		};
-		class Item344
+		class Item332
 		{
 			dataType="Group";
 			side="West";
@@ -27994,8 +28149,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={208.24899,19.135677,15146.114};
-						angles[]={0,4.712389,0};
+						position[]={3297.2009,19.120863,4052.7661};
+						angles[]={0,3.6957171,0};
 					};
 					side="West";
 					flags=6;
@@ -28005,7 +28160,7 @@ class Mission
 					};
 					id=4953;
 					type="B_UAV_AI";
-					atlOffset=0.0013866425;
+					atlOffset=0.0027389526;
 				};
 			};
 			class Attributes
@@ -28034,21 +28189,20 @@ class Mission
 				};
 			};
 			id=4951;
-			atlOffset=0.0013866425;
+			atlOffset=0.0027389526;
 		};
-		class Item345
+		class Item333
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={208.26234,21.638218,15146.158};
-				angles[]={0,4.712389,0};
+				position[]={3297.241,21.620562,4052.8628};
+				angles[]={0,3.6957171,0};
 			};
 			side="West";
 			flags=6;
 			class Attributes
 			{
-				init="call{this setAutonomous false;}";
 				name="CIWS_VIRT_02";
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
@@ -28057,1824 +28211,204 @@ class Mission
 			};
 			id=4952;
 			type="B_AAA_System_01_F";
-			atlOffset=0.0013866425;
+			atlOffset=0.0027389526;
 		};
-		class Item346
+		class Item334
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={300.4798,10.908792,15136.5};
-				angles[]={0,0,0.0070251585};
+				position[]={3298.7578,6.717926,4077.2805};
+				angles[]={0,0.56118965,0};
 			};
 			side="Empty";
 			flags=4;
-			class Attributes
-			{
-			};
-			id=4957;
-			type="FlexibleTank_01_sand_F";
-			atlOffset=0.0028162003;
-		};
-		class Item347
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={299.78882,10.903934,15136.547};
-				angles[]={0,0,0.0070251585};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=4958;
-			type="FlexibleTank_01_sand_F";
-			atlOffset=0.0044927597;
-		};
-		class Item348
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={300.47501,10.47751,15137.416};
-				angles[]={0,0,0.0070251585};
-			};
-			side="Empty";
-			class Attributes
-			{
-			};
-			id=4960;
-			type="Land_RefuelingHose_01_F";
-			atlOffset=69.84848;
-		};
-		class Item349
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={296.23151,11.792007,15152.569};
-				angles[]={0,5.367795,0.0070336768};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=4963;
-			type="UK3CB_BAF_MAN_HX60_Container_Logistics_Green";
-			atlOffset=0.11094952;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l16ammohe";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16ammohe',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_m6ammohe";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_m6ammohe',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_cw_section_light";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_cw_section_light',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="uk3cb_baf_vehicles_logistics_additionals_list";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_additionals_list',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="";
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_section_light";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_section_light',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l7a2ammo";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l7a2ammo',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute6
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_cw_section";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_cw_section',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute7
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_javelin";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_javelin',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute8
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l111a1ammo";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l111a1ammo',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute9
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l134a1";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l134a1',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute10
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l134a1ammo";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l134a1ammo',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute11
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l16cratemixed";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16cratemixed',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute12
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l16ammomixed";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16ammomixed',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute13
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l16cratesmoke";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16cratesmoke',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute14
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_m6ammomixed";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_m6ammomixed',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute15
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l16ammosmoke";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16ammosmoke',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute16
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_m6ammosmoke";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_m6ammosmoke',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute17
-				{
-					property="uk3cb_baf_vehicles_logistics_crates";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_crates',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute18
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l16ammowpsmoke";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16ammowpsmoke',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute19
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_m6ammowpsmoke";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_m6ammowpsmoke',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute20
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_medical";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_medical',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute21
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l16";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute22
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_stinger";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_stinger',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute23
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l16cratehe";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16cratehe',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute24
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l111a1";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l111a1',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute25
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_night";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_night',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute26
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_nlaw";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_nlaw',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute27
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_milan";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_milan',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute28
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l7a2";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l7a2',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute29
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l16cratewpsmoke";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16cratewpsmoke',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute30
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_explosives";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_explosives',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute31
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l16crateillum";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16crateillum',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute32
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l16ammoillum";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16ammoillum',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute33
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_section";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_section',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute34
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_ilaw";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_ilaw',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute35
-				{
-					property="uk3cb_baf_vehicles_logistics_infantry";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_infantry',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute36
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_m6ammoillum";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_m6ammoillum',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute37
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_m6";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_m6',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				nAttributes=38;
-			};
-		};
-		class Item350
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={190.52194,10.073423,15141.907};
-				angles[]={0,3.1272192,0};
-			};
-			side="Empty";
-			class Attributes
-			{
-			};
-			id=4964;
-			type="UK3CB_BAF_Vehicles_Logistics_Point";
-			atlOffset=64.376183;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l16ammohe";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16ammohe',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_m6ammohe";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_m6ammohe',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_cw_section_light";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_cw_section_light',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="uk3cb_baf_vehicles_logistics_additionals_list";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_additionals_list',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="";
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_section_light";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_section_light',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l7a2ammo";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l7a2ammo',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute6
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_cw_section";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_cw_section',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute7
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_javelin";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_javelin',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute8
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l111a1ammo";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l111a1ammo',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute9
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l134a1";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l134a1',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute10
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l134a1ammo";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l134a1ammo',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute11
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l16cratemixed";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16cratemixed',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute12
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l16ammomixed";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16ammomixed',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute13
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l16cratesmoke";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16cratesmoke',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute14
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_m6ammomixed";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_m6ammomixed',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute15
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l16ammosmoke";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16ammosmoke',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute16
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_m6ammosmoke";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_m6ammosmoke',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute17
-				{
-					property="uk3cb_baf_vehicles_logistics_crates";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_crates',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute18
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l16ammowpsmoke";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16ammowpsmoke',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute19
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_m6ammowpsmoke";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_m6ammowpsmoke',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute20
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_medical";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_medical',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute21
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l16";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute22
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_stinger";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_stinger',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute23
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l16cratehe";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16cratehe',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute24
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l111a1";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l111a1',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute25
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_night";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_night',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute26
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_nlaw";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_nlaw',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute27
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_milan";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_milan',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute28
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l7a2";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l7a2',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute29
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l16cratewpsmoke";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16cratewpsmoke',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute30
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_explosives";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_explosives',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute31
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l16crateillum";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16crateillum',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute32
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l16ammoillum";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16ammoillum',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute33
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_section";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_section',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute34
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_ilaw";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_ilaw',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute35
-				{
-					property="uk3cb_baf_vehicles_logistics_infantry";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_infantry',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute36
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_m6ammoillum";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_m6ammoillum',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute37
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_m6";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_m6',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				nAttributes=38;
-			};
-		};
-		class Item351
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={194.38864,16.46805,15154.151};
-				angles[]={0,4.7045898,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=4966;
-			type="UK3CB_BAF_MAN_HX58_Container_Green";
-			atlOffset=0.0043325424;
-		};
-		class Item352
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={198.96208,16.496355,15139.527};
-				angles[]={0,1.5510709,0};
-			};
-			side="Empty";
-			flags=1;
-			class Attributes
-			{
-			};
-			id=4968;
-			type="Land_Cargo_House_V3_F";
-			atlOffset=0.65890503;
-		};
-		class Item353
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={193.45119,40.823296,15146.251};
-			};
-			side="Empty";
-			flags=1;
-			class Attributes
-			{
-			};
-			id=4969;
-			type="Land_TTowerBig_2_F";
-			atlOffset=1.8908787;
-		};
-		class Item354
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={303.15479,10.527907,15142.335};
-				angles[]={0,0,0.0070251585};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=4972;
-			type="Land_PortableHelipadLight_01_F";
-		};
-		class Item355
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={303.67603,10.531571,15150.099};
-				angles[]={0,0,0.0070251585};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=4973;
-			type="Land_PortableHelipadLight_01_F";
-		};
-		class Item356
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={311.33752,10.600065,15149.63};
-				angles[]={0,0,0.027457729};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=4974;
-			type="Land_PortableHelipadLight_01_F";
-		};
-		class Item357
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={310.41699,10.578959,15143.121};
-				angles[]={0,0,0.0070251585};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=4975;
-			type="Land_PortableHelipadLight_01_F";
-		};
-		class Item358
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={229.35509,6.6711369,15157.592};
-				angles[]={0,1.5778581,0};
-			};
-			side="Empty";
 			class Attributes
 			{
 			};
 			id=4981;
 			type="Land_Destroyer_01_Boat_Rack_01_F";
-			atlOffset=64.495995;
+			atlOffset=0.05947876;
 		};
-		class Item359
+		class Item335
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={229.53075,6.6713576,15134.626};
-				angles[]={0,1.543044,0};
+				position[]={3318.3997,6.51581,4065.3457};
+				angles[]={0,0.52637577,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=4982;
 			type="Land_Destroyer_01_Boat_Rack_01_F";
+			atlOffset=32.107384;
 		};
-		class Item360
+		class Item336
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={207.0643,11.211073,15143.355};
-				angles[]={0,5.497787,0};
-			};
-			side="Empty";
-			class Attributes
-			{
-			};
-			id=4986;
-			type="UK3CB_BAF_LandRover_WMIK_GPMG_FFR_Green_B_Tropical";
-			atlOffset=64.231918;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ammoBox";
-					expression="[_this,_value] call bis_fnc_initAmmoBox;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="[[[[""UK3CB_BAF_Javelin_Slung_Tube"",""FirstAidKit""],[1,4]],[[""UK3CB_BAF_762_200Rnd_T""],[12]],[[""UK3CB_BAF_Javelin_CLU""],[1]],[[],[]]],false]";
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item361
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={196.19252,10.849855,15143.736};
-				angles[]={0,5.497787,0};
+				position[]={3301.4233,9.8282318,4061.6521};
+				angles[]={0,6.2200394,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 			};
-			id=4987;
-			type="UK3CB_BAF_LandRover_Soft_FFR_Green_B_Tropical";
-			atlOffset=0.001121521;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ammoBox";
-					expression="[_this,_value] call bis_fnc_initAmmoBox;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="[[[[""FirstAidKit""],[4]],[[],[]],[[],[]],[[],[]]],false]";
-						};
-					};
-				};
-				nAttributes=1;
-			};
+			id=4992;
+			type="MapBoard_Tanoa_F";
+			atlOffset=0.16345596;
 		};
-		class Item362
+		class Item337
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={201.92334,11.078398,15143.231};
-				angles[]={0,5.497787,0};
+				position[]={3303.8196,9.2427959,4059.8376};
+				angles[]={0,0.57939148,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=4994;
+			type="Land_PortableDesk_01_black_F";
+			atlOffset=0.10202122;
+		};
+		class Item338
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3302.8582,9.0699844,4059.8977};
+				angles[]={0,0.52515268,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=4995;
+			type="Land_DeskChair_01_black_F";
+			atlOffset=0.15001392;
+		};
+		class Item339
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3304.1099,8.9819183,4058.9546};
+				angles[]={0,5.3112903,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=4996;
+			type="Land_DeskChair_01_black_F";
+			atlOffset=0.060927391;
+		};
+		class Item340
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3303.2444,9.9807444,4060.4116};
+				angles[]={0,0.54270601,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=5000;
+			type="Land_PCSet_01_screen_F";
+			atlOffset=0.040222168;
+		};
+		class Item341
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3304.5505,9.8796797,4059.5513};
+				angles[]={0,0.53968763,0};
 			};
 			side="Empty";
 			class Attributes
 			{
 			};
-			id=4988;
-			type="UK3CB_BAF_LandRover_WMIK_GMG_FFR_Green_B_Tropical";
-			atlOffset=64.209259;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ammoBox";
-					expression="[_this,_value] call bis_fnc_initAmmoBox;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="[[[[""UK3CB_BAF_Javelin_Slung_Tube"",""FirstAidKit""],[1,4]],[[""UK3CB_BAF_762_200Rnd_T"",""UK3CB_BAF_32Rnd_40mm_G_Box""],[6,6]],[[""UK3CB_BAF_Javelin_CLU""],[1]],[[],[]]],false]";
-						};
-					};
-				};
-				nAttributes=1;
-			};
+			id=5001;
+			type="Land_PCSet_01_screen_F";
+			atlOffset=0.92438507;
 		};
-		class Item363
+		class Item342
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={306.56503,10.311798,15146.497};
-				angles[]={0,0,0.0070336768};
+				position[]={3259.4055,4.95714,4026.9729};
+				angles[]={0,0.45996237,0};
 			};
 			side="Empty";
 			class Attributes
 			{
-				createAsSimpleObject=1;
+			};
+			id=5005;
+			type="rksla3_lcvpmk5_1_generic_grey";
+			atlOffset=25.096987;
+		};
+		class Item343
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3318.5999,10.43704,4065.6265};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=5024;
+			type="UK3CB_BAF_RHIB_HMG";
+			atlOffset=0.4777956;
+		};
+		class Item344
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3298.9678,10.639156,4077.5542};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=5025;
+			type="UK3CB_BAF_RHIB_GPMG";
+			atlOffset=0.67991161;
+		};
+		class Item345
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3297.9595,12.367619,4046.5583};
+				angles[]={0,3.643811,0};
+			};
+			side="Empty";
+			class Attributes
+			{
 				disableSimulation=1;
 			};
-			id=4989;
-			type="Land_MobileLandingPlatform_01_F";
-			atlOffset=69.009659;
+			id=5027;
+			type="UK3CB_BAF_Merlin_HC4_Cargo_DDPM";
+			atlOffset=31.603001;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -29896,209 +28430,160 @@ class Mission
 						};
 					};
 				};
-				nAttributes=1;
+				class Attribute1
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[""arifle_MXC_F"",""FirstAidKit"",""Medikit""],[2,8,1]],[[""SmokeShell"",""SmokeShellGreen"",""30Rnd_65x39_caseless_mag""],[2,2,4]],[[""ToolKit"",""ItemGPS""],[1,1]],[[""B_Parachute""],[20]]],false]";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="TailFold";
+					expression="_this animateSource ['Fold', _value, true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				nAttributes=3;
 			};
 		};
-		class Item364
+		class Item346
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={217.44109,9.6848774,15147.139};
-				angles[]={0,0.95352215,0};
+				position[]={3296.4531,9.2462749,4057.0225};
+				angles[]={0,3.1293662,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=5028;
+			type="Land_PalletTrolley_01_khaki_F";
+			atlOffset=32.212723;
+		};
+		class Item347
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3296.8691,9.1301804,4058.9507};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 			};
-			id=4992;
-			type="MapBoard_Tanoa_F";
-			atlOffset=3.0517578e-005;
+			id=5029;
+			type="Land_Pallets_stack_F";
+			atlOffset=0.0011034012;
 		};
-		class Item365
+		class Item348
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={217.17783,9.1603489,15144.131};
-				angles[]={0,1.5960599,0};
-			};
-			side="Empty";
-			class Attributes
-			{
-			};
-			id=4994;
-			type="Land_PortableDesk_01_black_F";
-			atlOffset=64.43409;
-		};
-		class Item366
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={216.36118,9.2319641,15144.511};
-				angles[]={0,1.541821,0};
-			};
-			side="Empty";
-			class Attributes
-			{
-			};
-			id=4995;
-			type="Land_DeskChair_01_black_F";
-			atlOffset=0.29452419;
-		};
-		class Item367
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={216.58403,8.9375734,15143.414};
-				angles[]={0,0.044773236,0};
+				position[]={3294.4451,9.1507244,4058.4648};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 			};
-			id=4996;
-			type="Land_DeskChair_01_black_F";
-			atlOffset=0.00016117096;
+			id=5030;
+			type="Land_Pallet_MilBoxes_F";
+			atlOffset=2.8610229e-006;
 		};
-		class Item368
+		class Item349
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={217.3725,9.8580751,15144.91};
-				angles[]={0,1.5593743,0};
+				position[]={3318.1187,8.5334167,4073.8889};
+				angles[]={0,0.56525189,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=5031;
+			type="UK3CB_BAF_Vehicles_Logistics_Point";
+			atlOffset=32.519852;
+		};
+		class Item350
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3306.772,8.8687592,4081.3167};
+				angles[]={0,0.55801612,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=5032;
+			type="UK3CB_BAF_Vehicles_Logistics_Point";
+			atlOffset=0.33411264;
+		};
+		class Item351
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3273.0239,9.0605621,4038.6589};
+				angles[]={6.2801313,4.5171218,0.0018849557};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 			};
-			id=5000;
-			type="Land_PCSet_01_screen_F";
+			id=5035;
+			type="Land_PlasticCase_01_large_F";
+			atlOffset=0.0003900528;
 		};
-		class Item369
+		class Item352
 		{
-			dataType="Object";
+			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={217.32843,9.8580751,15143.347};
-				angles[]={0,1.5563557,0};
+				position[]={3273.031,8.6791058,4038.6609};
 			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=5001;
-			type="Land_PCSet_01_screen_F";
-		};
-		class Item370
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={216.97861,9.6113272,15143.32};
-				angles[]={0,1.5517139,0};
-			};
-			side="Empty";
-			class Attributes
-			{
-			};
-			id=5002;
-			type="Land_PCSet_01_keyboard_F";
-			atlOffset=0.8866148;
-		};
-		class Item371
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={216.97415,9.611331,15144.857};
-				angles[]={0,1.5751269,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=5004;
-			type="Land_PCSet_01_keyboard_F";
-			atlOffset=1.9073486e-006;
-		};
-		class Item372
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={165.86957,3.3779738,15164.594};
-				angles[]={0,1.4766308,0};
-			};
-			side="Empty";
-			class Attributes
-			{
-			};
-			id=5005;
-			type="rksla3_lcvpmk5_1_generic_grey";
-			atlOffset=55.102573;
-		};
-		class Item373
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={310.51474,10.556202,15137.744};
-				angles[]={0,2.9977367,0};
-			};
-			side="Empty";
-			class Attributes
-			{
-			};
-			id=5011;
-			type="UK3CB_BAF_Static_L7A2_Deployed_High_Tropical_RM";
-			atlOffset=69.325684;
-		};
-		class Item374
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={310.60303,10.767124,15154.366};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=5012;
-			type="UK3CB_BAF_Static_L7A2_Deployed_High_Tropical_RM";
-			atlOffset=0.23309612;
-		};
-		class Item375
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={209.87666,16.793041,15156.12};
-				angles[]={0,5.367795,0};
-			};
-			side="Empty";
-			class Attributes
-			{
-			};
-			id=5015;
-			type="UK3CB_BAF_MAN_HX60_Container_Logistics_Green";
-			atlOffset=0.35525417;
+			id=5036;
+			type="UK3CB_BAF_Vehicles_Logistics_Module";
+			atlOffset=0.0003900528;
 			class CustomAttributes
 			{
 				class Attribute0
 				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l16ammohe";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16ammohe',_value];";
+					property="UK3CB_BAF_Vehicles_Logistics_Module_uk3cb_baf_vehicles_logistics_loadout_m6ammosmoke";
+					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_m6ammosmoke',_value,true];";
 					class Value
 					{
 						class data
@@ -30116,8 +28601,8 @@ class Mission
 				};
 				class Attribute1
 				{
-					property="uk3cb_baf_vehicles_logistics_loadout_m6ammohe";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_m6ammohe',_value];";
+					property="UK3CB_BAF_Vehicles_Logistics_Module_uk3cb_baf_vehicles_logistics_loadout_m6ammohe";
+					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_m6ammohe',_value,true];";
 					class Value
 					{
 						class data
@@ -30135,8 +28620,8 @@ class Mission
 				};
 				class Attribute2
 				{
-					property="uk3cb_baf_vehicles_logistics_loadout_cw_section_light";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_cw_section_light',_value];";
+					property="UK3CB_BAF_Vehicles_Logistics_Module_uk3cb_baf_vehicles_logistics_loadout_l7a2ammo";
+					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l7a2ammo',_value,true];";
 					class Value
 					{
 						class data
@@ -30154,8 +28639,8 @@ class Mission
 				};
 				class Attribute3
 				{
-					property="uk3cb_baf_vehicles_logistics_additionals_list";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_additionals_list',_value];";
+					property="UK3CB_BAF_Vehicles_Logistics_Module_uk3cb_baf_vehicles_logistics_loadout_medical";
+					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_medical',_value,true];";
 					class Value
 					{
 						class data
@@ -30164,17 +28649,17 @@ class Mission
 							{
 								type[]=
 								{
-									"STRING"
+									"BOOL"
 								};
 							};
-							value="";
+							value=1;
 						};
 					};
 				};
 				class Attribute4
 				{
-					property="uk3cb_baf_vehicles_logistics_loadout_section_light";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_section_light',_value];";
+					property="UK3CB_BAF_Vehicles_Logistics_Module_uk3cb_baf_vehicles_logistics_loadout_l111a1ammo";
+					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l111a1ammo',_value,true];";
 					class Value
 					{
 						class data
@@ -30192,8 +28677,8 @@ class Mission
 				};
 				class Attribute5
 				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l7a2ammo";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l7a2ammo',_value];";
+					property="UK3CB_BAF_Vehicles_Logistics_Module_uk3cb_baf_vehicles_logistics_loadout_l16ammomixed";
+					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16ammomixed',_value,true];";
 					class Value
 					{
 						class data
@@ -30211,8 +28696,8 @@ class Mission
 				};
 				class Attribute6
 				{
-					property="uk3cb_baf_vehicles_logistics_loadout_cw_section";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_cw_section',_value];";
+					property="UK3CB_BAF_Vehicles_Logistics_Module_uk3cb_baf_vehicles_logistics_loadout_cw_section";
+					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_cw_section',_value,true];";
 					class Value
 					{
 						class data
@@ -30230,8 +28715,8 @@ class Mission
 				};
 				class Attribute7
 				{
-					property="uk3cb_baf_vehicles_logistics_loadout_javelin";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_javelin',_value];";
+					property="UK3CB_BAF_Vehicles_Logistics_Module_uk3cb_baf_vehicles_logistics_loadout_l16crateillum";
+					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16crateillum',_value,true];";
 					class Value
 					{
 						class data
@@ -30249,8 +28734,8 @@ class Mission
 				};
 				class Attribute8
 				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l111a1ammo";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l111a1ammo',_value];";
+					property="UK3CB_BAF_Vehicles_Logistics_Module_uk3cb_baf_vehicles_logistics_loadout_night";
+					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_night',_value,true];";
 					class Value
 					{
 						class data
@@ -30268,8 +28753,8 @@ class Mission
 				};
 				class Attribute9
 				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l134a1";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l134a1',_value];";
+					property="UK3CB_BAF_Vehicles_Logistics_Module_uk3cb_baf_vehicles_logistics_loadout_stinger";
+					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_stinger',_value,true];";
 					class Value
 					{
 						class data
@@ -30287,8 +28772,8 @@ class Mission
 				};
 				class Attribute10
 				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l134a1ammo";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l134a1ammo',_value];";
+					property="UK3CB_BAF_Vehicles_Logistics_Module_uk3cb_baf_vehicles_logistics_loadout_l16ammosmoke";
+					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16ammosmoke',_value,true];";
 					class Value
 					{
 						class data
@@ -30306,8 +28791,8 @@ class Mission
 				};
 				class Attribute11
 				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l16cratemixed";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16cratemixed',_value];";
+					property="UK3CB_BAF_Vehicles_Logistics_Module_uk3cb_baf_vehicles_logistics_loadout_l134a1";
+					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l134a1',_value,true];";
 					class Value
 					{
 						class data
@@ -30325,8 +28810,8 @@ class Mission
 				};
 				class Attribute12
 				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l16ammomixed";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16ammomixed',_value];";
+					property="UK3CB_BAF_Vehicles_Logistics_Module_uk3cb_baf_vehicles_logistics_loadout_milan";
+					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_milan',_value,true];";
 					class Value
 					{
 						class data
@@ -30344,8 +28829,8 @@ class Mission
 				};
 				class Attribute13
 				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l16cratesmoke";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16cratesmoke',_value];";
+					property="UK3CB_BAF_Vehicles_Logistics_Module_uk3cb_baf_vehicles_logistics_infantry";
+					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_infantry',_value,true];";
 					class Value
 					{
 						class data
@@ -30363,8 +28848,8 @@ class Mission
 				};
 				class Attribute14
 				{
-					property="uk3cb_baf_vehicles_logistics_loadout_m6ammomixed";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_m6ammomixed',_value];";
+					property="UK3CB_BAF_Vehicles_Logistics_Module_uk3cb_baf_vehicles_logistics_loadout_l16cratewpsmoke";
+					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16cratewpsmoke',_value,true];";
 					class Value
 					{
 						class data
@@ -30382,8 +28867,8 @@ class Mission
 				};
 				class Attribute15
 				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l16ammosmoke";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16ammosmoke',_value];";
+					property="UK3CB_BAF_Vehicles_Logistics_Module_uk3cb_baf_vehicles_logistics_loadout_cw_section_light";
+					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_cw_section_light',_value,true];";
 					class Value
 					{
 						class data
@@ -30401,8 +28886,8 @@ class Mission
 				};
 				class Attribute16
 				{
-					property="uk3cb_baf_vehicles_logistics_loadout_m6ammosmoke";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_m6ammosmoke',_value];";
+					property="UK3CB_BAF_Vehicles_Logistics_Module_uk3cb_baf_vehicles_logistics_loadout_l134a1ammo";
+					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l134a1ammo',_value,true];";
 					class Value
 					{
 						class data
@@ -30420,8 +28905,8 @@ class Mission
 				};
 				class Attribute17
 				{
-					property="uk3cb_baf_vehicles_logistics_crates";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_crates',_value];";
+					property="UK3CB_BAF_Vehicles_Logistics_Module_uk3cb_baf_vehicles_logistics_loadout_section";
+					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_section',_value,true];";
 					class Value
 					{
 						class data
@@ -30439,8 +28924,8 @@ class Mission
 				};
 				class Attribute18
 				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l16ammowpsmoke";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16ammowpsmoke',_value];";
+					property="UK3CB_BAF_Vehicles_Logistics_Module_uk3cb_baf_vehicles_logistics_loadout_section_light";
+					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_section_light',_value,true];";
 					class Value
 					{
 						class data
@@ -30458,8 +28943,8 @@ class Mission
 				};
 				class Attribute19
 				{
-					property="uk3cb_baf_vehicles_logistics_loadout_m6ammowpsmoke";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_m6ammowpsmoke',_value];";
+					property="UK3CB_BAF_Vehicles_Logistics_Module_uk3cb_baf_vehicles_logistics_loadout_m6ammoillum";
+					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_m6ammoillum',_value,true];";
 					class Value
 					{
 						class data
@@ -30477,8 +28962,8 @@ class Mission
 				};
 				class Attribute20
 				{
-					property="uk3cb_baf_vehicles_logistics_loadout_medical";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_medical',_value];";
+					property="UK3CB_BAF_Vehicles_Logistics_Module_uk3cb_baf_vehicles_logistics_loadout_l16cratehe";
+					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16cratehe',_value,true];";
 					class Value
 					{
 						class data
@@ -30496,8 +28981,8 @@ class Mission
 				};
 				class Attribute21
 				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l16";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16',_value];";
+					property="UK3CB_BAF_Vehicles_Logistics_Module_uk3cb_baf_vehicles_logistics_loadout_warrior";
+					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_warrior',_value,true];";
 					class Value
 					{
 						class data
@@ -30515,8 +29000,8 @@ class Mission
 				};
 				class Attribute22
 				{
-					property="uk3cb_baf_vehicles_logistics_loadout_stinger";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_stinger',_value];";
+					property="UK3CB_BAF_Vehicles_Logistics_Module_uk3cb_baf_vehicles_logistics_loadout_l111a1";
+					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l111a1',_value,true];";
 					class Value
 					{
 						class data
@@ -30534,8 +29019,8 @@ class Mission
 				};
 				class Attribute23
 				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l16cratehe";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16cratehe',_value];";
+					property="UK3CB_BAF_Vehicles_Logistics_Module_uk3cb_baf_vehicles_logistics_loadout_l16";
+					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16',_value,true];";
 					class Value
 					{
 						class data
@@ -30553,8 +29038,8 @@ class Mission
 				};
 				class Attribute24
 				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l111a1";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l111a1',_value];";
+					property="UK3CB_BAF_Vehicles_Logistics_Module_uk3cb_baf_vehicles_logistics_loadout_l16ammoillum";
+					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16ammoillum',_value,true];";
 					class Value
 					{
 						class data
@@ -30572,8 +29057,8 @@ class Mission
 				};
 				class Attribute25
 				{
-					property="uk3cb_baf_vehicles_logistics_loadout_night";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_night',_value];";
+					property="UK3CB_BAF_Vehicles_Logistics_Module_uk3cb_baf_vehicles_logistics_loadout_l16ammohe";
+					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16ammohe',_value,true];";
 					class Value
 					{
 						class data
@@ -30591,8 +29076,8 @@ class Mission
 				};
 				class Attribute26
 				{
-					property="uk3cb_baf_vehicles_logistics_loadout_nlaw";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_nlaw',_value];";
+					property="UK3CB_BAF_Vehicles_Logistics_Module_uk3cb_baf_vehicles_logistics_loadout_nlaw";
+					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_nlaw',_value,true];";
 					class Value
 					{
 						class data
@@ -30610,8 +29095,8 @@ class Mission
 				};
 				class Attribute27
 				{
-					property="uk3cb_baf_vehicles_logistics_loadout_milan";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_milan',_value];";
+					property="UK3CB_BAF_Vehicles_Logistics_Module_uk3cb_baf_vehicles_logistics_loadout_javelin";
+					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_javelin',_value,true];";
 					class Value
 					{
 						class data
@@ -30629,8 +29114,8 @@ class Mission
 				};
 				class Attribute28
 				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l7a2";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l7a2',_value];";
+					property="UK3CB_BAF_Vehicles_Logistics_Module_uk3cb_baf_vehicles_logistics_loadout_l7a2";
+					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l7a2',_value,true];";
 					class Value
 					{
 						class data
@@ -30648,8 +29133,8 @@ class Mission
 				};
 				class Attribute29
 				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l16cratewpsmoke";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16cratewpsmoke',_value];";
+					property="UK3CB_BAF_Vehicles_Logistics_Module_uk3cb_baf_vehicles_logistics_loadout_explosives";
+					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_explosives',_value,true];";
 					class Value
 					{
 						class data
@@ -30667,8 +29152,8 @@ class Mission
 				};
 				class Attribute30
 				{
-					property="uk3cb_baf_vehicles_logistics_loadout_explosives";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_explosives',_value];";
+					property="UK3CB_BAF_Vehicles_Logistics_Module_uk3cb_baf_vehicles_logistics_loadout_l16cratemixed";
+					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16cratemixed',_value,true];";
 					class Value
 					{
 						class data
@@ -30686,8 +29171,8 @@ class Mission
 				};
 				class Attribute31
 				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l16crateillum";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16crateillum',_value];";
+					property="UK3CB_BAF_Vehicles_Logistics_Module_uk3cb_baf_vehicles_logistics_crates";
+					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_crates',_value,true];";
 					class Value
 					{
 						class data
@@ -30705,8 +29190,8 @@ class Mission
 				};
 				class Attribute32
 				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l16ammoillum";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16ammoillum',_value];";
+					property="UK3CB_BAF_Vehicles_Logistics_Module_uk3cb_baf_vehicles_logistics_loadout_l16cratesmoke";
+					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16cratesmoke',_value,true];";
 					class Value
 					{
 						class data
@@ -30724,8 +29209,8 @@ class Mission
 				};
 				class Attribute33
 				{
-					property="uk3cb_baf_vehicles_logistics_loadout_section";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_section',_value];";
+					property="UK3CB_BAF_Vehicles_Logistics_Module_uk3cb_baf_vehicles_logistics_loadout_ilaw";
+					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_ilaw',_value,true];";
 					class Value
 					{
 						class data
@@ -30743,8 +29228,8 @@ class Mission
 				};
 				class Attribute34
 				{
-					property="uk3cb_baf_vehicles_logistics_loadout_ilaw";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_ilaw',_value];";
+					property="UK3CB_BAF_Vehicles_Logistics_Module_uk3cb_baf_vehicles_logistics_loadout_m6ammowpsmoke";
+					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_m6ammowpsmoke',_value,true];";
 					class Value
 					{
 						class data
@@ -30762,8 +29247,8 @@ class Mission
 				};
 				class Attribute35
 				{
-					property="uk3cb_baf_vehicles_logistics_infantry";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_infantry',_value];";
+					property="UK3CB_BAF_Vehicles_Logistics_Module_uk3cb_baf_vehicles_logistics_time";
+					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_time',_value,true];";
 					class Value
 					{
 						class data
@@ -30772,17 +29257,17 @@ class Mission
 							{
 								type[]=
 								{
-									"BOOL"
+									"SCALAR"
 								};
 							};
-							value=1;
+							value=10;
 						};
 					};
 				};
 				class Attribute36
 				{
-					property="uk3cb_baf_vehicles_logistics_loadout_m6ammoillum";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_m6ammoillum',_value];";
+					property="UK3CB_BAF_Vehicles_Logistics_Module_uk3cb_baf_vehicles_logistics_loadout_l16ammowpsmoke";
+					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16ammowpsmoke',_value,true];";
 					class Value
 					{
 						class data
@@ -30800,104 +29285,8 @@ class Mission
 				};
 				class Attribute37
 				{
-					property="uk3cb_baf_vehicles_logistics_loadout_m6";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_m6',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				nAttributes=38;
-			};
-		};
-		class Item376
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={202.6532,16.740135,15153.666};
-				angles[]={0,5.367795,0};
-			};
-			side="Empty";
-			class Attributes
-			{
-			};
-			id=5016;
-			type="UK3CB_BAF_MAN_HX60_Container_Logistics_Green";
-			atlOffset=0.30621719;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l16ammohe";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16ammohe',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_m6ammohe";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_m6ammohe',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_cw_section_light";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_cw_section_light',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="uk3cb_baf_vehicles_logistics_additionals_list";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_additionals_list',_value];";
+					property="UK3CB_BAF_Vehicles_Logistics_Module_uk3cb_baf_vehicles_logistics_additionals_list";
+					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_additionals_list',_value,true];";
 					class Value
 					{
 						class data
@@ -30909,14 +29298,14 @@ class Mission
 									"STRING"
 								};
 							};
-							value="";
+							value="null";
 						};
 					};
 				};
-				class Attribute4
+				class Attribute38
 				{
-					property="uk3cb_baf_vehicles_logistics_loadout_section_light";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_section_light',_value];";
+					property="UK3CB_BAF_Vehicles_Logistics_Module_uk3cb_baf_vehicles_logistics_loadout_m6";
+					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_m6',_value,true];";
 					class Value
 					{
 						class data
@@ -30932,10 +29321,10 @@ class Mission
 						};
 					};
 				};
-				class Attribute5
+				class Attribute39
 				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l7a2ammo";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l7a2ammo',_value];";
+					property="UK3CB_BAF_Vehicles_Logistics_Module_uk3cb_baf_vehicles_logistics_loadout_m6ammomixed";
+					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_m6ammomixed',_value,true];";
 					class Value
 					{
 						class data
@@ -30951,660 +29340,198 @@ class Mission
 						};
 					};
 				};
-				class Attribute6
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_cw_section";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_cw_section',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute7
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_javelin";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_javelin',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute8
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l111a1ammo";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l111a1ammo',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute9
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l134a1";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l134a1',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute10
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l134a1ammo";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l134a1ammo',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute11
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l16cratemixed";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16cratemixed',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute12
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l16ammomixed";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16ammomixed',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute13
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l16cratesmoke";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16cratesmoke',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute14
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_m6ammomixed";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_m6ammomixed',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute15
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l16ammosmoke";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16ammosmoke',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute16
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_m6ammosmoke";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_m6ammosmoke',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute17
-				{
-					property="uk3cb_baf_vehicles_logistics_crates";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_crates',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute18
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l16ammowpsmoke";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16ammowpsmoke',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute19
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_m6ammowpsmoke";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_m6ammowpsmoke',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute20
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_medical";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_medical',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute21
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l16";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute22
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_stinger";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_stinger',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute23
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l16cratehe";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16cratehe',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute24
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l111a1";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l111a1',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute25
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_night";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_night',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute26
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_nlaw";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_nlaw',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute27
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_milan";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_milan',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute28
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l7a2";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l7a2',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute29
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l16cratewpsmoke";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16cratewpsmoke',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute30
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_explosives";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_explosives',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute31
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l16crateillum";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16crateillum',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute32
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_l16ammoillum";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16ammoillum',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute33
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_section";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_section',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute34
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_ilaw";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_ilaw',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute35
-				{
-					property="uk3cb_baf_vehicles_logistics_infantry";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_infantry',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute36
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_m6ammoillum";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_m6ammoillum',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute37
-				{
-					property="uk3cb_baf_vehicles_logistics_loadout_m6";
-					expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_m6',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				nAttributes=38;
+				nAttributes=40;
 			};
 		};
-		class Item377
+		class Item353
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3348.5869,10.458604,4136.9707};
+						angles[]={6.2771988,0.54974377,0.003700098};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+					};
+					id=5041;
+					type="B_UAV_AI";
+					atlOffset=0.034045219;
+				};
+			};
+			class Attributes
+			{
+			};
+			class CrewLinks
+			{
+				class LinkIDProvider
+				{
+					nextID=1;
+				};
+				class Links
+				{
+					items=1;
+					class Item0
+					{
+						linkID=0;
+						item0=5041;
+						item1=5040;
+						class CustomData
+						{
+							role=2;
+							turretPath[]={0};
+						};
+					};
+				};
+			};
+			id=5039;
+			atlOffset=0.034045219;
+		};
+		class Item354
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={296.58383,11.391739,15139.704};
-				angles[]={0,4.1951761,0.0070251585};
+				position[]={3348.8879,11.78544,4136.7432};
+				angles[]={6.2771988,0.54974377,0.003700098};
+			};
+			side="West";
+			flags=6;
+			class Attributes
+			{
+				init="call{this setAutonomous false;}";
+				receiveRemoteTargets=1;
+				aiRadarUsage=1;
+			};
+			id=5040;
+			type="B_Ship_MRLS_01_F";
+			atlOffset=0.034045219;
+		};
+		class Item355
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3289.498,15.69048,4040.512};
+						angles[]={0,3.6975498,0};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+					};
+					id=5044;
+					type="B_UAV_AI";
+					atlOffset=0.0041217804;
+				};
+			};
+			class Attributes
+			{
+			};
+			class CrewLinks
+			{
+				class LinkIDProvider
+				{
+					nextID=1;
+				};
+				class Links
+				{
+					items=1;
+					class Item0
+					{
+						linkID=0;
+						item0=5044;
+						item1=5043;
+						class CustomData
+						{
+							role=2;
+							turretPath[]={0};
+						};
+					};
+				};
+			};
+			id=5042;
+			atlOffset=0.0041217804;
+		};
+		class Item356
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3289.5505,17.655315,4040.5825};
+				angles[]={0,3.6975498,0};
+			};
+			side="West";
+			flags=6;
+			class Attributes
+			{
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
+				aiRadarUsage=1;
+			};
+			id=5043;
+			type="B_SAM_System_02_F";
+			atlOffset=0.0041217804;
+		};
+		class Item357
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3291.6816,8.9422312,4061.4729};
+				angles[]={0,3.6559708,-0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 			};
-			id=5017;
-			type="UK3CB_BAF_Vehicles_Servicing_Aircraft_Point";
-			atlOffset=0.011498451;
+			id=5048;
+			type="Land_Stretcher_01_olive_F";
 		};
-		class Item378
+		class Item358
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={186.90976,9.7358608,15144.005};
-				angles[]={0,3.1504085,0};
+				position[]={3293.8679,8.9422312,4061.6714};
+				angles[]={0,5.2149916,-0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 			};
-			id=5018;
-			type="UK3CB_BAF_Vehicles_Servicing_Aircraft_Point";
+			id=5049;
+			type="Land_Stretcher_01_olive_F";
 		};
 	};
 	class Connections
 	{
 		class LinkIDProvider
 		{
-			nextID=3;
+			nextID=4;
 		};
 		class Links
 		{
-			items=3;
+			items=4;
 			class Item0
 			{
 				linkID=0;
@@ -31633,6 +29560,47 @@ class Mission
 				class CustomData
 				{
 					type="Sync";
+				};
+			};
+			class Item3
+			{
+				linkID=3;
+				item0=5036;
+				item1=5035;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+		};
+	};
+	class VehicleInVehicleLinks
+	{
+		class LinkIDProvider
+		{
+			nextID=2;
+		};
+		class Links
+		{
+			items=2;
+			class Item0
+			{
+				linkID=0;
+				item0=5024;
+				item1=4982;
+				class CustomData
+				{
+					role=4;
+				};
+			};
+			class Item1
+			{
+				linkID=1;
+				item0=5025;
+				item1=4981;
+				class CustomData
+				{
+					role=4;
 				};
 			};
 		};

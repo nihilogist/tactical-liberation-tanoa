@@ -124,6 +124,7 @@ air_vehicles = [
     ["UK3CB_BAF_Apache_AH1_Tropical",500,500,200],                               // Apache AH 1 (Multi-Role)
     ["UK3CB_BAF_Merlin_HC3_CSAR_Tropical",300,80,175],                              // Merlin HC3 CSAR (Armed)
     ["UK3CB_BAF_Merlin_HC3_Cargo_Tropical",300,0,175],                           // Merlin HC3 Cargo
+	["RHS_CH_47F",300,0,175],                           // Chinook
     ["MELB_H6M",175,0,75],                                                       // Little Bird Observer
     ["MELB_MH6M",200,0,75],                                                      // Little Bird Transport
     ["MELB_AH6M",225,100,75],                                                      // Little Bird Attack
@@ -177,11 +178,18 @@ buildings = [
 	["Land_TentDome_F",0,0,0],
 	["Land_CanvasCover_01_F",0,0,0],
 	["Land_CanvasCover_02_F",0,0,0],
+	["Land_AirConditioner_02_F",0,0,0],
+	["Land_AirConditioner_03_F",0,0,0],
+	["Land_AirConditioner_04_F",0,0,0],
 	//Camo Nets
 	["CamoNet_ghex_F",0,0,0],
     ["CamoNet_ghex_open_F",0,0,0],
     ["CamoNet_ghex_big_F",0,0,0],
 	//Lights
+	["Land_SolarPanel_04_olive_F",0,0,0],
+	["Land_PortableLight_02_quad_olive_F",0,0,0],
+	["Land_PortableLight_02_double_olive_F",0,0,0],
+	["Land_PortableLight_02_single_olive_F",0,0,0],
 	["Land_PortableLight_single_F",0,0,0],
     ["Land_PortableLight_double_F",0,0,0],
     ["Land_FloodLight_F",0,0,0],
@@ -191,6 +199,11 @@ buildings = [
     ["PortableHelipadLight_01_blue_F",0,0,0],
     ["PortableHelipadLight_01_green_F",0,0,0],
     ["PortableHelipadLight_01_red_F",0,0,0],
+	//Communications
+	["SatelliteAntenna_01_Mounted_Olive_F",0,0,0],
+	["SatelliteAntenna_01_Olive_F",0,0,0],
+	["OmniDirectionalAntenna_01_olive_F",0,0,0],
+	["Land_PortableWeatherStation_01_olive_F",0,0,0],
 	//Trenches
 	["Land_Trench_01_forest_F",0,0,0],
 	["Land_Trench_01_grass_F",0,0,0],
@@ -262,6 +275,8 @@ buildings = [
     ["Land_HelipadRescue_F",0,0,0],                                         // Strictly aesthetic - as in it does not increase helicopter cap!
 	//HQ Items
 	["MapBoard_Tanoa_F",0,0,0],
+	["Land_TripodScreen_01_dual_v1_F",0,0,0],
+	["Land_PortableGenerator_01_F",0,0,0],
 	["Portable_GCS_Base_F",0,0,0],
 	["Portable_GCS_Hub_F",0,0,0],
 	["Land_DeskChair_01_olive_F",0,0,0],
@@ -272,11 +287,45 @@ buildings = [
 	["Land_CampingChair_V1_F",0,0,0],
     ["Land_CampingChair_V2_F",0,0,0],
     ["Land_CampingTable_F",0,0,0],
+	["Bunk_Beds_F",0,0,0],
+	["Cabinet_NATO_F",0,0,0],
+	//Medical Items
+	["Land_Stretcher_01_olive_F",0,0,0],
+	["Land_IntravenStand_01_2bags_F",0,0,0],
+	["Land_Bodybag_01_black_F",0,0,0],	
+	["Land_Bodybag_01_empty_black_F",0,0,0],	
+	["Land_Bodybag_01_folded_black_F",0,0,0],	
+	//CBRN Items
+	["DeconShower_01_F",0,0,0],
+	["DeconShower_02_F",0,0,0],
+	["DeconKit_01_F",0,0,0],
+	["DrainageDeck_01_F",0,0,0],
+	["Broom_01_yellow_F",0,0,0],
+	["WaterSpill_01_Small_Foam_F",0,0,0],
+	["HazMatBag_01_F",0,0,0],
+	["HazMatBag_01_roll_F",0,0,0],
+	["Tarp_01_Small_Yellow_F",0,0,0],	
+	["Tarp_01_Large_Yellow_F",0,0,0],
+	["Land_PlasticCase_01_large_black_CBRN_F",0,0,0],	
+	["Broom_01_yellow_F",0,0,0],
+	["Brush_01_yellow_F",0,0,0],
+	//Range Items
+	["ShootingPos_F",0,0,0],
+	["Land_ShootingPos_Roof_01_F",0,0,0],
+	["TargetP_Inf_Acc1_F",0,0,0],
+	["TargetP_Inf2_Acc1_F",0,0,0],
+	["TargetP_Inf3_Acc1_F",0,0,0],
+	["Land_Target_Duelling_01_F",0,0,0],
+	["Target_F",0,0,0],
+	["Land_Target_Oval_F",0,0,0],
 	//Base Items
 	["Land_Pallet_MilBoxes_F",0,0,0],
     ["Land_PaperBox_open_empty_F",0,0,0],
     ["Land_PaperBox_open_full_F",0,0,0],
     ["Land_PaperBox_closed_F",0,0,0],
+	["Land_MetalCase_01_large_F",0,0,0],
+	["Land_PlasticCase_01_large_F",0,0,0],
+	["Land_PlasticCase_01_small_F",0,0,0],
     ["Land_DieselGroundPowerUnit_01_F",0,0,0],
     ["Land_ToolTrolley_02_F",0,0,0],
     ["Land_WeldingTrolley_01_F",0,0,0],
@@ -284,7 +333,7 @@ buildings = [
 	["Land_Pier_small_F",0,0,0],
 	["Land_Sign_WarningMilitaryArea_F",0,0,0],
     ["Land_Sign_WarningMilAreaSmall_F",0,0,0],
-    ["Land_Sign_WarningMilitaryVehicles_F",0,0,0]
+	["Land_Sign_WarningMilitaryVehicles_F",0,0,0]
 ];
 
 support_vehicles = [
