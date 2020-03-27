@@ -8,18 +8,18 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=5050;
+		nextID=5051;
 	};
 	class LayerIndexProvider
 	{
-		nextID=1922;
+		nextID=1943;
 	};
 	class Camera
 	{
-		pos[]={3291.073,10.921157,4054.8154};
-		dir[]={0.85429281,-0.10710304,0.50887436};
-		up[]={0.092262037,0.99401653,0.05495457};
-		aside[]={0.51176536,-2.667075e-007,-0.85914624};
+		pos[]={3269.4619,32.944954,4003.8066};
+		dir[]={0.29497918,-0.51432508,0.80542219};
+		up[]={0.17691973,0.85727465,0.48305991};
+		aside[]={0.93901902,-3.0361116e-007,-0.34390575};
 	};
 };
 binarizationWanted=0;
@@ -83,13 +83,14 @@ addons[]=
 	"UK3CB_BAF_Vehicles_Weapons_Editor",
 	"A3_Static_F_Destroyer_Ship_MRLS_01",
 	"A3_Static_F_Jets_SAM_System_02",
-	"A3_Props_F_Orange_Humanitarian_Camps"
+	"A3_Props_F_Orange_Humanitarian_Camps",
+	"acex_fortify"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=38;
+		items=39;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -349,6 +350,13 @@ class AddonsMetaData
 			name="Arma 3 Orange - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
+		};
+		class Item38
+		{
+			className="acex_fortify";
+			name="acex_fortify";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
 		};
 	};
 };
@@ -7229,7 +7237,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=359;
+		items=360;
 		class Item0
 		{
 			dataType="Marker";
@@ -28573,11 +28581,12 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={3273.031,8.6791058,4038.6609};
+				position[]={3273.1621,8.6813145,4039.5459};
+				angles[]={6.2801313,0,0.0018849557};
 			};
 			id=5036;
 			type="UK3CB_BAF_Vehicles_Logistics_Module";
-			atlOffset=0.0003900528;
+			atlOffset=31.594999;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -29496,7 +29505,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={3291.6816,8.9422312,4061.4729};
-				angles[]={0,3.6559708,-0};
+				angles[]={0,3.6559708,0};
 			};
 			side="Empty";
 			flags=4;
@@ -29505,6 +29514,7 @@ class Mission
 			};
 			id=5048;
 			type="Land_Stretcher_01_olive_F";
+			atlOffset=0.00043678284;
 		};
 		class Item358
 		{
@@ -29512,7 +29522,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={3293.8679,8.9422312,4061.6714};
-				angles[]={0,5.2149916,-0};
+				angles[]={0,5.2149916,0};
 			};
 			side="Empty";
 			flags=4;
@@ -29521,6 +29531,98 @@ class Mission
 			};
 			id=5049;
 			type="Land_Stretcher_01_olive_F";
+			atlOffset=0.00055885315;
+		};
+		class Item359
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={3260.7839,0.00014305115,4045.135};
+			};
+			id=5050;
+			type="acex_fortify_setupModule";
+			atlOffset=23.089001;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="acex_fortify_setupModule_AddToolItem";
+					expression="_this setVariable ['AddToolItem',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="acex_fortify_setupModule_Budget";
+					expression="_this setVariable ['Budget',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=-1;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="acex_fortify_setupModule_Side";
+					expression="_this setVariable ['Side',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="acex_fortify_setupModule_Preset";
+					expression="_this setVariable ['Preset',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=4;
+						};
+					};
+				};
+				nAttributes=4;
+			};
 		};
 	};
 	class Connections
