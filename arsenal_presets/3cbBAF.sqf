@@ -40,7 +40,8 @@ GRLIB_arsenal_weapons = [
 	"UK3CB_BAF_Javelin_Slung_Tube",
 	"UK3CB_BAF_NLAW_Launcher",
 	"UK3CB_BAF_M6",
-	"rhs_weap_fgm148",
+	"UK3CB_BAF_L16_Tripod",
+	"UK3CB_BAF_L16",
 	"rhs_weap_fim92",
 	// ACE Detectors
 	"ACE_VMH3",
@@ -137,9 +138,24 @@ GRLIB_arsenal_magazines = [
 	"rhs_mag_m67",
 	"rhs_mag_mk84",
 
+	//Mortar Rounds
+	"UK3CB_BAF_1Rnd_60mm_Mo_Shells",
+	"UK3CB_BAF_1Rnd_60mm_Mo_AB_Shells",
+	"UK3CB_BAF_1Rnd_60mm_Mo_Flare_White",
+	"UK3CB_BAF_1Rnd_60mm_Mo_Smoke_White",	
+	"UK3CB_BAF_1Rnd_60mm_Mo_WPSmoke_White",	
+	"UK3CB_BAF_1Rnd_81mm_Mo_Shells",
+	"UK3CB_BAF_1Rnd_81mm_Mo_AB_Shells",
+	"UK3CB_BAF_1Rnd_81mm_Mo_LG",
+	"UK3CB_BAF_1Rnd_81mm_Mo_Flare_White",
+	"UK3CB_BAF_1Rnd_81mm_Mo_IRFlare_White",
+	"UK3CB_BAF_1Rnd_81mm_Mo_Smoke_White",	
+	"UK3CB_BAF_1Rnd_81mm_Mo_WPSmoke_White",		
+		
 	//Explosives
 	"DemoCharge_Remote_Mag",
 	"SatchelCharge_Remote_Mag",
+	"ATMine_Range_Mag",
 	"ClaymoreDirectionalMine_Remote_Mag"
 ];
 
@@ -312,6 +328,7 @@ GRLIB_arsenal_backpacks = [
 	"UK3CB_BAF_B_Bergen_OLI_JTAC_A",
 	"UK3CB_BAF_B_Kitbag_OLI",
 	"UK3CB_BAF_B_Carryall_OLI",
+	"B_Messenger_Coyote_F",
 	"B_Parachute",
 	"ACE_NonSteerableParachute",
 	"ACE_TacticalLadder_Pack",
